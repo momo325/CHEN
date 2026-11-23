@@ -1,0 +1,77 @@
+{
+ "enable": true,
+ "uuid": "0xBA11",
+ "name": "pipeline-CVP",
+ "bitWidth": 16,
+ "childrenGroup": [
+  {
+   "id": "id_1691397088126_4",
+   "title": "单声道",
+   "select": false
+  },
+  {
+   "id": "id_1691397108832_5",
+   "title": "单声道pro",
+   "select": false
+  },
+  {
+   "id": 1657001467960,
+   "title": "立体声",
+   "select": true
+  },
+  {
+   "id": "id_1680229943559_5",
+   "title": "立体声pro",
+   "select": false
+  },
+  {
+   "id": "id_1684462948953_3",
+   "title": "立体声(通话混响)",
+   "select": false
+  },
+  {
+   "id": "id_1680229952602_6",
+   "title": "1.1_channel",
+   "select": false
+  },
+  {
+   "id": "id_1737012339905_0",
+   "title": "蓝牙通话（IIS Rx）",
+   "select": false
+  },
+  {
+   "id": "id_1737017063004_2",
+   "title": "蓝牙通话（IIS Tx）",
+   "select": false
+  },
+  {
+   "id": "id_1737332904906_0",
+   "title": "蓝牙通话（IIS Rx_IIS Tx）",
+   "select": false
+  },
+  {
+   "id": "id_1743648629687_1",
+   "title": "立体声-REC",
+   "select": false
+  },
+  {
+   "id": "id_1750409443944_2",
+   "title": "IIS+DAC(单声道)",
+   "select": false
+  },
+  {
+   "id": "id_1750409562600_4",
+   "title": "IIS+DAC(立体声)",
+   "select": false
+  },
+  {
+   "id": "id_1752651168727_0",
+   "title": "蓝牙通话_AI翻译",
+   "select": false
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

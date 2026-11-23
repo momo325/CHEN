@@ -1,0 +1,1412 @@
+{
+ "group": {
+  "id": "id_1680229952602_6",
+  "title": "1.1_channel",
+  "select": false,
+  "curTab": "id_1675673742042_2",
+  "tabs": [
+   {
+    "id": "id_1675673742042_2",
+    "title": "参数组1",
+    "disable": false,
+    "selected": "A",
+    "preset": ""
+   }
+  ]
+ },
+ "cells": [
+  {
+   "position": {
+    "x": 240,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "f3b7740d-e990-4b3d-83d5-94d21a5d4674",
+   "component": "node-cust",
+   "data": {
+    "name": "ESCO_RX",
+    "fun": 0,
+    "itemId": "id_1680229952602_6",
+    "subId": 5,
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "id": "5114f0b1-23ea-4659-844f-a8bd9b1e634d",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "8a5e4a53-a542-40fb-839b-41a12040d0fa",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "f3b7740d-e990-4b3d-83d5-94d21a5d4674",
+    "port": "5114f0b1-23ea-4659-844f-a8bd9b1e634d"
+   },
+   "target": {
+    "cell": "af9d6ec6-8207-4caf-a5fa-2534f68b1265",
+    "port": "f6b1a025-238f-476a-8a35-7e285b7eb193"
+   }
+  },
+  {
+   "position": {
+    "x": 360,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "af9d6ec6-8207-4caf-a5fa-2534f68b1265",
+   "component": "node-cust",
+   "data": {
+    "name": "解码器",
+    "fun": 0,
+    "itemId": "id_1680229952602_6",
+    "subId": 33,
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "f6b1a025-238f-476a-8a35-7e285b7eb193",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "c3184336-f5f8-4399-acb7-61531732c642",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "a3135ab1-9065-4056-a8fa-e105d315ab03",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "af9d6ec6-8207-4caf-a5fa-2534f68b1265",
+    "port": "c3184336-f5f8-4399-acb7-61531732c642"
+   },
+   "target": {
+    "cell": "246f21b1-6b1e-4074-bdb9-0ace039b9e55",
+    "port": "ee23422e-bb59-459b-b8e2-cfdb434bb422"
+   }
+  },
+  {
+   "position": {
+    "x": 480,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "246f21b1-6b1e-4074-bdb9-0ace039b9e55",
+   "component": "node-cust",
+   "data": {
+    "name": "丢包修复PLC",
+    "fun": 0,
+    "itemId": "id_1680229952602_6",
+    "subId": 9,
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "ee23422e-bb59-459b-b8e2-cfdb434bb422"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "7136931c-6a27-4921-b16e-0b40480921ae"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "2c5752d9-121e-49f4-b774-0f45b9899d8f",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "246f21b1-6b1e-4074-bdb9-0ace039b9e55",
+    "port": "7136931c-6a27-4921-b16e-0b40480921ae"
+   },
+   "target": {
+    "cell": "898cb26e-8ed5-4930-80c0-ebc7b755255f",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "position": {
+    "x": 600,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "898cb26e-8ed5-4930-80c0-ebc7b755255f",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1680229952602_6",
+    "eqId": 1670811622284,
+    "rid": 1671085134137,
+    "subId": 14,
+    "configs": {
+     "name": "EscoDlEq",
+     "list": [
+      {
+       "name": "EscoDlEq",
+       "modeId": "id_1675673742042_2",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1675673742474,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742475,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742476,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742477,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742478,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742479,
+           "name": "6",
+           "CenterFrequency": 1082,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742480,
+           "name": "7",
+           "CenterFrequency": 2299,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742481,
+           "name": "8",
+           "CenterFrequency": 4885,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742482,
+           "name": "9",
+           "CenterFrequency": 10378,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742483,
+           "name": "10",
+           "CenterFrequency": 21600,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false,
+         "sampleRate": 48000
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "0d24975c-85e1-4d3d-b387-c146b1019279",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "898cb26e-8ed5-4930-80c0-ebc7b755255f",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "3a0b25f4-9508-4d82-88ff-04c79c4694a2",
+    "port": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+   }
+  },
+  {
+   "position": {
+    "x": 720,
+    "y": 160
+   },
+   "size": {
+    "width": 120,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "3a0b25f4-9508-4d82-88ff-04c79c4694a2",
+   "component": "node-cust",
+   "data": {
+    "name": "蓝牙音频同步",
+    "fun": 1,
+    "itemId": "id_1680229952602_6",
+    "subId": 28,
+    "configs": {
+     "name": "config4235828",
+     "list": [
+      {
+       "name": "config4235828",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1693539807876_1",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ],
+       "modeId": "id_1675673742042_2"
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "7407cc2a-b93a-4987-a604-43f84e717a79",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "3a0b25f4-9508-4d82-88ff-04c79c4694a2",
+    "port": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+   },
+   "target": {
+    "cell": "813d991f-3e99-44b4-b3fa-0245efd39a03",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   }
+  },
+  {
+   "position": {
+    "x": 880,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "813d991f-3e99-44b4-b3fa-0245efd39a03",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": "id_1680229952602_6",
+    "subId": 40,
+    "configs": {
+     "name": "Vol_BtcCall",
+     "list": [
+      {
+       "modeId": "id_1675673742042_2",
+       "name": "Vol_BtcCall",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1676447481291_4",
+           "value": 15
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 10
+          },
+          {
+           "id": "id_1677751149521_1",
+           "list": []
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "f8297975-a970-40f5-a6c1-cede7a2fe611",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "813d991f-3e99-44b4-b3fa-0245efd39a03",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "646f6177-25b7-4804-96cc-a2d5b2e12c92",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   }
+  },
+  {
+   "position": {
+    "x": 1000,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "646f6177-25b7-4804-96cc-a2d5b2e12c92",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 17,
+    "itemId": "id_1680229952602_6",
+    "configs": {
+     "name": "ChannelExpand17",
+     "list": [
+      {
+       "modeId": "id_1675673742042_2",
+       "name": "ChannelExpand17",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "28df1feb-c334-491d-be03-28aeae4f9a7f",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "646f6177-25b7-4804-96cc-a2d5b2e12c92",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "9a2eda55-46ad-4dba-b3e2-165cf2dad1bc",
+    "port": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+   }
+  },
+  {
+   "position": {
+    "x": 1120,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9a2eda55-46ad-4dba-b3e2-165cf2dad1bc",
+   "component": "node-cust",
+   "data": {
+    "name": "BitWidth Convert",
+    "fun": 0,
+    "subId": 8,
+    "itemId": "id_1680229952602_6",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "99b4c01d-013a-4677-821d-cfb7ee24480a",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "9a2eda55-46ad-4dba-b3e2-165cf2dad1bc",
+    "port": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+   },
+   "target": {
+    "cell": "181ff027-5c33-4d91-975d-0a27bd141cef",
+    "port": "affc17ac-7fd4-4f15-8df2-083e80e03886"
+   }
+  },
+  {
+   "position": {
+    "x": 1240,
+    "y": 160
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "181ff027-5c33-4d91-975d-0a27bd141cef",
+   "component": "node-cust",
+   "data": {
+    "name": "DAC",
+    "fun": 1,
+    "subId": 9,
+    "itemId": "id_1680229952602_6",
+    "configs": {
+     "name": "DAC2",
+     "list": [
+      {
+       "modeId": "id_1675673742042_2",
+       "name": "DAC2",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1677138688471_1",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "affc17ac-7fd4-4f15-8df2-083e80e03886",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "position": {
+    "x": 240,
+    "y": 400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "5a96d737-6e53-4d9a-ab9b-35823c73096e",
+   "component": "node-cust",
+   "data": {
+    "name": "ADC",
+    "fun": 1,
+    "itemId": "id_1680229952602_6",
+    "subId": 5,
+    "configs": {
+     "name": "esco_adc",
+     "list": [
+      {
+       "name": "esco_adc",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675824280474_161",
+           "list": [
+            {
+             "id": "id_1675824280474_155",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671176268890_10",
+           "list": [
+            {
+             "id": "id_1671176268890_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671176268890_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1673164303524_0",
+           "list": [
+            {
+             "id": "id_1673164303524_2",
+             "value": 10
+            },
+            {
+             "id": "id_1673164303524_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1673164306360_9",
+           "list": [
+            {
+             "id": "id_1673164306360_11",
+             "value": 10
+            },
+            {
+             "id": "id_1673164306360_12",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "modeId": "id_1675673742042_2",
+       "bypass": false
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "id": "5114f0b1-23ea-4659-844f-a8bd9b1e634d",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "e98724dc-13af-452d-90dc-4242e3c3d92a",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "5a96d737-6e53-4d9a-ab9b-35823c73096e",
+    "port": "5114f0b1-23ea-4659-844f-a8bd9b1e634d"
+   },
+   "target": {
+    "cell": "7e2f2dc2-45b0-484a-88ca-72cd917ef71d",
+    "port": "85bffb47-14f7-4eb9-bc33-fa5061f20b11"
+   }
+  },
+  {
+   "position": {
+    "x": 360,
+    "y": 400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "7e2f2dc2-45b0-484a-88ca-72cd917ef71d",
+   "component": "node-cust",
+   "data": {
+    "name": "单MIC通话",
+    "fun": 1,
+    "subId": 5,
+    "itemId": "id_1680229952602_6",
+    "configs": {
+     "name": "MIC534361",
+     "list": [
+      {
+       "modeId": "id_1675673742042_2",
+       "name": "MIC534361",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1676960064886_0",
+           "list": [
+            {
+             "id": "id_1676960064886_1",
+             "value": 0
+            },
+            {
+             "id": "id_1676960064886_2",
+             "value": 0
+            }
+           ]
+          },
+          {
+           "id": "id_1675824280474_165",
+           "list": [
+            {
+             "id": "id_1675824280479_239",
+             "value": 0
+            },
+            {
+             "id": "id_1675824280474_159",
+             "value": 1
+            },
+            {
+             "id": "id_1675824280479_241",
+             "value": -70
+            }
+           ]
+          },
+          {
+           "id": "id_1675824280480_249",
+           "list": [
+            {
+             "id": "id_1675824280479_243",
+             "value": 1
+            },
+            {
+             "id": "id_1675824280480_245",
+             "value": -3
+            },
+            {
+             "id": "id_1675824280480_247",
+             "value": 4
+            }
+           ]
+          },
+          {
+           "id": "id_1675241880004_4",
+           "list": [
+            {
+             "id": "id_1675241880004_5",
+             "value": 1
+            },
+            {
+             "id": "id_1675241880004_6",
+             "value": 1.25
+            },
+            {
+             "id": "id_1675241880004_7",
+             "value": 0.09
+            }
+           ]
+          },
+          {
+           "id": "id_1675824280481_275",
+           "list": [
+            {
+             "id": "id_1675824280480_251",
+             "value": 1
+            },
+            {
+             "id": "id_1675824280480_253",
+             "value": 1.3
+            },
+            {
+             "id": "id_1675824280480_255",
+             "value": 1.3
+            },
+            {
+             "id": "id_1675824280480_257",
+             "value": 1.3
+            },
+            {
+             "id": "id_1675824280480_259",
+             "value": 1.3
+            },
+            {
+             "id": "id_1675824280480_261",
+             "value": 8
+            },
+            {
+             "id": "id_1675824280480_263",
+             "value": 0
+            },
+            {
+             "id": "id_1675824280480_265",
+             "value": -50
+            },
+            {
+             "id": "id_1675824280480_267",
+             "value": 12
+            },
+            {
+             "id": "id_1675824280481_269",
+             "value": 0
+            },
+            {
+             "id": "id_1675824280481_271",
+             "value": -40
+            },
+            {
+             "id": "id_1675824280481_273",
+             "value": -70
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "85bffb47-14f7-4eb9-bc33-fa5061f20b11"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "d270af71-f421-4c5b-a493-43ff4598df88"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "5ddc0f67-7381-48ac-bb7c-2f47db91c835",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "7e2f2dc2-45b0-484a-88ca-72cd917ef71d",
+    "port": "d270af71-f421-4c5b-a493-43ff4598df88"
+   },
+   "target": {
+    "cell": "8748f127-1031-4809-a8a8-00403ec0d10b",
+    "port": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+   }
+  },
+  {
+   "position": {
+    "x": 480,
+    "y": 400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "8748f127-1031-4809-a8a8-00403ec0d10b",
+   "component": "node-cust",
+   "data": {
+    "name": "播放同步",
+    "fun": 1,
+    "subId": 40,
+    "itemId": "id_1680229952602_6",
+    "configs": {
+     "name": "9B3B40",
+     "list": [
+      {
+       "modeId": "id_1675673742042_2",
+       "name": "9B3B40",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1719387029771_0",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "e4fde4e2-6ad0-4c36-8cc0-373bf6db440f",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "8748f127-1031-4809-a8a8-00403ec0d10b",
+    "port": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+   },
+   "target": {
+    "cell": "87b605c2-da8d-482b-8a76-803e28d4d40e",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "position": {
+    "x": 600,
+    "y": 400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "87b605c2-da8d-482b-8a76-803e28d4d40e",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1680229952602_6",
+    "rid": 1671085158293,
+    "subId": 15,
+    "configs": {
+     "name": "EscoUlEq",
+     "list": [
+      {
+       "name": "EscoUlEq",
+       "modeId": "id_1675673742042_2",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1675673742473,
+           "name": "1",
+           "CenterFrequency": 100,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 0,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742474,
+           "name": "2",
+           "CenterFrequency": 100,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 0,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742475,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742476,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742477,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742478,
+           "name": "6",
+           "CenterFrequency": 1082,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742479,
+           "name": "7",
+           "CenterFrequency": 2299,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742480,
+           "name": "8",
+           "CenterFrequency": 4885,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742481,
+           "name": "9",
+           "CenterFrequency": 10378,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1675673742482,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "a275016b-ce04-4a4f-93e0-0299fdc0adbd",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "87b605c2-da8d-482b-8a76-803e28d4d40e",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "ee9c3812-1020-4955-95ba-d55ddb707719",
+    "port": "25ac1764-1e03-461d-8a28-4d109b881a7f"
+   }
+  },
+  {
+   "position": {
+    "x": 720,
+    "y": 400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "ee9c3812-1020-4955-95ba-d55ddb707719",
+   "component": "node-cust",
+   "data": {
+    "name": "编码器",
+    "fun": 1,
+    "itemId": "id_1680229952602_6",
+    "sAlias": "",
+    "subId": 5,
+    "configs": {
+     "name": "config26045",
+     "list": [
+      {
+       "name": "config26045",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1682580902370_0",
+           "list": [
+            {
+             "id": "id_1682666755532_2",
+             "value": 1
+            },
+            {
+             "id": "id_1713834265905_0",
+             "value": 0
+            },
+            {
+             "id": "id_1719316377982_0",
+             "value": 100
+            },
+            {
+             "id": "id_1682666801718_3",
+             "value": 0
+            },
+            {
+             "id": "id_1682667012781_7",
+             "value": 64000
+            },
+            {
+             "id": "id_1682580918689_1",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "modeId": "id_1675673742042_2",
+       "bypass": false
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "25ac1764-1e03-461d-8a28-4d109b881a7f",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "5114f0b1-23ea-4659-844f-a8bd9b1e634d",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "49a6b0f3-3e64-46a2-8218-3e579a60b932",
+   "data": {
+    "itemId": "id_1680229952602_6"
+   },
+   "source": {
+    "cell": "ee9c3812-1020-4955-95ba-d55ddb707719",
+    "port": "5114f0b1-23ea-4659-844f-a8bd9b1e634d"
+   },
+   "target": {
+    "cell": "751d6f0c-8c5e-4c85-9192-3d5a4756e9e8",
+    "port": "25ac1764-1e03-461d-8a28-4d109b881a7f"
+   }
+  },
+  {
+   "position": {
+    "x": 880,
+    "y": 400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "751d6f0c-8c5e-4c85-9192-3d5a4756e9e8",
+   "component": "node-cust",
+   "data": {
+    "name": "ESCO_TX",
+    "fun": 0,
+    "itemId": "id_1680229952602_6",
+    "subId": 5,
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "25ac1764-1e03-461d-8a28-4d109b881a7f",
+      "index": 0
+     }
+    ]
+   }
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

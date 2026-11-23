@@ -1,0 +1,42 @@
+{
+ "enable": true,
+ "uuid": "0x7674",
+ "name": "pipeline-tone-normal",
+ "bitWidth": 16,
+ "childrenGroup": [
+  {
+   "id": "id_1691396982471_2",
+   "title": "单声道",
+   "select": false
+  },
+  {
+   "id": "id_1691396998701_3",
+   "title": "单声道pro",
+   "select": false
+  },
+  {
+   "id": 1652666280629,
+   "title": "立体声",
+   "select": true
+  },
+  {
+   "id": "id_1690442796213_0",
+   "title": "立体声pro",
+   "select": false
+  },
+  {
+   "id": "id_1690442872097_3",
+   "title": "1.1_channel",
+   "select": false
+  },
+  {
+   "id": "id_1752199483922_0",
+   "title": "多文件叠加播放",
+   "select": false
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

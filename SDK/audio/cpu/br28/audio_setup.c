@@ -1,0 +1,524 @@
+#ifdef SUPPORT_MS_EXTENSIONS
+#pragma bss_seg(".audio_setup.data.bss")
+#pragma data_seg(".audio_setup.data")
+#pragma const_seg(".audio_setup.text.const")
+#pragma code_seg(".audio_setup.text")
+#endif
+/*
+ ******************************************************************************************
+ *							Audio Setup
+ *
+ * Discription: 音频模块初始化，配置，调试等
+ *
+ * Notes:
+ ******************************************************************************************
+ */
+#include "cpu/includes.h"
+#include "media/includes.h"
+#include "system/includes.h"
+#include "app_config.h"
+#include "audio_config.h"
+#include "sdk_config.h"
+#include "audio_adc.h"
+#include "asm/audio_common.h"
+#include "media/audio_energy_detect.h"
+#include "adc_file.h"
+#include "linein_file.h"
+#include "update.h"
+#include "user_cfg.h"
+#include "gpio_config.h"
+#include "app_main.h"
+#include "audio_demo/audio_demo.h"
+#include "media/audio_general.h"
+#include "fm_file.h"
+#include "audio_dac.h"
+#include "media_config.h"
+#include "effects/audio_eq.h"
+
+#if (SYS_VOL_TYPE == VOL_TYPE_DIGITAL)
+#include "audio_dvol.h"
+#endif
+
+#if TCFG_AUDIO_ANC_ENABLE
+#include "audio_anc.h"
+#endif
+
+#if defined(TCFG_AUDIO_ANC_ACOUSTIC_DETECTOR_EN) && TCFG_AUDIO_ANC_ACOUSTIC_DETECTOR_EN
+#include "icsd_adt_app.h"
+#endif
+
+#if TCFG_SMART_VOICE_ENABLE
+#include "smart_voice.h"
+#endif
+
+#if TCFG_AUDIO_DUT_ENABLE
+#include "audio_dut_control.h"
+#endif/*TCFG_AUDIO_DUT_ENABLE*/
+
+struct audio_dac_hdl dac_hdl;
+struct audio_adc_hdl adc_hdl;
+
+typedef struct {
+    u8 audio_inited;
+    atomic_t ref;
+} audio_setup_t;
+audio_setup_t audio_setup = {0};
+#define __this      (&audio_setup)
+
+#if TCFG_MC_BIAS_AUTO_ADJUST
+u8 mic_bias_rsel_use_save[AUDIO_ADC_MIC_MAX_NUM] = {0};
+u8 save_mic_bias_rsel[AUDIO_ADC_MIC_MAX_NUM]     = {0};
+u8 mic_ldo_vsel_use_save = 0;
+u8 save_mic_ldo_vsel     = 0;
+#endif // #if TCFG_MC_BIAS_AUTO_ADJUST
+
+___interrupt
+static void audio_irq_handler()
+{
+    if (JL_AUDIO->DAC_CON & BIT(7)) {
+        JL_AUDIO->DAC_CON |= BIT(6);
+        if (JL_AUDIO->DAC_CON & BIT(5)) {
+            audio_dac_irq_handler(&dac_hdl);
+        }
+    }
+
+    if (JL_AUDIO->ADC_CON & BIT(7)) {
+        JL_AUDIO->ADC_CON |= BIT(6);
+        if ((JL_AUDIO->ADC_CON & BIT(5)) && (JL_AUDIO->ADC_CON & BIT(4))) {
+            audio_adc_irq_handler(&adc_hdl);
+        }
+    }
+}
+
+struct dac_config_param {
+    u8 output;
+    u8 mode;
+    u8 light_close;
+    u8 power_on_mode;
+    u8 vcm_cap_en;
+};
+
+struct dac_platform_data dac_data = {
+    .power_on_mode      = TCFG_AUDIO_DAC_POWER_ON_MODE,
+    .vcm_cap_en         = TCFG_AUDIO_VCM_CAP_EN,
+    .dma_buf_time_ms    = TCFG_AUDIO_DAC_BUFFER_TIME_MS,
+    .pa_isel0           = TCFG_AUDIO_DAC_PA_ISEL0, //DAC电流挡位0，范围：3~7
+    .pa_isel1           = TCFG_AUDIO_DAC_PA_ISEL1, //DAC电流挡位1，范围：2~7
+    .l_ana_gain         = TCFG_AUDIO_L_CHANNEL_GAIN,
+    .r_ana_gain         = TCFG_AUDIO_R_CHANNEL_GAIN,
+#if (defined(TCFG_CLOCK_SYS_SRC) && (TCFG_CLOCK_SYS_SRC == SYS_CLOCK_INPUT_PLL_RCL))
+    .clk_sel            = AUDIO_COMMON_CLK_DIG_SINGLE,
+#else
+    .clk_sel            = AUDIO_COMMON_CLK_DIF_XOSC,
+#endif
+    .dcc_level          = 15,
+};
+
+void audio_fade_in_fade_out(u8 left_vol, u8 right_vol);
+extern u32 read_capless_DTB(void);
+
+int get_dac_channel_num(void)
+{
+    return dac_hdl.channel;
+}
+
+void audio_dac_initcall(void)
+{
+    printf("audio_dac_initcall\n");
+
+    dac_data.bit_width = audio_general_out_dev_bit_width();
+    if (config_audio_dac_output_mode == DAC_MODE_H2_SINGLE) {
+        dac_data.power_boost = TCFG_AUDIO_DAC_POWER_BOOST;
+        //power_boost使能的情况下，ldo_volt最大可配置到3，再提高一档输出幅度
+        dac_data.ldo_volt = dac_data.power_boost ? 2 : 0;
+    } else {
+        dac_data.power_boost = 0;
+        dac_data.ldo_volt = 0;
+    }
+    dac_data.max_sample_rate    = AUDIO_DAC_MAX_SAMPLE_RATE;
+    audio_dac_init(&dac_hdl, &dac_data);
+    //dac_hdl.ng.threshold = 4;			//DAC底噪优化阈值
+    //dac_hdl.ng.detect_interval = 200;	//DAC底噪优化检测间隔ms
+
+    audio_dac_set_analog_vol(&dac_hdl, 0);
+
+    request_irq(IRQ_AUDIO_IDX, 2, audio_irq_handler, 0);
+#if AUD_DAC_TRIM_ENABLE
+    struct audio_dac_trim dac_trim = {0};
+    int len = syscfg_read(CFG_DAC_TRIM_INFO, (void *)&dac_trim, sizeof(dac_trim));
+    if (len != sizeof(dac_trim)) {
+        struct trim_init_param_t trim_init = {0};
+        audio_dac_do_trim(&dac_hdl, &dac_trim, &trim_init);
+        syscfg_write(CFG_DAC_TRIM_INFO, (void *)&dac_trim, sizeof(dac_trim));
+    }
+    audio_dac_set_trim_value(&dac_hdl, &dac_trim);
+#endif
+
+#if TCFG_SUPPORT_MIC_CAPLESS
+    mic_capless_trim_run();
+#endif
+    audio_dac_set_fade_handler(&dac_hdl, NULL, audio_fade_in_fade_out);
+
+    /*硬件SRC模块滤波器buffer设置，可根据最大使用数量设置整体buffer*/
+    /* audio_src_base_filt_init(audio_src_hw_filt, sizeof(audio_src_hw_filt)); */
+
+#if AUDIO_OUTPUT_AUTOMUTE
+    mix_out_automute_open();
+#endif  //#if AUDIO_OUTPUT_AUTOMUTE
+}
+
+#if defined(TCFG_AUDIO_DAC_IO_ENABLE) && TCFG_AUDIO_DAC_IO_ENABLE
+static void audio_dac_io_initcall()
+{
+    struct audio_dac_io_param param = {0};
+    param.state[0] = 1;                 //左声道初始电平状态
+    param.state[1] = 1;                 //右声道初始电平状态
+    param.irq_points = 256;
+    param.channel = BIT(0) | BIT(1);    //使能左右声道
+    param.digital_gain = 16384;         //数字音量：-16384~16384
+    param.ldo_volt = 0;                 //电压档位：0~3
+#if (defined(TCFG_CLOCK_SYS_SRC) && (TCFG_CLOCK_SYS_SRC == SYS_CLOCK_INPUT_PLL_RCL))
+    param.clk_sel = AUDIO_COMMON_CLK_DIG_SINGLE;
+#else
+    param.clk_sel = AUDIO_COMMON_CLK_DIF_XOSC;
+#endif
+    //此外IOVDD配置也会影响DAC输出电平
+    audio_dac_io_init(&param);
+}
+#endif
+
+static u8 audio_init_complete()
+{
+    if (!__this->audio_inited) {
+        return 0;
+    }
+    return 1;
+}
+
+REGISTER_LP_TARGET(audio_init_lp_target) = {
+    .name = "audio_init",
+    .is_idle = audio_init_complete,
+};
+
+struct audio_adc_private_param adc_private_param = {
+    .mic_ldo_vsel   = TCFG_AUDIO_MIC_LDO_VSEL,
+    .mic_ldo_isel   = TCFG_AUDIO_MIC_LDO_ISEL,
+    .adca_reserved0 = 0,
+    .adcb_reserved0 = 0,
+    .lowpower_lvl = 0,
+#if (defined(TCFG_CLOCK_SYS_SRC) && (TCFG_CLOCK_SYS_SRC == SYS_CLOCK_INPUT_PLL_RCL))
+    .clk_sel = AUDIO_COMMON_CLK_DIG_SINGLE,
+#else
+    .clk_sel = AUDIO_COMMON_CLK_DIF_XOSC,
+#endif
+};
+
+#if TCFG_AUDIO_ADC_ENABLE
+const struct adc_platform_cfg adc_platform_cfg_table[AUDIO_ADC_MAX_NUM] = {
+#if TCFG_ADC0_ENABLE
+    [0] = {
+        .mic_mode           = TCFG_ADC0_MODE,
+        .mic_ain_sel        = TCFG_ADC0_AIN_SEL,
+        .mic_bias_sel       = TCFG_ADC0_BIAS_SEL,
+        .mic_bias_rsel      = TCFG_ADC0_BIAS_RSEL,
+        .power_io           = TCFG_ADC0_POWER_IO,
+        .mic_dcc            = TCFG_ADC0_DCC_LEVEL,
+    },
+#endif
+#if TCFG_ADC1_ENABLE
+    [1] = {
+        .mic_mode           = TCFG_ADC1_MODE,
+        .mic_ain_sel        = TCFG_ADC1_AIN_SEL,
+        .mic_bias_sel       = TCFG_ADC1_BIAS_SEL,
+        .mic_bias_rsel      = TCFG_ADC1_BIAS_RSEL,
+        .power_io           = TCFG_ADC1_POWER_IO,
+        .mic_dcc            = TCFG_ADC1_DCC_LEVEL,
+    },
+#endif
+#if TCFG_ADC2_ENABLE
+    [2] = {
+        .mic_mode           = TCFG_ADC2_MODE,
+        .mic_ain_sel        = TCFG_ADC2_AIN_SEL,
+        .mic_bias_sel       = TCFG_ADC2_BIAS_SEL,
+        .mic_bias_rsel      = TCFG_ADC2_BIAS_RSEL,
+        .power_io           = TCFG_ADC2_POWER_IO,
+        .mic_dcc            = TCFG_ADC2_DCC_LEVEL,
+    },
+#endif
+#if TCFG_ADC3_ENABLE
+    [3] = {
+        .mic_mode           = TCFG_ADC3_MODE,
+        .mic_ain_sel        = TCFG_ADC3_AIN_SEL,
+        .mic_bias_sel       = TCFG_ADC3_BIAS_SEL,
+        .mic_bias_rsel      = TCFG_ADC3_BIAS_RSEL,
+        .power_io           = TCFG_ADC3_POWER_IO,
+        .mic_dcc            = TCFG_ADC3_DCC_LEVEL,
+    },
+#endif
+};
+#endif
+
+#if TCFG_SMART_VOICE_ENABLE
+static struct vad_mic_platform_data vad_mic_data = {
+    .mic_data = {
+        /*mic类型：隔直/差分/省电容*/
+        .mic_mode = AUDIO_MIC_CAP_DIFF_MODE,
+        .mic_ldo_isel = 2,
+        .mic_ldo_vsel = 5,
+        .mic_ldo2PAD_en = 1,
+        .mic_bias_en = 0,
+        .mic_bias_res = 0,
+        /*是否使用mic_bias*/
+        .mic_bias_inside = 0,
+        /* ADC偏置电阻配置*/
+        .adc_rbs = 3,
+        /* ADC输入电阻配置*/
+        .adc_rin = 3,
+        /* .adc_test = 1, */
+    },
+    .power_data = {
+        /*VADLDO电压档位：0~7*/
+        .ldo_vs = 3,
+        /*VADLDO误差运放电流档位：0~3*/
+#if TCFG_VAD_LOWPOWER_CLOCK == VAD_CLOCK_USE_PMU_STD12M
+        .ldo_is = 1,
+#else
+        .ldo_is = 2,
+#endif
+        .clock = TCFG_VAD_LOWPOWER_CLOCK, /*VAD时钟选项*/
+        .acm_select = 8,
+    },
+};
+#endif
+
+extern const u8 const_adc_async_en;
+void audio_input_initcall(void)
+{
+    printf("audio_input_initcall\n");
+#if TCFG_MC_BIAS_AUTO_ADJUST
+    int ret = syscfg_read(CFG_MC_BIAS, &save_mic_bias_rsel[0], 1);
+    printf("mic_bias_res:%d", save_mic_bias_rsel[0]);
+    if (ret != 1) {
+        printf("mic_bias_adjust NULL");
+    } else {
+        mic_bias_rsel_use_save[0] = 1;
+    }
+    u8 mic_ldo_idx;
+    ret = syscfg_read(CFG_MIC_LDO_VSEL, &mic_ldo_idx, 1);
+    if (ret == 1) {
+        save_mic_ldo_vsel = mic_ldo_idx & 0x3;
+        mic_ldo_vsel_use_save = 1;
+        printf("mic_ldo_vsel:%d,%d\n", save_mic_ldo_vsel, mic_ldo_idx);
+    } else {
+        printf("mic_ldo_vsel_adjust NULL\n");
+    }
+    if (mic_ldo_vsel_use_save) {
+        adc_private_param.mic_ldo_vsel = save_mic_ldo_vsel;
+    }
+#endif
+
+    audio_adc_init(&adc_hdl, &adc_private_param);
+    audio_adc_file_init();
+
+#if TCFG_APP_FM_EN
+    audio_fm_file_init();
+#endif
+
+#if TCFG_AUDIO_LINEIN_ENABLE
+    audio_linein_file_init();
+#endif/*TCFG_AUDIO_LINEIN_ENABLE*/
+    if (const_adc_async_en) {
+        //ICSD ADT启动时不可注册所有ADC_CH
+#if !((defined TCFG_AUDIO_ANC_ACOUSTIC_DETECTOR_EN) && TCFG_AUDIO_ANC_ACOUSTIC_DETECTOR_EN)
+        audio_all_adc_file_init();
+#endif
+    }
+}
+
+#ifndef TCFG_AUDIO_DAC_LDO_VOLT_HIGH
+#define TCFG_AUDIO_DAC_LDO_VOLT_HIGH 0
+#endif
+
+static void wl_audio_clk_on(void)
+{
+    JL_WL_AUD->CON0 = 1;
+}
+
+static void audio_common_clock_open(void)
+{
+    JL_WL_AUD->CON0 = 1;
+    JL_ASS->CLK_CON |= BIT(0);//audio时钟
+
+    SFR(JL_WLA->WLA_CON9, 17, 2, 1);        // DAC_HDS
+    SFR(JL_WLA->WLA_CON9, 19, 1, 1);        // XOSE_DAC_OE
+    SFR(JL_CLOCK->CLK_CON2, 22,  2,  0);        // ass_clk=?,   0: std_48m  1: pll_96m  2: hsb_clk  3: 1
+}
+
+extern int audio_timer_init(void);
+
+/*audio模块初始化*/
+static int audio_init()
+{
+    puts("audio_init\n");
+
+    wl_audio_clk_on();
+
+    audio_general_init();
+    audio_input_initcall();
+
+#if (SYS_VOL_TYPE == VOL_TYPE_DIGITAL)
+    audio_digital_vol_init(NULL, 0);
+#endif
+
+#if (TCFG_DAC_NODE_ENABLE || TCFG_AUDIO_DAC_IO_ENABLE || TCFG_AUDIO_ADC_ENABLE)
+    audio_common_clock_open();
+#endif
+
+#if TCFG_DAC_NODE_ENABLE
+    audio_dac_initcall();
+#elif (defined(TCFG_AUDIO_DAC_IO_ENABLE) && TCFG_AUDIO_DAC_IO_ENABLE)
+    audio_dac_io_initcall();
+#elif (defined(TCFG_AUDIO_ADC_ENABLE) && TCFG_AUDIO_ADC_ENABLE)
+    request_irq(IRQ_AUDIO_IDX, 2, audio_irq_handler, 0);
+#endif
+
+#if TCFG_AUDIO_ANC_ENABLE
+    anc_init();
+#endif
+
+#if TCFG_AUDIO_DUT_ENABLE
+    audio_dut_init();
+#endif /*TCFG_AUDIO_DUT_ENABLE*/
+
+#if TCFG_EQ_ENABLE
+    audio_eq_lib_init();
+#endif
+
+#if TCFG_SMART_VOICE_ENABLE
+    /*获取mic0的配置*/
+    vad_mic_data.mic_data.mic_mode = audio_adc_file_get_mic_mode(0);
+    vad_mic_data.mic_data.mic_bias_inside = (audio_adc_file_get_mic_mode(0) == AUDIO_MIC_CAP_DIFF_MODE) ? 0 : 1;
+    audio_smart_voice_detect_init((struct vad_mic_platform_data *)&vad_mic_data);
+#endif /* #if TCFG_SMART_VOICE_ENABLE */
+
+#if TCFG_AUDIO_ANC_ENABLE && TCFG_AUDIO_ANC_ACOUSTIC_DETECTOR_EN
+    /*需要再dac trim后调用*/
+    /*同时开ANC和免摘功能时，配置ADC固定打开的adc数字通道数*/
+    u16 mic_ch = 0;
+    if (TCFG_AUDIO_ANCL_FF_MIC != MIC_NULL) {
+        mic_ch |= BIT(TCFG_AUDIO_ANCL_FF_MIC);
+    }
+    if (TCFG_AUDIO_ANCL_FB_MIC != MIC_NULL) {
+        mic_ch |= BIT(TCFG_AUDIO_ANCL_FB_MIC);
+    }
+
+    if (get_icsd_adt_mic_num() == 3) {
+        mic_ch |= icsd_get_talk_mic_ch();
+    }
+
+    for (int i = 0; i < AUDIO_ADC_MIC_MAX_NUM; i++) {
+        if (mic_ch & BIT(i)) {
+            audio_adc_add_ch(&adc_hdl, i);
+        }
+    }
+#endif /*TCFG_AUDIO_ANC_ACOUSTIC_DETECTOR_EN*/
+
+    audio_timer_init();
+    __this->audio_inited = 1;
+    return 0;
+}
+platform_initcall(audio_init);
+
+static void audio_uninit()
+{
+#if TCFG_DAC_NODE_ENABLE
+    audio_dac_close(&dac_hdl);
+#endif
+}
+platform_uninitcall(audio_uninit);
+
+
+/*关闭audio相关模块使能*/
+void audio_disable_all(void)
+{
+    //DAC:DACEN
+    JL_AUDIO->DAC_CON &= ~BIT(4);
+    //ADC:ADCEN
+    JL_AUDIO->ADC_CON &= ~BIT(4);
+    //EQ:
+    JL_EQ->CON0 &= ~BIT(1);
+    //FFT:
+    JL_FFT->CON = BIT(1);//置1强制关闭模块，不管是否已经运算完成
+    //ANC:anc_en anc_start
+#if 0//build
+    JL_ANC->CON0 &= ~(BIT(1) | BIT(29));
+#endif
+
+}
+
+REGISTER_UPDATE_TARGET(audio_update_target) = {
+    .name = "audio",
+    .driver_close = audio_disable_all,
+};
+
+/*
+ *capless模式一开始不要的数据包数量
+ */
+u16 get_ladc_capless_dump_num(void)
+{
+    return 10;
+}
+
+
+/*
+ *dac快速校准
+ */
+//#define DAC_TRIM_FAST_EN
+#ifdef DAC_TRIM_FAST_EN
+u8 dac_trim_fast_en()
+{
+    return 1;
+}
+#endif/*DAC_TRIM_FAST_EN*/
+
+/*
+ *自定义dac上电延时时间，具体延时多久应通过示波器测量
+ */
+#if 1
+void dac_power_on_delay()
+{
+    /* #if TCFG_MC_BIAS_AUTO_ADJUST */
+    /* void mic_capless_auto_adjust_init(); */
+    /* mic_capless_auto_adjust_init(); */
+    /* #endif */
+    os_time_dly(50);
+}
+#endif
+
+#define TRIM_VALUE_LR_ERR_MAX           (600)   // 距离参考值的差值限制
+#define abs(x) ((x)>0?(x):-(x))
+int audio_dac_trim_value_check(struct audio_dac_trim *dac_trim)
+{
+    //cppcheck-suppress unreadVariable
+    s16 reference = 0;
+
+    printf("audio_dac_trim_value_check %d %d\n", dac_trim->left, dac_trim->right);
+#if TCFG_AUDIO_DAC_CONNECT_MODE != DAC_OUTPUT_MONO_R
+    if (abs(dac_trim->left - reference) > TRIM_VALUE_LR_ERR_MAX) {
+        printf("dac trim channel l err\n");
+        return -1;
+    }
+#endif
+
+#if TCFG_AUDIO_DAC_CONNECT_MODE != DAC_OUTPUT_MONO_L
+    if (abs(dac_trim->right - reference) > TRIM_VALUE_LR_ERR_MAX) {
+        printf("dac trim channel r err\n");
+        return -1;
+    }
+#endif
+
+    return 0;
+}
+
+
+

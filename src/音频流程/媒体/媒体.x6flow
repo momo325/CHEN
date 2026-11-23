@@ -1,0 +1,67 @@
+{
+ "enable": true,
+ "uuid": "0x1408",
+ "name": "pipeline-Media",
+ "bitWidth": 16,
+ "childrenGroup": [
+  {
+   "id": "id_1691396895424_0",
+   "title": "单声道",
+   "select": false
+  },
+  {
+   "id": "id_1691396918751_1",
+   "title": "单声道pro",
+   "select": false
+  },
+  {
+   "id": 1670391532440,
+   "title": "立体声",
+   "select": true
+  },
+  {
+   "id": "id_1679995085832_7",
+   "title": "立体声pro",
+   "select": false
+  },
+  {
+   "id": "id_1680138702713_1",
+   "title": "1.1_channel",
+   "select": false
+  },
+  {
+   "id": "id_1722821670273_1",
+   "title": "local_TWS",
+   "select": false
+  },
+  {
+   "id": "id_1743648602005_0",
+   "title": "立体声-REC",
+   "select": false
+  },
+  {
+   "id": "id_1744966610254_1",
+   "title": "MIDI解码",
+   "select": false
+  },
+  {
+   "id": "id_1747138957782_1",
+   "title": "摩托车引擎声解码",
+   "select": false
+  },
+  {
+   "id": "id_1753701250372_0",
+   "title": "IIS+DAC(单声道)",
+   "select": false
+  },
+  {
+   "id": "id_1753701402580_2",
+   "title": "IIS+DAC(立体声)",
+   "select": false
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

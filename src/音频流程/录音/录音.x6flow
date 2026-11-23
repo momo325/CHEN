@@ -1,0 +1,22 @@
+{
+ "enable": true,
+ "uuid": "0x49EC",
+ "name": "pipeline-recoder",
+ "bitWidth": 16,
+ "childrenGroup": [
+  {
+   "id": 1682578696449,
+   "title": "默认分组",
+   "select": true
+  },
+  {
+   "id": "id_1711595654095_3",
+   "title": "立体声-REC",
+   "select": false
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

@@ -1,0 +1,8052 @@
+{
+ "group": {
+  "id": "id_1753707327138_1",
+  "title": "立体声-叠加混响广播",
+  "select": false,
+  "curTab": "id_1678787127126_0",
+  "tabs": [
+   {
+    "id": "id_1678787127126_0",
+    "title": "超级混响",
+    "disable": false,
+    "selected": "A",
+    "preset": ""
+   },
+   {
+    "id": "id_1683720735891_0",
+    "title": "KTV",
+    "selected": "A",
+    "disable": false,
+    "preset": ""
+   },
+   {
+    "id": "id_1683720737069_1",
+    "title": "原声",
+    "selected": "A",
+    "disable": false
+   },
+   {
+    "id": "id_1683720738954_3",
+    "title": "流行",
+    "selected": "A",
+    "disable": false
+   },
+   {
+    "id": "id_1683722860304_7",
+    "title": "主持",
+    "selected": "A",
+    "disable": false
+   }
+  ]
+ },
+ "cells": [
+  {
+   "position": {
+    "x": -1560,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "7014e98b-024a-4913-8a1b-a07e2c38c641",
+   "component": "node-cust",
+   "data": {
+    "name": "ADC",
+    "fun": 1,
+    "sAlias": "",
+    "subId": 35,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "MicEff",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "MicEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1675825867879_30",
+             "value": 7
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_3",
+             "value": 7
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_12",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_21",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "MicEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              1
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1675825867879_30",
+             "value": 7
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_3",
+             "value": 7
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_12",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_21",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "MicEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              1
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1675825867879_30",
+             "value": 7
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_3",
+             "value": 7
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_12",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_21",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "MicEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              1
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1675825867879_30",
+             "value": 7
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_3",
+             "value": 7
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_12",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_21",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "MicEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              1
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1675825867879_30",
+             "value": 7
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_3",
+             "value": 7
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_12",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_21",
+             "value": 7
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "id": "5114f0b1-23ea-4659-844f-a8bd9b1e634d",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "abef5714-e326-4c1c-9190-9cafdf8db6a4",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "7014e98b-024a-4913-8a1b-a07e2c38c641",
+    "port": "5114f0b1-23ea-4659-844f-a8bd9b1e634d"
+   },
+   "target": {
+    "cell": "9dee4e34-cae8-45fa-8493-bf5d3c03a145",
+    "port": "7461f146-0f0f-4133-839b-f6c9ae7a5b15"
+   }
+  },
+  {
+   "position": {
+    "x": -1320,
+    "y": -880
+   },
+   "size": {
+    "width": 240,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9dee4e34-cae8-45fa-8493-bf5d3c03a145",
+   "component": "node-cust",
+   "data": {
+    "name": "Indicator",
+    "fun": 8,
+    "subId": 16,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "7461f146-0f0f-4133-839b-f6c9ae7a5b15"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "1fe67ba2-04c7-45a7-9c61-e727cd2347ed"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "dc2eeaca-dc48-475e-b3d2-a049702cd8fd",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "9dee4e34-cae8-45fa-8493-bf5d3c03a145",
+    "port": "1fe67ba2-04c7-45a7-9c61-e727cd2347ed"
+   },
+   "target": {
+    "cell": "5b1ccf9c-a603-4a1b-b53f-6a2110b10999",
+    "port": "37de61f6-bdc1-4fe1-9089-27160ed8330a"
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "5b1ccf9c-a603-4a1b-b53f-6a2110b10999",
+   "component": "node-cust",
+   "data": {
+    "name": "NoiseGate",
+    "fun": 1,
+    "subId": 19,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "NoiseGateEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "37de61f6-bdc1-4fe1-9089-27160ed8330a"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "66e0b840-9019-4aba-aa7d-a2eaa1aaa109"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "d2518500-b133-45de-8b99-8bd215128544",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "5b1ccf9c-a603-4a1b-b53f-6a2110b10999",
+    "port": "66e0b840-9019-4aba-aa7d-a2eaa1aaa109"
+   },
+   "target": {
+    "cell": "d91cef6f-d5a0-40f0-bae3-24ed83dc10b7",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   }
+  },
+  {
+   "position": {
+    "x": -840,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "d91cef6f-d5a0-40f0-bae3-24ed83dc10b7",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": "id_1753707327138_1",
+    "subId": 104,
+    "configs": {
+     "name": "VolEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "VolEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "8c84b515-485c-4719-ae44-697ecef91b84",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "d91cef6f-d5a0-40f0-bae3-24ed83dc10b7",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "5483bfad-2b95-484c-bed4-51ccdb03f2d2",
+    "port": "6f56abf9-6fa2-465a-9650-9c3f3e86290a"
+   }
+  },
+  {
+   "position": {
+    "x": -720,
+    "y": -880
+   },
+   "size": {
+    "width": 120,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "5483bfad-2b95-484c-bed4-51ccdb03f2d2",
+   "component": "node-cust",
+   "data": {
+    "name": "Bass Treble",
+    "fun": 1,
+    "subId": 1,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "BassTreEff",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "BassTreEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1668665953008_8",
+           "value": "0xaa"
+          },
+          {
+           "id": "id_1668656601664_2",
+           "value": 0
+          },
+          {
+           "id": "id_1668656628367_3",
+           "value": 0.5
+          },
+          {
+           "id": "id_1668652166846_1",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_56",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649209339_4",
+           "value": 100
+          },
+          {
+           "id": "id_1668649889902_0",
+           "value": 1
+          },
+          {
+           "id": "id_1668649418198_6",
+           "value": -48
+          },
+          {
+           "id": "id_1668649562392_7",
+           "value": 48
+          },
+          {
+           "id": "id_1676966221086_0",
+           "value": 0
+          },
+          {
+           "id": "id_1668649615366_9",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649615366_10",
+           "value": 1000
+          },
+          {
+           "id": "id_1668649309407_5",
+           "value": 0.7
+          },
+          {
+           "id": "id_1668649615366_12",
+           "value": -48
+          },
+          {
+           "id": "id_1668649615366_13",
+           "value": 48
+          },
+          {
+           "id": "id_1676966305422_1",
+           "value": 0
+          },
+          {
+           "id": "id_1668649616559_15",
+           "value": "0x03"
+          },
+          {
+           "id": "id_1668649616559_16",
+           "value": 4000
+          },
+          {
+           "id": "id_1668649616559_17",
+           "value": 0.8
+          },
+          {
+           "id": "id_1668649616559_18",
+           "value": -48
+          },
+          {
+           "id": "id_1668649616559_19",
+           "value": 48
+          },
+          {
+           "id": "id_1676966323790_2",
+           "value": 0
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "BassTreEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1668665953008_8",
+           "value": "0xaa"
+          },
+          {
+           "id": "id_1668656601664_2",
+           "value": 0
+          },
+          {
+           "id": "id_1668656628367_3",
+           "value": 0.5
+          },
+          {
+           "id": "id_1668652166846_1",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_56",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649209339_4",
+           "value": 100
+          },
+          {
+           "id": "id_1668649889902_0",
+           "value": 1
+          },
+          {
+           "id": "id_1668649418198_6",
+           "value": -48
+          },
+          {
+           "id": "id_1668649562392_7",
+           "value": 48
+          },
+          {
+           "id": "id_1676966221086_0",
+           "value": 0
+          },
+          {
+           "id": "id_1668649615366_9",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649615366_10",
+           "value": 1000
+          },
+          {
+           "id": "id_1668649309407_5",
+           "value": 0.7
+          },
+          {
+           "id": "id_1668649615366_12",
+           "value": -48
+          },
+          {
+           "id": "id_1668649615366_13",
+           "value": 48
+          },
+          {
+           "id": "id_1676966305422_1",
+           "value": 0
+          },
+          {
+           "id": "id_1668649616559_15",
+           "value": "0x03"
+          },
+          {
+           "id": "id_1668649616559_16",
+           "value": 4000
+          },
+          {
+           "id": "id_1668649616559_17",
+           "value": 0.8
+          },
+          {
+           "id": "id_1668649616559_18",
+           "value": -48
+          },
+          {
+           "id": "id_1668649616559_19",
+           "value": 48
+          },
+          {
+           "id": "id_1676966323790_2",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "BassTreEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg2",
+         "data": [
+          {
+           "id": "id_1668665953008_8",
+           "value": "0xaa"
+          },
+          {
+           "id": "id_1668656601664_2",
+           "value": 0
+          },
+          {
+           "id": "id_1668656628367_3",
+           "value": 0.5
+          },
+          {
+           "id": "id_1668652166846_1",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_56",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649209339_4",
+           "value": 100
+          },
+          {
+           "id": "id_1668649889902_0",
+           "value": 1
+          },
+          {
+           "id": "id_1668649418198_6",
+           "value": -48
+          },
+          {
+           "id": "id_1668649562392_7",
+           "value": 48
+          },
+          {
+           "id": "id_1676966221086_0",
+           "value": 0
+          },
+          {
+           "id": "id_1668649615366_9",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649615366_10",
+           "value": 1000
+          },
+          {
+           "id": "id_1668649309407_5",
+           "value": 0.7
+          },
+          {
+           "id": "id_1668649615366_12",
+           "value": -48
+          },
+          {
+           "id": "id_1668649615366_13",
+           "value": 48
+          },
+          {
+           "id": "id_1676966305422_1",
+           "value": 0
+          },
+          {
+           "id": "id_1668649616559_15",
+           "value": "0x03"
+          },
+          {
+           "id": "id_1668649616559_16",
+           "value": 4000
+          },
+          {
+           "id": "id_1668649616559_17",
+           "value": 0.8
+          },
+          {
+           "id": "id_1668649616559_18",
+           "value": -48
+          },
+          {
+           "id": "id_1668649616559_19",
+           "value": 48
+          },
+          {
+           "id": "id_1676966323790_2",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "BassTreEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg3",
+         "data": [
+          {
+           "id": "id_1668665953008_8",
+           "value": "0xaa"
+          },
+          {
+           "id": "id_1668656601664_2",
+           "value": 0
+          },
+          {
+           "id": "id_1668656628367_3",
+           "value": 0.5
+          },
+          {
+           "id": "id_1668652166846_1",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_56",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649209339_4",
+           "value": 100
+          },
+          {
+           "id": "id_1668649889902_0",
+           "value": 1
+          },
+          {
+           "id": "id_1668649418198_6",
+           "value": -48
+          },
+          {
+           "id": "id_1668649562392_7",
+           "value": 48
+          },
+          {
+           "id": "id_1676966221086_0",
+           "value": 0
+          },
+          {
+           "id": "id_1668649615366_9",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649615366_10",
+           "value": 1000
+          },
+          {
+           "id": "id_1668649309407_5",
+           "value": 0.7
+          },
+          {
+           "id": "id_1668649615366_12",
+           "value": -48
+          },
+          {
+           "id": "id_1668649615366_13",
+           "value": 48
+          },
+          {
+           "id": "id_1676966305422_1",
+           "value": 0
+          },
+          {
+           "id": "id_1668649616559_15",
+           "value": "0x03"
+          },
+          {
+           "id": "id_1668649616559_16",
+           "value": 4000
+          },
+          {
+           "id": "id_1668649616559_17",
+           "value": 0.8
+          },
+          {
+           "id": "id_1668649616559_18",
+           "value": -48
+          },
+          {
+           "id": "id_1668649616559_19",
+           "value": 48
+          },
+          {
+           "id": "id_1676966323790_2",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "BassTreEff",
+       "current": "arg4",
+       "list": [
+        {
+         "name": "arg4",
+         "data": [
+          {
+           "id": "id_1668665953008_8",
+           "value": "0xaa"
+          },
+          {
+           "id": "id_1668656601664_2",
+           "value": 0
+          },
+          {
+           "id": "id_1668656628367_3",
+           "value": 0.5
+          },
+          {
+           "id": "id_1668652166846_1",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_56",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649209339_4",
+           "value": 100
+          },
+          {
+           "id": "id_1668649889902_0",
+           "value": 1
+          },
+          {
+           "id": "id_1668649418198_6",
+           "value": -48
+          },
+          {
+           "id": "id_1668649562392_7",
+           "value": 48
+          },
+          {
+           "id": "id_1676966221086_0",
+           "value": 0
+          },
+          {
+           "id": "id_1668649615366_9",
+           "value": "0x02"
+          },
+          {
+           "id": "id_1668649615366_10",
+           "value": 1000
+          },
+          {
+           "id": "id_1668649309407_5",
+           "value": 0.7
+          },
+          {
+           "id": "id_1668649615366_12",
+           "value": -48
+          },
+          {
+           "id": "id_1668649615366_13",
+           "value": 48
+          },
+          {
+           "id": "id_1676966305422_1",
+           "value": 0
+          },
+          {
+           "id": "id_1668649616559_15",
+           "value": "0x03"
+          },
+          {
+           "id": "id_1668649616559_16",
+           "value": 4000
+          },
+          {
+           "id": "id_1668649616559_17",
+           "value": 0.8
+          },
+          {
+           "id": "id_1668649616559_18",
+           "value": -48
+          },
+          {
+           "id": "id_1668649616559_19",
+           "value": 48
+          },
+          {
+           "id": "id_1676966323790_2",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "6f56abf9-6fa2-465a-9650-9c3f3e86290a"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "9068eccf-0ce3-4753-8221-9883934892ad"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "55ae0a6d-cf90-4ad8-84f8-7ee1e1137e39",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "5483bfad-2b95-484c-bed4-51ccdb03f2d2",
+    "port": "9068eccf-0ce3-4753-8221-9883934892ad"
+   },
+   "target": {
+    "cell": "e9f01a72-e9b6-49a7-93e8-587773b4ad50",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "position": {
+    "x": -560,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "e9f01a72-e9b6-49a7-93e8-587773b4ad50",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1753707327138_1",
+    "subId": 85,
+    "configs": {
+     "name": "Eq1Eff",
+     "list": [
+      {
+       "name": "Eq1Eff",
+       "modeId": "id_1683720735891_0",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902879,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902880,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902881,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902882,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902883,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902884,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902885,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902886,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902887,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902888,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq1Eff",
+       "modeId": "id_1683722860304_7",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902879,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902880,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902881,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902882,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902883,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902884,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902885,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902886,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902887,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902888,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq1Eff",
+       "modeId": "id_1683720738954_3",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902879,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902880,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902881,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902882,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902883,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902884,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902885,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902886,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902887,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902888,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq1Eff",
+       "modeId": "id_1678787127126_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902879,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902880,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902881,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902882,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902883,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902884,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902885,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902886,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902887,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902888,
+           "name": "10",
+           "CenterFrequency": 21600,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false,
+         "sampleRate": 48000
+        }
+       ]
+      },
+      {
+       "name": "Eq1Eff",
+       "modeId": "id_1683720737069_1",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902879,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902880,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902881,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902882,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902883,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902884,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902885,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902886,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902887,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902888,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 32,
+    "inBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "f4ffd2dd-8091-4c27-833b-17f493d6aaf2",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "e9f01a72-e9b6-49a7-93e8-587773b4ad50",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "980345fd-4105-4fa4-a5b6-580ff50e0418",
+    "port": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+   }
+  },
+  {
+   "position": {
+    "x": -440,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "980345fd-4105-4fa4-a5b6-580ff50e0418",
+   "component": "node-cust",
+   "data": {
+    "name": "DRC",
+    "fun": 6,
+    "itemId": "id_1753707327138_1",
+    "subId": 4,
+    "configs": {
+     "name": "Drc1Eff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "Drc1Eff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           -90,
+           -90
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           20,
+           20
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 1,
+         "inputGainType": 0
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "Drc1Eff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           -90,
+           -90
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           20,
+           20
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 1,
+         "inputGainType": 0
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "Drc1Eff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           -90,
+           -90
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           20,
+           20
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 1,
+         "inputGainType": 0
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "Drc1Eff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           -90,
+           -90
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           20,
+           20
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 1,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "Drc1Eff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           -90,
+           -90
+          ],
+          [
+           0,
+           0
+          ],
+          [
+           20,
+           20
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 1,
+         "inputGainType": 0
+        }
+       ]
+      }
+     ]
+    },
+    "inBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "820a926b-bb3f-41f6-8ebb-b4d46090a4c5",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "980345fd-4105-4fa4-a5b6-580ff50e0418",
+    "port": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+   },
+   "target": {
+    "cell": "725112ac-5c01-4f2d-984e-a103ee69e66e",
+    "port": "94a90b33-036e-48f7-89e4-80a570e19322"
+   }
+  },
+  {
+   "position": {
+    "x": -280,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "725112ac-5c01-4f2d-984e-a103ee69e66e",
+   "component": "node-cust",
+   "data": {
+    "name": "Frequency Shift",
+    "fun": 1,
+    "subId": 17,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "FshiftEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "FshiftEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_25",
+           "list": [
+            {
+             "id": "id_1675825867878_3",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_10",
+             "value": -50
+            },
+            {
+             "id": "id_1675825867883_192",
+             "value": 4
+            },
+            {
+             "id": "id_1666764636128_2",
+             "value": 0
+            },
+            {
+             "id": "id_1666943736657_0",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "FshiftEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_25",
+           "list": [
+            {
+             "id": "id_1675825867878_3",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_10",
+             "value": -50
+            },
+            {
+             "id": "id_1675825867883_192",
+             "value": 4
+            },
+            {
+             "id": "id_1666764636128_2",
+             "value": 0
+            },
+            {
+             "id": "id_1666943736657_0",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "FshiftEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_25",
+           "list": [
+            {
+             "id": "id_1675825867878_3",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_10",
+             "value": -50
+            },
+            {
+             "id": "id_1675825867883_192",
+             "value": 4
+            },
+            {
+             "id": "id_1666764636128_2",
+             "value": 0
+            },
+            {
+             "id": "id_1666943736657_0",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "FshiftEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_25",
+           "list": [
+            {
+             "id": "id_1675825867878_3",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_10",
+             "value": -50
+            },
+            {
+             "id": "id_1675825867883_192",
+             "value": 4
+            },
+            {
+             "id": "id_1666764636128_2",
+             "value": 0
+            },
+            {
+             "id": "id_1666943736657_0",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "FshiftEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_25",
+           "list": [
+            {
+             "id": "id_1675825867878_3",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_10",
+             "value": -50
+            },
+            {
+             "id": "id_1675825867883_192",
+             "value": 4
+            },
+            {
+             "id": "id_1666764636128_2",
+             "value": 0
+            },
+            {
+             "id": "id_1666943736657_0",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "94a90b33-036e-48f7-89e4-80a570e19322"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "1a26ed88-418b-4869-bbd8-d3f93cc18450"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "65449516-df45-4b15-bcd5-1487d872dfa1",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "725112ac-5c01-4f2d-984e-a103ee69e66e",
+    "port": "1a26ed88-418b-4869-bbd8-d3f93cc18450"
+   },
+   "target": {
+    "cell": "913d6226-2d1c-4dde-839f-37965533103f",
+    "port": "97466517-8eb0-41c7-b2d6-f05ff44b4a1a"
+   }
+  },
+  {
+   "position": {
+    "x": -160,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "913d6226-2d1c-4dde-839f-37965533103f",
+   "component": "node-cust",
+   "data": {
+    "name": "Howling Suppress",
+    "fun": 1,
+    "subId": 13,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "HspressEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "HspressEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_26",
+           "list": [
+            {
+             "id": "id_1675825867878_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_11",
+             "value": 2
+            },
+            {
+             "id": "id_1675825867883_193",
+             "value": -20
+            },
+            {
+             "id": "id_1666946770426_0",
+             "value": 10
+            },
+            {
+             "id": "id_1666946784993_2",
+             "value": 25
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "HspressEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_26",
+           "list": [
+            {
+             "id": "id_1675825867878_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_11",
+             "value": 2
+            },
+            {
+             "id": "id_1675825867883_193",
+             "value": -20
+            },
+            {
+             "id": "id_1666946770426_0",
+             "value": 10
+            },
+            {
+             "id": "id_1666946784993_2",
+             "value": 25
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "HspressEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_26",
+           "list": [
+            {
+             "id": "id_1675825867878_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_11",
+             "value": 2
+            },
+            {
+             "id": "id_1675825867883_193",
+             "value": -20
+            },
+            {
+             "id": "id_1666946770426_0",
+             "value": 10
+            },
+            {
+             "id": "id_1666946784993_2",
+             "value": 25
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "HspressEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_26",
+           "list": [
+            {
+             "id": "id_1675825867878_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_11",
+             "value": 2
+            },
+            {
+             "id": "id_1675825867883_193",
+             "value": -20
+            },
+            {
+             "id": "id_1666946770426_0",
+             "value": 10
+            },
+            {
+             "id": "id_1666946784993_2",
+             "value": 25
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "HspressEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_26",
+           "list": [
+            {
+             "id": "id_1675825867878_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_11",
+             "value": 2
+            },
+            {
+             "id": "id_1675825867883_193",
+             "value": -20
+            },
+            {
+             "id": "id_1666946770426_0",
+             "value": 10
+            },
+            {
+             "id": "id_1666946784993_2",
+             "value": 25
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "97466517-8eb0-41c7-b2d6-f05ff44b4a1a"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "3cc06cc4-629b-4abd-a133-cd46e2ffb6d2"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "4b2c1642-2759-46fc-91f3-23802756f3e9",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "913d6226-2d1c-4dde-839f-37965533103f",
+    "port": "3cc06cc4-629b-4abd-a133-cd46e2ffb6d2"
+   },
+   "target": {
+    "cell": "164dcf89-9d0a-4422-a52b-fb88b0c62a9c",
+    "port": "24ed9340-ce58-4611-b829-243ef4322ee4"
+   },
+   "vertices": [
+    {
+     "x": -80,
+     "y": -760
+    },
+    {
+     "x": -1535,
+     "y": -760
+    }
+   ]
+  },
+  {
+   "position": {
+    "x": -1600,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "164dcf89-9d0a-4422-a52b-fb88b0c62a9c",
+   "component": "node-cust",
+   "data": {
+    "name": "Voice Changer",
+    "fun": 1,
+    "subId": 17,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "VchangerEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "24ed9340-ce58-4611-b829-243ef4322ee4"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "1dc33057-4625-49d9-a053-d849f929661c"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "7a0e0390-6737-4e52-be98-6cd64f512e77",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "164dcf89-9d0a-4422-a52b-fb88b0c62a9c",
+    "port": "1dc33057-4625-49d9-a053-d849f929661c"
+   },
+   "target": {
+    "cell": "da6cae92-a1be-4c35-8ce1-01a7f8d08394",
+    "port": "38d04841-945e-4565-9cce-0009a2792a69"
+   }
+  },
+  {
+   "position": {
+    "x": -1480,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "da6cae92-a1be-4c35-8ce1-01a7f8d08394",
+   "component": "node-cust",
+   "data": {
+    "name": "Autotune",
+    "fun": 1,
+    "subId": 1,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "AtuneEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "AtuneEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_44",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_55",
+           "value": "0x0c"
+          },
+          {
+           "id": "id_1675825867879_60",
+           "value": 5
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "AtuneEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_44",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_55",
+           "value": "0x0c"
+          },
+          {
+           "id": "id_1675825867879_60",
+           "value": 5
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "AtuneEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_44",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_55",
+           "value": "0x0c"
+          },
+          {
+           "id": "id_1675825867879_60",
+           "value": 5
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "AtuneEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_44",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_55",
+           "value": "0x0c"
+          },
+          {
+           "id": "id_1675825867879_60",
+           "value": 5
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "AtuneEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_44",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_55",
+           "value": "0x0c"
+          },
+          {
+           "id": "id_1675825867879_60",
+           "value": 5
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "38d04841-945e-4565-9cce-0009a2792a69"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "61b34236-6c2f-4984-92f2-9c5b933debb9"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "424dd670-4ca3-4f10-88d4-5120418f4f06",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "da6cae92-a1be-4c35-8ce1-01a7f8d08394",
+    "port": "61b34236-6c2f-4984-92f2-9c5b933debb9"
+   },
+   "target": {
+    "cell": "71dd52db-9cad-4bb1-af69-65bd130d10cf",
+    "port": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc"
+   }
+  },
+  {
+   "position": {
+    "x": -1320,
+    "y": -680
+   },
+   "size": {
+    "width": 120,
+    "height": 320
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "71dd52db-9cad-4bb1-af69-65bd130d10cf",
+   "component": "node-cust",
+   "data": {
+    "name": "音频分流器",
+    "fun": 0,
+    "itemId": "id_1753707327138_1",
+    "sAlias": "",
+    "subId": 30,
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "af3393dd-5ebd-4e08-a871-cb1718108b2c",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "1da03bf5-cc30-45ad-8571-9587fca83c8a",
+      "index": 1
+     },
+     {
+      "group": "out",
+      "id": "901209be-3cd3-4c2b-af00-14868b1a3a11",
+      "index": 2
+     },
+     {
+      "group": "out",
+      "id": "4d9807a5-8ce1-4180-beb9-7ebbc1ba43d2",
+      "index": 3
+     },
+     {
+      "group": "out",
+      "id": "a4348fa1-6adf-44c8-8d17-fc2e48a3e026",
+      "index": 4
+     },
+     {
+      "group": "out",
+      "id": "e11098bd-db68-466d-ba9b-5ea1cc62bc07",
+      "index": 5
+     },
+     {
+      "group": "out",
+      "id": "214e8963-aba3-420a-8a9d-250a52fd056c",
+      "index": 6
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "856c5fdb-b51b-46a6-9cd9-2b88beda127d",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "71dd52db-9cad-4bb1-af69-65bd130d10cf",
+    "port": "214e8963-aba3-420a-8a9d-250a52fd056c"
+   },
+   "target": {
+    "cell": "0749a8fa-e401-42f0-b01a-101ae0b6b671",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "cf20b44b-3740-4dd3-8056-45f88af88187",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "71dd52db-9cad-4bb1-af69-65bd130d10cf",
+    "port": "4d9807a5-8ce1-4180-beb9-7ebbc1ba43d2"
+   },
+   "target": {
+    "cell": "c4f2077f-c1be-4514-9bc6-9c07a044b32c",
+    "port": "b4f4a157-2139-40ad-a24c-3d0c09762304"
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "be286028-7545-4c82-9eb0-3232677f2906",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "71dd52db-9cad-4bb1-af69-65bd130d10cf",
+    "port": "af3393dd-5ebd-4e08-a871-cb1718108b2c"
+   },
+   "target": {
+    "cell": "d96fa9c4-e341-4040-b181-35dbb2e83faf",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "position": {
+    "x": -1120,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "c4f2077f-c1be-4514-9bc6-9c07a044b32c",
+   "component": "node-cust",
+   "data": {
+    "name": "Echo",
+    "fun": 1,
+    "subId": 17,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "Echo15",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "Echo15",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 100
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 60
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 5000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 50
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "Echo15",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 400
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 60
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 5000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 50
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 60
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "Echo15",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 200
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 40
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 6000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 100
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "Echo15",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 200
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 50
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 6000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 45
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 0
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "Echo15",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 400
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 60
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 5000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 50
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 60
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "b4f4a157-2139-40ad-a24c-3d0c09762304"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "f4e6ce1d-5eed-4e38-8ddd-7d7139ce5232"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "6ca6ad22-66d8-488c-a8e2-88262d530b0c",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "c4f2077f-c1be-4514-9bc6-9c07a044b32c",
+    "port": "f4e6ce1d-5eed-4e38-8ddd-7d7139ce5232"
+   },
+   "target": {
+    "cell": "ce91599b-b1ee-4771-8ec1-d039ed769b4d",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   },
+   "vertices": []
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "ce91599b-b1ee-4771-8ec1-d039ed769b4d",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1753707327138_1",
+    "subId": 86,
+    "configs": {
+     "name": "EQ25",
+     "list": [
+      {
+       "name": "EQ25",
+       "modeId": "id_1683720735891_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902896,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ25",
+       "modeId": "id_1683722860304_7",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902896,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": -90,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ25",
+       "modeId": "id_1683720738954_3",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902896,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ25",
+       "modeId": "id_1678787127126_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902896,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ25",
+       "modeId": "id_1683720737069_1",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902896,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": -90,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "d01029e5-2552-4a9b-ba3d-0b2cf912d352",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "ce91599b-b1ee-4771-8ec1-d039ed769b4d",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "651f1809-c16d-4956-a3f2-7aaad7689c87",
+    "port": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+   }
+  },
+  {
+   "position": {
+    "x": -840,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "651f1809-c16d-4956-a3f2-7aaad7689c87",
+   "component": "node-cust",
+   "data": {
+    "name": "DRC",
+    "fun": 6,
+    "itemId": "id_1753707327138_1",
+    "subId": 8,
+    "configs": {
+     "name": "DRC2",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "DRC2",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "DRC2",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "DRC2",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "DRC2",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "DRC2",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      }
+     ]
+    },
+    "inBitWidth": 32,
+    "outBitWidth": 16
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "ced760c3-4e45-4833-b368-5d83457cfb0c",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "651f1809-c16d-4956-a3f2-7aaad7689c87",
+    "port": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+   },
+   "target": {
+    "cell": "9044f32c-6d88-426c-b0ee-7bcda4dd986e",
+    "port": "4ff0567b-ec0d-49d6-904b-980306bd0f80"
+   }
+  },
+  {
+   "position": {
+    "x": -600,
+    "y": -600
+   },
+   "size": {
+    "width": 120,
+    "height": 160
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9044f32c-6d88-426c-b0ee-7bcda4dd986e",
+   "component": "node-cust",
+   "data": {
+    "name": "3Band Merge",
+    "fun": 1,
+    "sAlias": "",
+    "subId": 14,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "3BandMerge1B9D9",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "3BandMerge1B9D9",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_21",
+           "list": [
+            {
+             "id": "id_1675825867878_1",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_8",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_15",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_18",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "3BandMerge1B9D9",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_21",
+           "list": [
+            {
+             "id": "id_1675825867878_1",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_8",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_15",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_18",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "3BandMerge1B9D9",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_21",
+           "list": [
+            {
+             "id": "id_1675825867878_1",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_8",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_15",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_18",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "3BandMerge1B9D9",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_21",
+           "list": [
+            {
+             "id": "id_1675825867878_1",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_8",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_15",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_18",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "3BandMerge1B9D9",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_21",
+           "list": [
+            {
+             "id": "id_1675825867878_1",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_8",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_15",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_18",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "05a7e82d-cc8a-46d7-ab1c-90e8e6c34a8b"
+     },
+     {
+      "group": "in",
+      "index": 1,
+      "id": "4ff0567b-ec0d-49d6-904b-980306bd0f80"
+     },
+     {
+      "group": "in",
+      "id": "ba22cc41-5778-4c15-a204-cc1581ab8ed3",
+      "index": 2
+     },
+     {
+      "group": "out",
+      "id": "eecbe6e4-bec4-4f0b-bb26-8b6e08c3dc62",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "46feafc4-a277-4ce4-b8e5-4ce81a4fc821",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "9044f32c-6d88-426c-b0ee-7bcda4dd986e",
+    "port": "eecbe6e4-bec4-4f0b-bb26-8b6e08c3dc62"
+   },
+   "target": {
+    "cell": "9d2d26c7-107c-4cbd-8548-f5ded0f89713",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "position": {
+    "x": -440,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9d2d26c7-107c-4cbd-8548-f5ded0f89713",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1753707327138_1",
+    "subId": 87,
+    "configs": {
+     "name": "EQ157",
+     "list": [
+      {
+       "name": "EQ157",
+       "modeId": "id_1678787127126_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "range": 20,
+         "gain": 0,
+         "sampleRate": 48000,
+         "bypass": false,
+         "data": [
+          {
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "3",
+           "CenterFrequency": 112,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "4",
+           "CenterFrequency": 238,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "5",
+           "CenterFrequency": 505,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "6",
+           "CenterFrequency": 1070,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "7",
+           "CenterFrequency": 2268,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "8",
+           "CenterFrequency": 4807,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "9",
+           "CenterFrequency": 10190,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "10",
+           "CenterFrequency": 21599,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "EQ157",
+       "modeId": "id_1683720735891_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "range": 20,
+         "gain": 0,
+         "sampleRate": 48000,
+         "bypass": false,
+         "data": [
+          {
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "3",
+           "CenterFrequency": 112,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "4",
+           "CenterFrequency": 238,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "5",
+           "CenterFrequency": 505,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "6",
+           "CenterFrequency": 1070,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "7",
+           "CenterFrequency": 2268,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "8",
+           "CenterFrequency": 4807,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "9",
+           "CenterFrequency": 10190,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "10",
+           "CenterFrequency": 21599,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "EQ157",
+       "modeId": "id_1683720737069_1",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "range": 20,
+         "gain": 0,
+         "sampleRate": 48000,
+         "bypass": false,
+         "data": [
+          {
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "3",
+           "CenterFrequency": 112,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "4",
+           "CenterFrequency": 238,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "5",
+           "CenterFrequency": 505,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "6",
+           "CenterFrequency": 1070,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "7",
+           "CenterFrequency": 2268,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "8",
+           "CenterFrequency": 4807,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "9",
+           "CenterFrequency": 10190,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "10",
+           "CenterFrequency": 21599,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "EQ157",
+       "modeId": "id_1683720738954_3",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "range": 20,
+         "gain": 0,
+         "sampleRate": 48000,
+         "bypass": false,
+         "data": [
+          {
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "3",
+           "CenterFrequency": 112,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "4",
+           "CenterFrequency": 238,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "5",
+           "CenterFrequency": 505,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "6",
+           "CenterFrequency": 1070,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "7",
+           "CenterFrequency": 2268,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "8",
+           "CenterFrequency": 4807,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "9",
+           "CenterFrequency": 10190,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "10",
+           "CenterFrequency": 21599,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "EQ157",
+       "modeId": "id_1683722860304_7",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "range": 20,
+         "gain": 0,
+         "sampleRate": 48000,
+         "bypass": false,
+         "data": [
+          {
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "3",
+           "CenterFrequency": 112,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "4",
+           "CenterFrequency": 238,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "5",
+           "CenterFrequency": 505,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "6",
+           "CenterFrequency": 1070,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "7",
+           "CenterFrequency": 2268,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "8",
+           "CenterFrequency": 4807,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "9",
+           "CenterFrequency": 10190,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "10",
+           "CenterFrequency": 21599,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "name": "Hp",
+           "CenterFrequency": 40,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 7,
+           "fEnable": false
+          },
+          {
+           "name": "Lp",
+           "CenterFrequency": 18000,
+           "Gain": 1,
+           "QValue": 0,
+           "type": 8,
+           "fEnable": false
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "e064cb5c-c304-4c6a-8e5a-791cc73fa902",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "9d2d26c7-107c-4cbd-8548-f5ded0f89713",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "9a5fe60f-53e0-4579-907b-cd7b50bcd4f3",
+    "port": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+   }
+  },
+  {
+   "position": {
+    "x": -320,
+    "y": -560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9a5fe60f-53e0-4579-907b-cd7b50bcd4f3",
+   "component": "node-cust",
+   "data": {
+    "name": "BitWidth Convert",
+    "fun": 0,
+    "subId": 39,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "42d0cf7c-bd6d-429b-b400-38a80372e926",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "9a5fe60f-53e0-4579-907b-cd7b50bcd4f3",
+    "port": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+   },
+   "target": {
+    "cell": "12736f9f-f39f-4d9e-8632-e09fbfaafe87",
+    "port": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc"
+   },
+   "vertices": []
+  },
+  {
+   "position": {
+    "x": -200,
+    "y": -680
+   },
+   "size": {
+    "width": 120,
+    "height": 320
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "12736f9f-f39f-4d9e-8632-e09fbfaafe87",
+   "component": "node-cust",
+   "data": {
+    "name": "音频分流器",
+    "fun": 0,
+    "itemId": "id_1753707327138_1",
+    "sAlias": "",
+    "subId": 31,
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "af3393dd-5ebd-4e08-a871-cb1718108b2c",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "1da03bf5-cc30-45ad-8571-9587fca83c8a",
+      "index": 1
+     },
+     {
+      "group": "out",
+      "id": "901209be-3cd3-4c2b-af00-14868b1a3a11",
+      "index": 2
+     },
+     {
+      "group": "out",
+      "id": "4d9807a5-8ce1-4180-beb9-7ebbc1ba43d2",
+      "index": 3
+     },
+     {
+      "group": "out",
+      "id": "a4348fa1-6adf-44c8-8d17-fc2e48a3e026",
+      "index": 4
+     },
+     {
+      "group": "out",
+      "id": "e11098bd-db68-466d-ba9b-5ea1cc62bc07",
+      "index": 5
+     },
+     {
+      "group": "out",
+      "id": "214e8963-aba3-420a-8a9d-250a52fd056c",
+      "index": 6
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3e14e2b9-9c3c-4123-a542-27970d24f1da",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "12736f9f-f39f-4d9e-8632-e09fbfaafe87",
+    "port": "1da03bf5-cc30-45ad-8571-9587fca83c8a"
+   },
+   "target": {
+    "cell": "68db15a3-15d9-407f-81b8-0ec532607844",
+    "port": "7cf43470-1525-435c-b527-e2e5ac2e3926"
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "364da148-8ffd-4b56-85ec-98e009aec798",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "12736f9f-f39f-4d9e-8632-e09fbfaafe87",
+    "port": "214e8963-aba3-420a-8a9d-250a52fd056c"
+   },
+   "target": {
+    "cell": "43927905-77a0-4020-9c7c-fb2d435fe7e5",
+    "port": "7cf43470-1525-435c-b527-e2e5ac2e3926"
+   }
+  },
+  {
+   "position": {
+    "x": 0,
+    "y": -640
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "68db15a3-15d9-407f-81b8-0ec532607844",
+   "component": "node-cust",
+   "data": {
+    "name": "Switch",
+    "fun": 9,
+    "sAlias": "",
+    "subId": 6,
+    "itemId": "id_1753707327138_1",
+    "nodeName": "Sw_MicEff2DAC",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "7cf43470-1525-435c-b527-e2e5ac2e3926"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "be948cd4-7f91-4a53-9f4f-72831b6325c2"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "2edfc2d9-d010-4d32-a677-eb12e5a11cf1",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "68db15a3-15d9-407f-81b8-0ec532607844",
+    "port": "be948cd4-7f91-4a53-9f4f-72831b6325c2"
+   },
+   "target": {
+    "cell": "720aafd6-20ab-4ccd-85bd-40fa2fcae5d9",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   }
+  },
+  {
+   "position": {
+    "x": 120,
+    "y": -640
+   },
+   "size": {
+    "width": 160,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "720aafd6-20ab-4ccd-85bd-40fa2fcae5d9",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 31,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "ChannelExDA1561",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "ChannelExDA1561",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "ChannelExDA1561",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "ChannelExDA1561",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "ChannelExDA1561",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "ChannelExDA1561",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "5b901d2a-bcd7-49d4-bc95-bd48f714fdda",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "720aafd6-20ab-4ccd-85bd-40fa2fcae5d9",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "b446bad5-2a8b-4c71-b1eb-8813a8cab6c0",
+    "port": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+   }
+  },
+  {
+   "position": {
+    "x": 320,
+    "y": -640
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "b446bad5-2a8b-4c71-b1eb-8813a8cab6c0",
+   "component": "node-cust",
+   "data": {
+    "name": "播放同步",
+    "fun": 1,
+    "subId": 62,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "9B3B27",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "9B3B27",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1719387029771_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "9B3B27",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1719387029771_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "9B3B27",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1719387029771_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "9B3B27",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1719387029771_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "9B3B27",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1719387029771_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "ffc2632e-b90d-4a9b-99c4-fc8498a27880",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "b446bad5-2a8b-4c71-b1eb-8813a8cab6c0",
+    "port": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+   },
+   "target": {
+    "cell": "aed5d762-523c-4b1c-a2c6-f2743f24e20c",
+    "port": "affc17ac-7fd4-4f15-8df2-083e80e03886"
+   }
+  },
+  {
+   "position": {
+    "x": 440,
+    "y": -640
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "aed5d762-523c-4b1c-a2c6-f2743f24e20c",
+   "component": "node-cust",
+   "data": {
+    "name": "DAC",
+    "fun": 1,
+    "sAlias": "",
+    "subId": 40,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "DAC18",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "DAC18",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_2",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          },
+          {
+           "id": "id_1702378606977_0",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            }
+           ],
+           "expand": 1
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "DAC18",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_2",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          },
+          {
+           "id": "id_1702378606977_0",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            }
+           ],
+           "expand": 1
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "DAC18",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_2",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          },
+          {
+           "id": "id_1702378606977_0",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            }
+           ],
+           "expand": 1
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "DAC18",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_2",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          },
+          {
+           "id": "id_1702378606977_0",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            }
+           ],
+           "expand": 1
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "DAC18",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_2",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          },
+          {
+           "id": "id_1702378606977_0",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            }
+           ],
+           "expand": 1
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "affc17ac-7fd4-4f15-8df2-083e80e03886",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "position": {
+    "x": 0,
+    "y": -440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "43927905-77a0-4020-9c7c-fb2d435fe7e5",
+   "component": "node-cust",
+   "data": {
+    "name": "Switch",
+    "fun": 9,
+    "sAlias": "",
+    "subId": 7,
+    "itemId": "id_1753707327138_1",
+    "nodeName": "Sw_MicEff2LeAud",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "7cf43470-1525-435c-b527-e2e5ac2e3926"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "be948cd4-7f91-4a53-9f4f-72831b6325c2"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "b63b8e34-17ca-4474-93d1-74a0d46473da",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "43927905-77a0-4020-9c7c-fb2d435fe7e5",
+    "port": "be948cd4-7f91-4a53-9f4f-72831b6325c2"
+   },
+   "target": {
+    "cell": "9a41eaeb-cf17-4fc9-afa2-2828c268730f",
+    "port": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
+   }
+  },
+  {
+   "position": {
+    "x": 120,
+    "y": -440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9a41eaeb-cf17-4fc9-afa2-2828c268730f",
+   "component": "node-cust",
+   "data": {
+    "name": "Source",
+    "fun": 11,
+    "subId": 11,
+    "itemId": "id_1753707327138_1",
+    "configs": {
+     "name": "LE_Audio_MicEff",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
+     }
+    ]
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "0749a8fa-e401-42f0-b01a-101ae0b6b671",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1753707327138_1",
+    "subId": 98,
+    "configs": {
+     "name": "EQ147",
+     "list": [
+      {
+       "name": "EQ147",
+       "modeId": "id_1683720735891_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ147",
+       "modeId": "id_1683722860304_7",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1683723070599,
+           "name": "1",
+           "CenterFrequency": 31,
+           "Gain": -2,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070600,
+           "name": "2",
+           "CenterFrequency": 62,
+           "Gain": -1,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070601,
+           "name": "3",
+           "CenterFrequency": 125,
+           "Gain": -1,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070602,
+           "name": "4",
+           "CenterFrequency": 250,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070603,
+           "name": "5",
+           "CenterFrequency": 500,
+           "Gain": 3,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070604,
+           "name": "6",
+           "CenterFrequency": 1000,
+           "Gain": 4,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070605,
+           "name": "7",
+           "CenterFrequency": 2000,
+           "Gain": 3,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070606,
+           "name": "8",
+           "CenterFrequency": 4000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070607,
+           "name": "9",
+           "CenterFrequency": 8000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070608,
+           "name": "10",
+           "CenterFrequency": 16000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ147",
+       "modeId": "id_1683720738954_3",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ147",
+       "modeId": "id_1678787127126_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ147",
+       "modeId": "id_1683720737069_1",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "aff16623-3fcd-43fb-a65f-191e5d8ec719",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "0749a8fa-e401-42f0-b01a-101ae0b6b671",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "21e6fad4-9f36-469b-a899-97313eeaa75b",
+    "port": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+   }
+  },
+  {
+   "position": {
+    "x": -840,
+    "y": -440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "21e6fad4-9f36-469b-a899-97313eeaa75b",
+   "component": "node-cust",
+   "data": {
+    "name": "DRC",
+    "fun": 6,
+    "itemId": "id_1753707327138_1",
+    "subId": 9,
+    "configs": {
+     "name": "DRC3",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "DRC3",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "DRC3",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           83,
+           83
+          ],
+          [
+           140,
+           94.4
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "DRC3",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "DRC3",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "DRC3",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      }
+     ]
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "e7ee9988-75f7-4513-a413-257af73994be",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "21e6fad4-9f36-469b-a899-97313eeaa75b",
+    "port": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+   },
+   "target": {
+    "cell": "9044f32c-6d88-426c-b0ee-7bcda4dd986e",
+    "port": "ba22cc41-5778-4c15-a204-cc1581ab8ed3"
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -680
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "d96fa9c4-e341-4040-b181-35dbb2e83faf",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1753707327138_1",
+    "subId": 99,
+    "configs": {
+     "name": "EQ148",
+     "list": [
+      {
+       "name": "EQ148",
+       "modeId": "id_1683720735891_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902889,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902890,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902891,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902892,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902893,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902894,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902895,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902896,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ148",
+       "modeId": "id_1683722860304_7",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902889,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902890,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902891,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902892,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902893,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902894,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902895,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902896,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ148",
+       "modeId": "id_1683720738954_3",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902889,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902890,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902891,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902892,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902893,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902894,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902895,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902896,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ148",
+       "modeId": "id_1678787127126_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902889,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902890,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902891,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902892,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902893,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902894,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902895,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902896,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "EQ148",
+       "modeId": "id_1683720737069_1",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902889,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902890,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902891,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902892,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902893,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902894,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902895,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902896,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902897,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": -90,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 32
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3c253f31-14bd-4944-8547-546cc3a7d306",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "d96fa9c4-e341-4040-b181-35dbb2e83faf",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "7984a8ec-66de-4870-a4f1-355486bbd9e1",
+    "port": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+   }
+  },
+  {
+   "position": {
+    "x": -840,
+    "y": -680
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "7984a8ec-66de-4870-a4f1-355486bbd9e1",
+   "component": "node-cust",
+   "data": {
+    "name": "DRC",
+    "fun": 6,
+    "itemId": "id_1753707327138_1",
+    "subId": 10,
+    "configs": {
+     "name": "DRC4",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "DRC4",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "DRC4",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "DRC4",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "DRC4",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": false,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "DRC4",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "bypass": true,
+         "attacktime": 100,
+         "releasetime": 200,
+         "data": [
+          [
+           0,
+           0
+          ],
+          [
+           90,
+           90
+          ],
+          [
+           140,
+           140
+          ]
+         ],
+         "inputgain": 0,
+         "outputgain": 0,
+         "rmstime": 25,
+         "algorithm": 0,
+         "precision": 1,
+         "type": 0,
+         "inputGainType": 0
+        }
+       ],
+       "bypass": true
+      }
+     ]
+    },
+    "inBitWidth": 32,
+    "outBitWidth": 16
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "9afe43ba-47d5-4cac-851b-f134c3d0d1de"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "64b652e7-7cfe-4b0a-9244-2846567a21a0",
+   "data": {
+    "itemId": "id_1753707327138_1"
+   },
+   "source": {
+    "cell": "7984a8ec-66de-4870-a4f1-355486bbd9e1",
+    "port": "8caadfb3-68ab-4702-bf51-38e2c11ee2b7"
+   },
+   "target": {
+    "cell": "9044f32c-6d88-426c-b0ee-7bcda4dd986e",
+    "port": "05a7e82d-cc8a-46d7-ab1c-90e8e6c34a8b"
+   }
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

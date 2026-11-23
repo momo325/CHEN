@@ -1,0 +1,42 @@
+{
+ "enable": true,
+ "uuid": "0x99AA",
+ "name": "pipeline-LE_Audio",
+ "bitWidth": 16,
+ "childrenGroup": [
+  {
+   "id": 1670391532440,
+   "title": "立体声",
+   "select": true
+  },
+  {
+   "id": "id_1679995085832_7",
+   "title": "立体声pro",
+   "select": false
+  },
+  {
+   "id": "id_1690878010592_4",
+   "title": "单声道",
+   "select": false
+  },
+  {
+   "id": "id_1690878025506_5",
+   "title": "单声道pro",
+   "select": false
+  },
+  {
+   "id": "id_1739946485005_1",
+   "title": "环绕5.1",
+   "select": false
+  },
+  {
+   "id": "id_1753707356016_2",
+   "title": "立体声-叠加混响广播",
+   "select": false
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}

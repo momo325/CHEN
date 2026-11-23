@@ -1,0 +1,92 @@
+{
+ "enable": true,
+ "uuid": "0x9C2D",
+ "name": "pipeline-mic_effect",
+ "bitWidth": 16,
+ "childrenGroup": [
+  {
+   "id": "id_1691397173903_6",
+   "title": "单声道",
+   "select": false
+  },
+  {
+   "id": "id_1691397187649_7",
+   "title": "单声道pro",
+   "select": false
+  },
+  {
+   "id": "id_1722322384733_0",
+   "title": "单声道_2ADC",
+   "select": false
+  },
+  {
+   "id": "id_1722325617978_3",
+   "title": "单声道_ADC_IIS",
+   "select": false
+  },
+  {
+   "id": "id_1680241705348_0",
+   "title": "立体声",
+   "select": true
+  },
+  {
+   "id": "id_1685512390167_18",
+   "title": "立体声pro",
+   "select": false
+  },
+  {
+   "id": "id_1722322397862_1",
+   "title": "立体声_2ADC",
+   "select": false
+  },
+  {
+   "id": "id_1722323474296_2",
+   "title": "立体声_ADC_IIS",
+   "select": false
+  },
+  {
+   "id": "id_1705284242900_1",
+   "title": "1.1_channel",
+   "select": false
+  },
+  {
+   "id": "id_1685504846185_0",
+   "title": "分频器demo",
+   "select": false
+  },
+  {
+   "id": "id_1739957980714_3",
+   "title": "无线mic_单声道",
+   "select": false
+  },
+  {
+   "id": "id_1739957991049_4",
+   "title": "无线mic_立体声",
+   "select": false
+  },
+  {
+   "id": "id_1740449163666_0",
+   "title": "无_有线mic单声道",
+   "select": false
+  },
+  {
+   "id": "id_1740449192712_1",
+   "title": "无_有线mic立体声",
+   "select": false
+  },
+  {
+   "id": "id_1743648705761_2",
+   "title": "立体声-REC",
+   "select": false
+  },
+  {
+   "id": "id_1753707327138_1",
+   "title": "立体声-叠加混响广播",
+   "select": false
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ }
+}
