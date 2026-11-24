@@ -1,3 +1,6 @@
 info.json
 patch/
 
+# 构建中间产物
+SDK/objs/
+SDK/cpu/br28/tools/sdk.elf*

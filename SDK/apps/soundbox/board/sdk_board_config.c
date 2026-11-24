@@ -138,6 +138,6 @@ void board_init()
     fm_dev_init((void *)(&fm_dev_data));
 #endif
 
-    user_audio_ctrl_init();
+    user_audio_ctrl_board_init();
 }
 

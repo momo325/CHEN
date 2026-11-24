@@ -10,7 +10,8 @@ typedef enum {
     USER_STATE_PARALLEL,
 } user_work_state_t;
 
-void user_audio_ctrl_init(void);
+void user_audio_ctrl_board_init(void);
+void user_audio_ctrl_start(void);
 void user_bt_connection_update(u8 connected);
 void user_usb_slave_online(u8 online);
 void user_uac_tx_activity(void);

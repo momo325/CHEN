@@ -684,6 +684,8 @@ struct app_mode *app_enter_bt_mode(int arg)
 #if TCFG_APP_LINEIN_EN
     linein_player_open();
 #endif
+    /* 常驻流已建立，再启动扫描定时器与音量/闪避节点下发 */
+    user_audio_ctrl_start();
 
     while (1) {
 

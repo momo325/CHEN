@@ -150,6 +150,11 @@ static u8 user_adc_sample(struct user_volume_channel *channel)
     return 1;
 }
 
+static void user_usb_online_task(void)
+{
+    user_state_refresh();
+}
+
 static int user_bt_idle_close_task(void)
 {
     if (!g_user_ctrl.bt_connected && !bt_get_total_connect_dev()) {
@@ -230,7 +235,8 @@ static void user_scan_timer(void *priv)
     }
 }
 
-void user_audio_ctrl_init(void)
+/* board_init 阶段只做引脚初始电平与输入/高阻配置 */
+void user_audio_ctrl_board_init(void)
 {
     memset(&g_user_ctrl, 0, sizeof(g_user_ctrl));
     g_user_ctrl.state = USER_STATE_STANDBY;
@@ -240,15 +246,33 @@ void user_audio_ctrl_init(void)
     gpio_set_mode(IO_PORT_SPILT(USER_DUCK_LED_PIN), PORT_OUTPUT_LOW);
     gpio_set_mode(IO_PORT_SPILT(USER_OTG_LED_PIN), PORT_OUTPUT_LOW);
     gpio_set_mode(IO_PORT_SPILT(USER_DUCK_KEY_PIN), PORT_INPUT_PULLUP_10K);
+    /* 外部 100K/100K 分压，内部禁止上下拉，否则分压点被拉低 */
     gpio_set_mode(IO_PORT_SPILT(USER_VBUS_DET_PIN), PORT_INPUT_FLOATING);
+
+    /* 电位器分压输入：高阻，避免数字输入/上下拉拉偏 10K 电位器 */
+    gpio_set_mode(IO_PORT_SPILT(IO_PORTC_05), PORT_HIGHZ);
+    gpio_set_mode(IO_PORT_SPILT(IO_PORTC_04), PORT_HIGHZ);
+    gpio_set_mode(IO_PORT_SPILT(IO_PORTG_01), PORT_HIGHZ);
 
     g_user_ctrl.mic.adc_ch = adc_io2ch(IO_PORTC_05);
     g_user_ctrl.music.adc_ch = adc_io2ch(IO_PORTC_04);
     g_user_ctrl.otg.adc_ch = adc_io2ch(IO_PORTG_01);
+    printf("user: adc ch mic=%d music=%d otg=%d\n",
+           (int)g_user_ctrl.mic.adc_ch, (int)g_user_ctrl.music.adc_ch, (int)g_user_ctrl.otg.adc_ch);
     adc_add_sample_ch(g_user_ctrl.mic.adc_ch);
     adc_add_sample_ch(g_user_ctrl.music.adc_ch);
     adc_add_sample_ch(g_user_ctrl.otg.adc_ch);
+}
 
+/* 常驻 mic_effect / linein 流打开后再启动扫描与节点参数下发 */
+void user_audio_ctrl_start(void)
+{
+    if (g_user_ctrl.scan_timer) {
+        return;
+    }
+
+    user_volume_update_all();
+    user_duck_update();
     g_user_ctrl.scan_timer = sys_timer_add(NULL, user_scan_timer, USER_SCAN_PERIOD_MS);
 }
 
@@ -281,11 +305,17 @@ void user_bt_connection_update(u8 connected)
 
 void user_usb_slave_online(u8 online)
 {
-    g_user_ctrl.usb_host_online = !!online;
+    online = !!online;
+    if (g_user_ctrl.usb_host_online == online) {
+        return;
+    }
+    /* USB_REQ_SET_CONFIGURATION 可能在中断上下文调用，这里只更新标志，
+       状态刷新抛到 app_core 任务上下文执行 */
+    g_user_ctrl.usb_host_online = online;
     if (!online) {
         g_user_ctrl.uac_tx_last_ms = 0;
     }
-    user_state_refresh();
+    os_taskq_post_type("app_core", Q_CALLBACK, 1, (int[]){(int)user_usb_online_task});
 }
 
 void user_uac_tx_activity(void)
