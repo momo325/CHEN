@@ -1,0 +1,2808 @@
+{
+ "group": {
+  "id": 1652666280629,
+  "title": "立体声",
+  "select": true,
+  "curTab": "id_1677491290416_0",
+  "tabs": [
+   {
+    "id": "id_1677491290416_0",
+    "title": "标准",
+    "disable": false,
+    "selected": "A",
+    "preset": ""
+   }
+  ]
+ },
+ "cells": [
+  {
+   "position": {
+    "x": 400,
+    "y": 320
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "f087e123-aac3-473c-842f-61e1c40009f7",
+   "component": "node-cust",
+   "data": {
+    "name": "提示音",
+    "fun": 9,
+    "itemId": 1652666280629,
+    "subId": 1,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "nodeName": "tone",
+    "formFile": "../../.按键列表配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X768A",
+    "group": "输入输出",
+    "marco": "TCFG_TONE_NODE_ENABLE",
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "id": "cdc99af1-9b69-4ebc-bcbe-f87b87d71181",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "bf013368-c878-4b00-8fd2-b67056756e60",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "f087e123-aac3-473c-842f-61e1c40009f7",
+    "port": "cdc99af1-9b69-4ebc-bcbe-f87b87d71181"
+   },
+   "target": {
+    "cell": "d52ec50a-3cb4-4b5b-b192-0aff94fc77ea",
+    "port": "f6b1a025-238f-476a-8a35-7e285b7eb193"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 520,
+    "y": 320
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "d52ec50a-3cb4-4b5b-b192-0aff94fc77ea",
+   "component": "node-cust",
+   "data": {
+    "name": "解码器",
+    "fun": 0,
+    "itemId": 1652666280629,
+    "subId": 1,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "outBitWidth": 16,
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X1A85",
+    "group": "编解码",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "f6b1a025-238f-476a-8a35-7e285b7eb193",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     },
+     {
+      "group": "out",
+      "id": "c3184336-f5f8-4399-acb7-61531732c642",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "243686e4-3089-44b5-9f1d-847d9b9e6176",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "d52ec50a-3cb4-4b5b-b192-0aff94fc77ea",
+    "port": "c3184336-f5f8-4399-acb7-61531732c642"
+   },
+   "target": {
+    "cell": "90ff8c1c-f22d-4f6e-9ada-c430d86baad6",
+    "port": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 640,
+    "y": 320
+   },
+   "size": {
+    "width": 120,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "90ff8c1c-f22d-4f6e-9ada-c430d86baad6",
+   "component": "node-cust",
+   "data": {
+    "name": "蓝牙音频同步",
+    "fun": 1,
+    "itemId": 1652666280629,
+    "subId": 1,
+    "configs": {
+     "name": "config423581",
+     "list": [
+      {
+       "name": "config423581",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1693539807876_1",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            },
+            {
+             "id": "id_1716965372533_1",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "modeId": "id_1677491290416_0",
+       "bypass": false
+      }
+     ]
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 16,
+    "formFile": "../../.sync配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0XA576",
+    "group": "控制",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true,
+    "nodeDoc": "\\docs\\html\\SDK\\audio_flow\\CommonComponents\\bt_play_sync.html",
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "d7a281cf-7786-4e78-9b6c-e016cc3d67ac",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "90ff8c1c-f22d-4f6e-9ada-c430d86baad6",
+    "port": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+   },
+   "target": {
+    "cell": "fa6e2a61-9864-4973-be3c-294d1b5feb55",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 800,
+    "y": 320
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "fa6e2a61-9864-4973-be3c-294d1b5feb55",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": 1652666280629,
+    "subId": 1,
+    "configs": {
+     "name": "Vol_SysTone",
+     "list": [
+      {
+       "modeId": "id_1677491290416_0",
+       "name": "Vol_SysTone",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 16
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 10
+          },
+          {
+           "id": "id_1677751149521_1",
+           "list": []
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      }
+     ]
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 16,
+    "formFile": "../../.音量配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X74E3",
+    "group": "控制",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "b2d3f1e2-8faa-4171-b57d-af56bb78d162",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "fa6e2a61-9864-4973-be3c-294d1b5feb55",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "9f421358-1e26-4fad-8fd8-32232d03fa97",
+    "port": "68f23822-e867-4587-95f2-ea2fdc782457"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 920,
+    "y": 320
+   },
+   "size": {
+    "width": 80,
+    "height": 320
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "9f421358-1e26-4fad-8fd8-32232d03fa97",
+   "component": "node-cust",
+   "data": {
+    "name": "MIXER",
+    "fun": 1,
+    "itemId": 1652666280629,
+    "subId": 1,
+    "configs": {
+     "name": "MIXER1",
+     "list": [
+      {
+       "name": "MIXER1",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1693468600809_0",
+           "value": 1
+          },
+          {
+           "id": "id_1693469541112_2",
+           "value": 1
+          },
+          {
+           "id": "id_1693469541968_3",
+           "value": 1
+          },
+          {
+           "id": "id_1693469542656_4",
+           "value": 1
+          },
+          {
+           "id": "id_1693469543266_5",
+           "value": 1
+          },
+          {
+           "id": "id_1693469544016_6",
+           "value": 1
+          }
+         ],
+         "enable": true
+        }
+       ],
+       "modeId": "id_1677491290416_0"
+      }
+     ]
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 16,
+    "formFile": "../../.mixer配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0XE62A",
+    "group": "数据流",
+    "marco": "TCFG_MIXER_NODE_ENABLE",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true,
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "68f23822-e867-4587-95f2-ea2fdc782457",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "7e415bae-2c74-4fe0-bb46-2d10df959f2d",
+      "index": 1,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "27dfbbaa-d621-4f07-87f4-d225345ea5c9",
+      "index": 2,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "dc83f2cd-4ca4-4181-a92f-81ca6502eda8",
+      "index": 3,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "c6faaf1a-4da6-4274-93ee-4fb07bd8a7a3",
+      "index": 4,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "d089f635-dcad-425d-a915-8497629d0051",
+      "index": 5,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "45496374-9afc-48bd-9290-281a7f915239",
+      "index": 6,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "77af414c-be0f-422e-b727-80e4761b8f69",
+      "index": 7,
+      "hasFindPort": true
+     },
+     {
+      "group": "out",
+      "id": "abe42cff-6cb6-4840-828c-522499261749",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "666032f0-4c4c-4686-a31b-d73604da1bd4",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "9f421358-1e26-4fad-8fd8-32232d03fa97",
+    "port": "abe42cff-6cb6-4840-828c-522499261749"
+   },
+   "target": {
+    "cell": "5bef1489-48be-4871-b458-dbfd413a52d4",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 1040,
+    "y": 440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "5bef1489-48be-4871-b458-dbfd413a52d4",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 18,
+    "itemId": 1652666280629,
+    "configs": {
+     "name": "ChannelExpand18",
+     "list": [
+      {
+       "modeId": "id_1677491290416_0",
+       "name": "ChannelExpand18",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "formFile": "../../.channel_expander配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0XDA15",
+    "group": "渲染",
+    "marco": "TCFG_CHANNEL_EXPANDER_NODE_ENABLE",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true,
+    "nodeDoc": "\\docs\\html\\SDK\\audio_effects\\ChannelAdapter_manual.html"
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "573841a5-c8ab-4ab2-b656-46e74e1f1e84",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "5bef1489-48be-4871-b458-dbfd413a52d4",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "91f4b9f9-5ba1-4bb2-aac0-230af82cc81b",
+    "port": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 1160,
+    "y": 440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "91f4b9f9-5ba1-4bb2-aac0-230af82cc81b",
+   "component": "node-cust",
+   "data": {
+    "name": "BitWidth Convert",
+    "fun": 0,
+    "subId": 31,
+    "itemId": 1652666280629,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X7DE5",
+    "group": "渲染",
+    "marco": "TCFG_CONVERT_NODE_ENABLE",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": false,
+    "nodeDoc": "\\docs\\html\\SDK\\audio_effects\\BitWidth_Convert_manual.html"
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "bb5c1ab1-3636-4db1-a343-a9d141d13437",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "91f4b9f9-5ba1-4bb2-aac0-230af82cc81b",
+    "port": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+   },
+   "target": {
+    "cell": "6a3c791e-3eaf-47ac-be94-efbad78d2738",
+    "port": "affc17ac-7fd4-4f15-8df2-083e80e03886"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 1280,
+    "y": 440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "6a3c791e-3eaf-47ac-be94-efbad78d2738",
+   "component": "node-cust",
+   "data": {
+    "name": "DAC",
+    "fun": 1,
+    "subId": 24,
+    "itemId": 1652666280629,
+    "configs": {
+     "name": "DAC24",
+     "list": [
+      {
+       "modeId": "id_1677491290416_0",
+       "name": "DAC24",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1677138688471_1",
+           "list": [
+            {
+             "id": "id_1677642341249_0",
+             "value": 50
+            },
+            {
+             "id": "id_1677642343355_1",
+             "value": 8
+            },
+            {
+             "id": "id_1677642344547_2",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "formFile": "../../.DAC配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0XDCCD",
+    "group": "输入输出",
+    "marco": "TCFG_DAC_NODE_ENABLE",
+    "inBit": 2,
+    "bitConsistency": false,
+    "nodeDoc": "\\docs\\html\\SDK\\audio_flow\\CommonComponents\\dac.html",
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "affc17ac-7fd4-4f15-8df2-083e80e03886",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 400,
+    "y": 440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "90416b1b-f9ab-4b7d-8ddd-8f1ea8bb5f1f",
+   "component": "node-cust",
+   "data": {
+    "name": "按键音",
+    "fun": 0,
+    "itemId": 1652666280629,
+    "subId": 1,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X8346",
+    "group": "输入输出",
+    "marco": "TCFG_KEY_TONE_NODE_ENABLE",
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "01179ddf-66ce-4fcd-96bb-c7be7b8de8b1"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "37a531c1-0611-4714-8580-8aa9448de3ee",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "90416b1b-f9ab-4b7d-8ddd-8f1ea8bb5f1f",
+    "port": "01179ddf-66ce-4fcd-96bb-c7be7b8de8b1"
+   },
+   "target": {
+    "cell": "31f6c6f6-0a13-498f-aa3d-0b2893cddc78",
+    "port": "f6b1a025-238f-476a-8a35-7e285b7eb193"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 520,
+    "y": 440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "31f6c6f6-0a13-498f-aa3d-0b2893cddc78",
+   "component": "node-cust",
+   "data": {
+    "name": "解码器",
+    "fun": 0,
+    "itemId": 1652666280629,
+    "subId": 2,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "outBitWidth": 16,
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X1A85",
+    "group": "编解码",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "f6b1a025-238f-476a-8a35-7e285b7eb193",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     },
+     {
+      "group": "out",
+      "id": "c3184336-f5f8-4399-acb7-61531732c642",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "7ef4c72b-a25b-4b64-90e4-b7087cfdd2d7",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "31f6c6f6-0a13-498f-aa3d-0b2893cddc78",
+    "port": "c3184336-f5f8-4399-acb7-61531732c642"
+   },
+   "target": {
+    "cell": "3f324994-1f83-461d-bb09-3cd477a6a91e",
+    "port": "14c9c71a-e725-4f0f-abf1-78be39cbb35f"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 640,
+    "y": 440
+   },
+   "size": {
+    "width": 120,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "3f324994-1f83-461d-bb09-3cd477a6a91e",
+   "component": "node-cust",
+   "data": {
+    "name": "SRC",
+    "fun": 0,
+    "itemId": 1652666280629,
+    "subId": 16,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 16,
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X1ECD",
+    "group": "渲染",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "14c9c71a-e725-4f0f-abf1-78be39cbb35f"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "49d0bf9f-e0f8-49fc-9103-30eabb9a687d"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "2873d614-f0e9-4f5c-8109-088ed00abffb",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "3f324994-1f83-461d-bb09-3cd477a6a91e",
+    "port": "49d0bf9f-e0f8-49fc-9103-30eabb9a687d"
+   },
+   "target": {
+    "cell": "59e2f9b0-59e1-47d0-9c9b-a81d57dcca91",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 800,
+    "y": 440
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "59e2f9b0-59e1-47d0-9c9b-a81d57dcca91",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": 1652666280629,
+    "subId": 2,
+    "configs": {
+     "name": "Vol_SysKTone",
+     "list": [
+      {
+       "modeId": "id_1677491290416_0",
+       "name": "Vol_SysKTone",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1676447481291_4",
+           "value": 16
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 10
+          },
+          {
+           "id": "id_1677751149521_1",
+           "list": []
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 16,
+    "formFile": "../../.音量配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X74E3",
+    "group": "控制",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "8389fd5a-9e81-48f2-bfd1-3a7b22360b24",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "59e2f9b0-59e1-47d0-9c9b-a81d57dcca91",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "9f421358-1e26-4fad-8fd8-32232d03fa97",
+    "port": "dc83f2cd-4ca4-4181-a92f-81ca6502eda8"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 400,
+    "y": 560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "ba67dcc4-9191-41b7-b137-a7a4536045db",
+   "component": "node-cust",
+   "data": {
+    "name": "铃声",
+    "fun": 0,
+    "subId": 8,
+    "itemId": 1652666280629,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0XCADC",
+    "group": "输入输出",
+    "marco": "TCFG_RING_TONE_NODE_ENABLE",
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "dc9f133e-a8e4-4dad-9d7b-0ec5f5c78a6f"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "7e5143e9-5617-428a-a9c9-e1465b3caa5f",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "ba67dcc4-9191-41b7-b137-a7a4536045db",
+    "port": "dc9f133e-a8e4-4dad-9d7b-0ec5f5c78a6f"
+   },
+   "target": {
+    "cell": "79c92093-9d87-420a-a00a-9c8192715cae",
+    "port": "f6b1a025-238f-476a-8a35-7e285b7eb193"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 520,
+    "y": 560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "79c92093-9d87-420a-a00a-9c8192715cae",
+   "component": "node-cust",
+   "data": {
+    "name": "解码器",
+    "fun": 0,
+    "itemId": 1652666280629,
+    "subId": 51,
+    "configs": {
+     "name": "",
+     "list": []
+    },
+    "formFile": "",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X1A85",
+    "group": "编解码",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "f6b1a025-238f-476a-8a35-7e285b7eb193",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     },
+     {
+      "group": "out",
+      "id": "c3184336-f5f8-4399-acb7-61531732c642",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      }
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "47142e87-4b05-493a-988d-f7ae67ba1ac4",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "79c92093-9d87-420a-a00a-9c8192715cae",
+    "port": "c3184336-f5f8-4399-acb7-61531732c642"
+   },
+   "target": {
+    "cell": "1c22a769-e751-4d22-998b-efdebe8d788e",
+    "port": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 640,
+    "y": 560
+   },
+   "size": {
+    "width": 120,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "1c22a769-e751-4d22-998b-efdebe8d788e",
+   "component": "node-cust",
+   "data": {
+    "name": "蓝牙音频同步",
+    "fun": 1,
+    "itemId": 1652666280629,
+    "subId": 19,
+    "configs": {
+     "name": "config4235819",
+     "list": [
+      {
+       "name": "config4235819",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1693539807876_1",
+           "list": [
+            {
+             "id": "id_1693469084872_1",
+             "value": 0
+            },
+            {
+             "id": "id_1716965372533_1",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "modeId": "id_1677491290416_0",
+       "bypass": false
+      }
+     ]
+    },
+    "formFile": "../../.sync配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0XA576",
+    "group": "控制",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true,
+    "nodeDoc": "\\docs\\html\\SDK\\audio_flow\\CommonComponents\\bt_play_sync.html",
+    "dynamicPort": {
+     "iMax": 0,
+     "iMin": 0,
+     "oMax": 0,
+     "oMin": 0
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "f0e1a491-b748-4a72-a19f-731323bbda72",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "1c22a769-e751-4d22-998b-efdebe8d788e",
+    "port": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+   },
+   "target": {
+    "cell": "d7199bb4-ba86-4715-9d9f-551a5f76d5ff",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "position": {
+    "x": 800,
+    "y": 560
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "d7199bb4-ba86-4715-9d9f-551a5f76d5ff",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": 1652666280629,
+    "subId": 53,
+    "configs": {
+     "name": "Vol_SysRing",
+     "list": [
+      {
+       "modeId": "id_1677491290416_0",
+       "name": "Vol_SysRing",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 16
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 10
+          },
+          {
+           "id": "id_1677751149521_1",
+           "list": []
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "formFile": "../../.音量配置.json",
+    "cmd": {
+     "exe": "",
+     "args": "",
+     "workplace": ""
+    },
+    "uuid": "0X74E3",
+    "group": "控制",
+    "inBit": 2,
+    "outBit": 2,
+    "bitConsistency": true
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "label": {
+       "position": {
+        "name": "outside",
+        "args": {
+         "y": 10
+        }
+       }
+      },
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ],
+    "groups": {
+     "in": {
+      "position": "left",
+      "label": {
+       "position": "bottom"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "id": "1",
+        "event": "port:click",
+        "magnet": true,
+        "stroke": "#E3B14C",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     },
+     "out": {
+      "position": "right",
+      "label": {
+       "position": "bottom",
+       "color": "#ffff"
+      },
+      "attrs": {
+       "text": {
+        "fill": "#2b3f57",
+        "font-size": "12",
+        "visibility": "visible",
+        "text": ""
+       },
+       "circle": {
+        "r": 6,
+        "magnet": true,
+        "stroke": "#7DC06E",
+        "strokeWidth": 2,
+        "fill": "#f2f2f2",
+        "event": "port:click",
+        "style": {
+         "visibility": "visible"
+        }
+       }
+      }
+     }
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  },
+  {
+   "shape": "edge",
+   "id": "c4c3a916-2bbc-4451-a6b6-01b928bdd7c4",
+   "data": {
+    "itemId": 1652666280629
+   },
+   "source": {
+    "cell": "d7199bb4-ba86-4715-9d9f-551a5f76d5ff",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "9f421358-1e26-4fad-8fd8-32232d03fa97",
+    "port": "45496374-9afc-48bd-9290-281a7f915239"
+   },
+   "attrs": {
+    "line": {
+     "stroke": "#A4A5A9",
+     "strokeWidth": "2px",
+     "targetMarker": {
+      "tagName": "path",
+      "d": "M 6 -2.5 0 0 6 2.5 Z",
+      "strokeWidth": 1.5,
+      "fill": "#A4A5A9",
+      "stroke": "#A4A5A9"
+     },
+     "distance": 40
+    }
+   },
+   "visible": true,
+   "zIndex": 10
+  }
+ ],
+ "version": {
+  "code": 16,
+  "tool": "4.10.0"
+ },
+ "stencil": {
+  "time": "20260831164258"
+ }
+}

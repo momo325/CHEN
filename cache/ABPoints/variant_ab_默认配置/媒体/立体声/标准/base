@@ -1,0 +1,1645 @@
+[
+ {
+  "node": "608de166-062e-479c-91f2-d736b71f9ce3",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "Vol_FileMusic"
+  }
+ },
+ {
+  "node": "68d7e888-1caf-41c9-9148-ed54f89c44b9",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1692607304610_0",
+       "list": [
+        {
+         "id": "id_1693468600809_0",
+         "value": 1
+        },
+        {
+         "id": "id_1693469541112_2",
+         "value": 1
+        },
+        {
+         "id": "id_1693469541968_3",
+         "value": 1
+        },
+        {
+         "id": "id_1693469542656_4",
+         "value": 1
+        },
+        {
+         "id": "id_1693469543266_5",
+         "value": 1
+        },
+        {
+         "id": "id_1693469544016_6",
+         "value": 1
+        },
+        {
+         "id": "id_1694660183626_0",
+         "value": 1
+        },
+        {
+         "id": "id_1696938086525_0",
+         "value": 1
+        },
+        {
+         "id": "id_1708417612901_2",
+         "value": 1
+        },
+        {
+         "id": "id_1708417613613_3",
+         "value": 1
+        },
+        {
+         "id": "id_1708417615676_4",
+         "value": 1
+        },
+        {
+         "id": "id_1708417713332_5",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1708417559152_0",
+       "list": [
+        {
+         "id": "id_1708417599972_1",
+         "value": 0
+        }
+       ],
+       "expand": 2
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "MIXER7"
+  }
+ },
+ {
+  "node": "70000000-0000-4000-8000-000000000014",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1692607304610_0",
+       "list": [
+        {
+         "id": "id_1693468600809_0",
+         "value": 1
+        },
+        {
+         "id": "id_1693469541112_2",
+         "value": 1
+        },
+        {
+         "id": "id_1693469541968_3",
+         "value": 1
+        },
+        {
+         "id": "id_1693469542656_4",
+         "value": 1
+        },
+        {
+         "id": "id_1693469543266_5",
+         "value": 1
+        },
+        {
+         "id": "id_1693469544016_6",
+         "value": 1
+        },
+        {
+         "id": "id_1694660183626_0",
+         "value": 1
+        },
+        {
+         "id": "id_1696938086525_0",
+         "value": 1
+        },
+        {
+         "id": "id_1708417612901_2",
+         "value": 1
+        },
+        {
+         "id": "id_1708417613613_3",
+         "value": 1
+        },
+        {
+         "id": "id_1708417615676_4",
+         "value": 1
+        },
+        {
+         "id": "id_1708417713332_5",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1708417559152_0",
+       "list": [
+        {
+         "id": "id_1708417599972_1",
+         "value": 0
+        }
+       ],
+       "expand": 2
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "MIXER_DAC"
+  }
+ },
+ {
+  "node": "49da99dd-02c8-4a1f-b43a-3246a2d8701d",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": true,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1675825867879_53",
+       "value": 0
+      },
+      {
+       "id": "id_1679282038363_10",
+       "value": 180
+      },
+      {
+       "id": "id_1679282044559_11",
+       "value": 10000
+      },
+      {
+       "id": "id_1679277016903_6",
+       "value": 100
+      }
+     ],
+     "enable": true,
+     "bypass": true
+    },
+    {
+     "name": "arg1",
+     "enable": true,
+     "data": [
+      {
+       "id": "id_1675825867879_53",
+       "value": 0
+      },
+      {
+       "id": "id_1679282038363_10",
+       "value": 180
+      },
+      {
+       "id": "id_1679282044559_11",
+       "value": 10000
+      },
+      {
+       "id": "id_1679277016903_6",
+       "value": 100
+      }
+     ],
+     "bypass": true
+    }
+   ],
+   "name": "VocalRemovMedia"
+  }
+ },
+ {
+  "node": "3a2ec53b-9ab1-4fbd-a6ee-499dae4d522c",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "enable": true,
+     "data": [
+      {
+       "id": 1679997255158,
+       "name": "1",
+       "CenterFrequency": 25,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255159,
+       "name": "2",
+       "CenterFrequency": 53,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255160,
+       "name": "3",
+       "CenterFrequency": 113,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255161,
+       "name": "4",
+       "CenterFrequency": 240,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255162,
+       "name": "5",
+       "CenterFrequency": 509,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255163,
+       "name": "6",
+       "CenterFrequency": 1081,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255164,
+       "name": "7",
+       "CenterFrequency": 2296,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255165,
+       "name": "8",
+       "CenterFrequency": 4876,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255166,
+       "name": "9",
+       "CenterFrequency": 10358,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1679997255167,
+       "name": "10",
+       "CenterFrequency": 22000,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      }
+     ],
+     "size": 10,
+     "gain": 0,
+     "range": 20,
+     "bypass": false
+    }
+   ],
+   "name": "Eq0Media"
+  }
+ },
+ {
+  "node": "6ed9f482-f54f-4958-a741-b9ff55033df4",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "enable": true,
+     "bypass": false,
+     "attacktime": 100,
+     "releasetime": 200,
+     "data": [
+      [
+       -90,
+       -90
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       20,
+       20
+      ]
+     ],
+     "inputgain": 0,
+     "outputgain": 0,
+     "rmstime": 25,
+     "algorithm": 0,
+     "precision": 1,
+     "type": 1,
+     "inputGainType": 0
+    }
+   ],
+   "name": "Drc0Media"
+  }
+ },
+ {
+  "node": "afd15535-ea19-48a2-84f6-d76c4b2a6515",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1675825867879_27",
+       "list": [
+        {
+         "id": "id_1704936301911_1",
+         "value": 4
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "ChannelMeBF8E13"
+  }
+ },
+ {
+  "node": "6c4f09e8-8664-4523-bf96-38f0c6579107",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "default",
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    },
+    {
+     "name": "a2dp",
+     "enable": true,
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "bypass": false
+    },
+    {
+     "name": "linein",
+     "enable": true,
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 4
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "bypass": false
+    },
+    {
+     "name": "music",
+     "enable": true,
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "bypass": false
+    },
+    {
+     "name": "fm",
+     "enable": true,
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "bypass": false
+    },
+    {
+     "name": "spdif",
+     "enable": true,
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "bypass": false
+    }
+   ],
+   "name": "DAC3"
+  }
+ },
+ {
+  "node": "39b72e73-af08-460a-899d-e8d11ae89f73",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1671070268689_0",
+       "list": [
+        {
+         "id": "id_1671070296872_1",
+         "value": [
+          1,
+          2
+         ]
+        }
+       ]
+      },
+      {
+       "id": "id_1675824280474_161",
+       "list": [
+        {
+         "id": "id_1675824280474_155",
+         "value": 4
+        },
+        {
+         "id": "id_1671073072823_3",
+         "value": 0
+        }
+       ]
+      },
+      {
+       "id": "id_1671176268890_10",
+       "list": [
+        {
+         "id": "id_1671176268890_12",
+         "value": 4
+        },
+        {
+         "id": "id_1671176268890_13",
+         "value": 0
+        }
+       ]
+      },
+      {
+       "id": "id_1673164303524_0",
+       "list": [
+        {
+         "id": "id_1673164303524_2",
+         "value": 4
+        },
+        {
+         "id": "id_1673164303524_3",
+         "value": 0
+        }
+       ]
+      },
+      {
+       "id": "id_1673164306360_9",
+       "list": [
+        {
+         "id": "id_1673164306360_11",
+         "value": 4
+        },
+        {
+         "id": "id_1673164306360_12",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "linein_adc"
+  }
+ },
+ {
+  "node": "509fc959-c917-4a18-a4b7-fb7d899172c2",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_3",
+       "list": [
+        {
+         "id": "id_1677140583268_0",
+         "value": 7
+        },
+        {
+         "id": "id_1677144866465_6",
+         "value": 100
+        },
+        {
+         "id": "id_1677144833176_4",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "config397392"
+  }
+ },
+ {
+  "node": "e3ab9f7a-b81c-48ca-928f-f698fbdea607",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_LinMusic"
+  }
+ },
+ {
+  "node": "12d855e4-55d7-4ac7-9a33-3b0801e87f9f",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "bypass": false,
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1679401397784_1",
+       "list": [
+        {
+         "id": "id_1679555977650_17",
+         "value": 0
+        },
+        {
+         "id": "id_1679555982007_20",
+         "value": 6
+        },
+        {
+         "id": "id_1679555983236_21",
+         "value": 100
+        },
+        {
+         "id": "id_1681279761292_0",
+         "value": 100
+        },
+        {
+         "id": "id_1681694552561_0",
+         "value": 1000
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "AutoDuckLinein"
+  }
+ },
+ {
+  "node": "e52fad68-4743-4cc7-aa54-c23cbfc260f5",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_3",
+       "list": [
+        {
+         "id": "id_1677140583268_0",
+         "value": 20
+        },
+        {
+         "id": "id_1677144866465_6",
+         "value": 100
+        },
+        {
+         "id": "id_1719387029771_0",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "config3973917"
+  }
+ },
+ {
+  "node": "b6d3bef7-f236-4644-b087-f62d686b0a23",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "Vol_FmMusic"
+  }
+ },
+ {
+  "node": "9d56fc78-fb68-46c5-bb1a-b3448579d700",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 1
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "A2DP_RX7"
+  }
+ },
+ {
+  "node": "e3633fc4-c115-4343-9761-d4f7d176a91c",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 0
+        },
+        {
+         "id": "id_1716965372533_1",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "config4235818"
+  }
+ },
+ {
+  "node": "581ed21e-348b-4b06-9edd-7310cd363900",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 50
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 50
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_BtmMusic"
+  }
+ },
+ {
+  "node": "ad2b4e62-b0c9-4ab5-9867-b97ba6b106b5",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "bypass": false,
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1679401397784_1",
+       "list": [
+        {
+         "id": "id_1679555977650_17",
+         "value": 0
+        },
+        {
+         "id": "id_1679555982007_20",
+         "value": 6
+        },
+        {
+         "id": "id_1679555983236_21",
+         "value": 100
+        },
+        {
+         "id": "id_1681279761292_0",
+         "value": 100
+        },
+        {
+         "id": "id_1681694552561_0",
+         "value": 1000
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "AutoDuckBt"
+  }
+ },
+ {
+  "node": "5d7e5a07-0133-4a32-bd3c-38221cd715ef",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676941449220_9",
+       "list": [
+        {
+         "id": "id_1676947560619_24",
+         "value": 1
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "IIS0_RX1"
+  }
+ },
+ {
+  "node": "df73b7d5-848c-413c-b963-b30454aa47ac",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_3",
+       "list": [
+        {
+         "id": "id_1677140583268_0",
+         "value": 20
+        },
+        {
+         "id": "id_1677144866465_6",
+         "value": 100
+        },
+        {
+         "id": "id_1719387029771_0",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "9B3B47"
+  }
+ },
+ {
+  "node": "327de66a-aec1-47de-84bb-d628b4843b59",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_IISMusic"
+  }
+ },
+ {
+  "node": "bfe2d92b-a4fd-43e0-a286-085e876aec5d",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1671070268689_0",
+       "list": [
+        {
+         "id": "id_1671070296872_1",
+         "value": [
+          1
+         ]
+        }
+       ]
+      },
+      {
+       "id": "id_1675824280474_161",
+       "list": [
+        {
+         "id": "id_1675824280474_155",
+         "value": 10
+        },
+        {
+         "id": "id_1671073072823_3",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1671176268890_10",
+       "list": [
+        {
+         "id": "id_1671176268890_12",
+         "value": 10
+        },
+        {
+         "id": "id_1671176268890_13",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1673164303524_0",
+       "list": [
+        {
+         "id": "id_1673164303524_2",
+         "value": 10
+        },
+        {
+         "id": "id_1673164303524_3",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1673164306360_9",
+       "list": [
+        {
+         "id": "id_1673164306360_11",
+         "value": 10
+        },
+        {
+         "id": "id_1673164306360_12",
+         "value": 1
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "ADC30"
+  }
+ },
+ {
+  "node": "91a6c39f-d7b4-4d0c-af2a-fd6e7280c1df",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_3",
+       "list": [
+        {
+         "id": "id_1677140583268_0",
+         "value": 10
+        },
+        {
+         "id": "id_1677144866465_6",
+         "value": 100
+        },
+        {
+         "id": "id_1719387029771_0",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "9B3B52"
+  }
+ },
+ {
+  "node": "6c6e5a7e-48ab-4cff-ac99-6e4d87eedc64",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 50
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 50
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_MicMusic"
+  }
+ },
+ {
+  "node": "98c4472d-2891-4dbd-a2b4-8f688c4ce5cd",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_3",
+       "list": [
+        {
+         "id": "id_1677140583268_0",
+         "value": 25
+        },
+        {
+         "id": "id_1677144866465_6",
+         "value": 100
+        },
+        {
+         "id": "id_1719387029771_0",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "9B3B18"
+  }
+ },
+ {
+  "node": "f917f843-3426-4351-8d53-b3aba790e20d",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_PcspkMusic"
+  }
+ },
+ {
+  "node": "92fa18db-f545-4e3c-9c40-9a8b1d543c87",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "bypass": false,
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1679401397784_1",
+       "list": [
+        {
+         "id": "id_1679555977650_17",
+         "value": 0
+        },
+        {
+         "id": "id_1679555982007_20",
+         "value": 6
+        },
+        {
+         "id": "id_1679555983236_21",
+         "value": 100
+        },
+        {
+         "id": "id_1681279761292_0",
+         "value": 100
+        },
+        {
+         "id": "id_1681694552561_0",
+         "value": 1000
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "AutoDuckPcSpk"
+  }
+ },
+ {
+  "node": "14494de0-cc19-4b1b-8f90-49832cdd3018",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 4
+        },
+        {
+         "id": "id_1716965372533_1",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "A57636"
+  }
+ },
+ {
+  "node": "b2cf68c0-140e-4ebc-baf4-a00a419d20ac",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": true,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 16
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 8
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 8
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": true
+    }
+   ],
+   "name": "74E3103"
+  }
+ },
+ {
+  "node": "a3dd150f-6241-4914-8c92-c98637d83dd3",
+  "parentTab": "id_1675673742631_8",
+  "group": 1670391532440,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      },
+      {
+       "id": "id_1702378606977_0",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 0
+        }
+       ],
+       "expand": 1
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "DAC41"
+  }
+ }
+]

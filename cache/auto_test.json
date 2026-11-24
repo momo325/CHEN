@@ -1,0 +1,19 @@
+{
+ "files": [
+  "src\\板级配置.json",
+  "src\\功能配置.json",
+  "src\\按键配置.json",
+  "src\\电源配置.json",
+  "src\\UI配置.json",
+  "src\\蓝牙配置.json",
+  "src\\LE_AUDIO配置\\公共配置.json",
+  "src\\LE_AUDIO配置\\JL_BIS配置.json",
+  "src\\LE_AUDIO配置\\JL_CIS配置.json",
+  "src\\LE_AUDIO配置\\AURACAST配置.json",
+  "src\\LE_AUDIO配置\\无线环绕声配置.json",
+  "src\\升级配置.json",
+  "src\\音频配置.json"
+ ],
+ "batchSize": 5,
+ "ioRandomCount": 3
+}

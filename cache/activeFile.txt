@@ -1,10 +1,11 @@
 {
  "activeFile": {
   "folder": false,
-  "binName": "boardcfg.bin",
-  "type": 1,
-  "showName": "板级配置",
-  "fileName": "src\\板级配置.json"
+  "type": 4,
+  "showName": "麦克风音效",
+  "fileName": "src\\音频流程\\麦克风音效\\麦克风音效.x6flow",
+  "binName": "stream.bin",
+  "data": ""
  },
  "currentVariant": {
   "name": "默认配置"

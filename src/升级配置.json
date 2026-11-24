@@ -315,7 +315,7 @@
            "gpio"
           ],
           "saveWay": "macro",
-          "defaultValue": "",
+          "defaultValue": "0",
           "uuid": "TCFG_UART_UPDATE_TX_PIN",
           "originValue": ""
          },
@@ -358,7 +358,7 @@
            "gpio"
           ],
           "saveWay": "macro",
-          "defaultValue": "",
+          "defaultValue": "0",
           "uuid": "TCFG_UART_UPDTAE_RX_PIN",
           "originValue": ""
          },
@@ -453,7 +453,7 @@
           "changeTag": true,
           "tag": "el-input",
           "tagIcon": "input",
-          "defaultValue": "",
+          "defaultValue": "PB02&1_PB08&1",
           "required": false,
           "layout": "colFormItem",
           "span": 6,
@@ -573,7 +573,7 @@
           "changeTag": true,
           "tag": "el-input",
           "tagIcon": "input",
-          "defaultValue": "",
+          "defaultValue": "0",
           "required": false,
           "layout": "colFormItem",
           "span": 6,
@@ -669,7 +669,7 @@
            "gpio"
           ],
           "saveWay": "macro",
-          "defaultValue": "",
+          "defaultValue": "0",
           "uuid": "CONFIG_UPDATE_MUTIL_CPU_UART_TX_PIN",
           "originValue": ""
          },
@@ -712,7 +712,7 @@
            "gpio"
           ],
           "saveWay": "macro",
-          "defaultValue": "",
+          "defaultValue": "0",
           "uuid": "CONFIG_UPDATE_MUTIL_CPU_UART_RX_PIN",
           "originValue": ""
          },

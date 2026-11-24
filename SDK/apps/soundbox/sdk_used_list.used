@@ -81,17 +81,6 @@ three_band_merge_node_adapter
 sound_splitter_node_adapter
 wdrc_node_adapter
 voice_changer_node_adapter
-
-
-
-
-
-
-
-noisegate_node_adapter
-
-
-
 frequency_shift_node_adapter
 
 
@@ -118,7 +107,6 @@ vocal_remover_node_adapter
 
 
 eq_node_adapter
-g729_dec_plug
 mp3_dec_plug
 mp3_stream_dec_plug
 

@@ -360,7 +360,7 @@
    },
    "target": {
     "cell": "6851990e-cd8e-4b87-aff3-50e4d798316b",
-    "port": "cd9a2388-655e-4ea7-b6cd-d13159326b91"
+    "port": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
    }
   },
   {
@@ -391,12 +391,12 @@
      {
       "group": "in",
       "index": 0,
-      "id": "cd9a2388-655e-4ea7-b6cd-d13159326b91"
+      "id": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
      },
      {
       "group": "out",
       "index": 1,
-      "id": "80ebc7f7-1a6c-4a89-bf59-9b7d3d17ee92"
+      "id": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
      }
     ]
    }
@@ -409,7 +409,7 @@
    },
    "source": {
     "cell": "6851990e-cd8e-4b87-aff3-50e4d798316b",
-    "port": "80ebc7f7-1a6c-4a89-bf59-9b7d3d17ee92"
+    "port": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
    },
    "target": {
     "cell": "ab3a1867-519d-4f6b-80aa-1528318a8c96",
@@ -486,5 +486,8 @@
  "version": {
   "code": 16,
   "tool": "4.10.0"
+ },
+ "stencil": {
+  "time": "20260831164258"
  }
 }

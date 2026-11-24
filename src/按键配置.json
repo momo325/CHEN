@@ -2707,7 +2707,7 @@
     "eventField": [],
     "saveWay": "code",
     "uuid": "",
-    "disable": false,
+    "disable": true,
     "structDef": " const struct adkey_info g_adkey_data"
    },
    "type": "default",

@@ -42,7 +42,7 @@
         "gpio"
        ],
        "saveWay": "macro",
-       "defaultValue": "IO_PORTA_05",
+       "defaultValue": "id_1654138247476_3",
        "uuid": "TCFG_DEBUG_UART_TX_PIN"
       },
       "__slot__": {
@@ -1246,7 +1246,8 @@
     "saveWay": "",
     "uuid": "",
     "eventField": [],
-    "enableUuid": "TCFG_PWMLED_ENABLE"
+    "enableUuid": "TCFG_PWMLED_ENABLE",
+    "disable": true
    },
    "type": "default",
    "justify": "start",
@@ -2375,7 +2376,7 @@
      }
     ],
     "eventField": [],
-    "disable": false
+    "disable": true
    },
    "type": "default",
    "justify": "start",
@@ -2500,7 +2501,7 @@
              "label": "USB主机总开关",
              "tag": "el-switch",
              "tagIcon": "switch",
-             "defaultValue": 1,
+             "defaultValue": 0,
              "span": 4,
              "showLabel": true,
              "labelWidth": 120,
@@ -2772,7 +2773,7 @@
              "label": "U盘使能",
              "tag": "el-switch",
              "tagIcon": "switch",
-             "defaultValue": 1,
+             "defaultValue": 0,
              "span": 4,
              "showLabel": true,
              "labelWidth": 120,
@@ -3014,7 +3015,7 @@
              "label": "读卡器使能",
              "tag": "el-switch",
              "tagIcon": "switch",
-             "defaultValue": 1,
+             "defaultValue": 0,
              "span": 4,
              "showLabel": true,
              "labelWidth": 120,
@@ -3052,7 +3053,7 @@
              "label": "HID使能",
              "tag": "el-switch",
              "tagIcon": "switch",
-             "defaultValue": 1,
+             "defaultValue": 0,
              "span": 4,
              "showLabel": true,
              "labelWidth": 120,
@@ -5339,7 +5340,7 @@
     "eventField": [],
     "saveWay": "macro",
     "tipAlways": true,
-    "disable": false
+    "disable": true
    },
    "type": "default",
    "justify": "start",

@@ -1,12 +1,16 @@
 {
- "uuid": "460d41c9-3207-493c-b15d-72f9bef1977b",
- "path": "g:\\CHEN\\CHEN",
  "name": "CHEN",
  "type": "音箱",
  "sdk": "le_audio",
  "chip": "JL701N",
  "version": "2.0.0",
+ "ingoreConfig": false,
  "pack": "JL701N-demo",
+ "patch": {
+  "title": "patch_02.14",
+  "sn": 20250913
+ },
+ "projectType": "NormalProject",
  "tabform": [
   {
    "folder": false,
@@ -61,35 +65,40 @@
      "binName": "leacfg.bin",
      "type": 1,
      "showName": "公共配置",
-     "fileName": "src\\LE_AUDIO配置\\公共配置.json"
+     "fileName": "src\\LE_AUDIO配置\\公共配置.json",
+     "data": ""
     },
     {
      "folder": false,
      "binName": "leacfg.bin",
      "type": 1,
      "showName": "JL_BIS配置",
-     "fileName": "src\\LE_AUDIO配置\\JL_BIS配置.json"
+     "fileName": "src\\LE_AUDIO配置\\JL_BIS配置.json",
+     "data": ""
     },
     {
      "folder": false,
      "binName": "leacfg.bin",
      "type": 1,
      "showName": "JL_CIS配置",
-     "fileName": "src\\LE_AUDIO配置\\JL_CIS配置.json"
+     "fileName": "src\\LE_AUDIO配置\\JL_CIS配置.json",
+     "data": ""
     },
     {
      "folder": false,
      "binName": "leacfg.bin",
      "type": 1,
      "showName": "AURACAST配置",
-     "fileName": "src\\LE_AUDIO配置\\AURACAST配置.json"
+     "fileName": "src\\LE_AUDIO配置\\AURACAST配置.json",
+     "data": ""
     },
     {
      "folder": false,
      "binName": "leacfg.bin",
      "type": 1,
      "showName": "无线环绕声配置",
-     "fileName": "src\\LE_AUDIO配置\\无线环绕声配置.json"
+     "fileName": "src\\LE_AUDIO配置\\无线环绕声配置.json",
+     "data": ""
     }
    ]
   },
@@ -125,79 +134,86 @@
      "type": 4,
      "showName": "系统模式",
      "fileName": "src\\音频流程\\系统模式\\系统模式.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "媒体",
      "fileName": "src\\音频流程\\媒体\\媒体.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "蓝牙通话",
      "fileName": "src\\音频流程\\蓝牙通话\\蓝牙通话.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "麦克风音效",
      "fileName": "src\\音频流程\\麦克风音效\\麦克风音效.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "USB Audio",
      "fileName": "src\\音频流程\\USB Audio\\USB Audio.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "录音",
      "fileName": "src\\音频流程\\录音\\录音.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "LE_Audio",
      "fileName": "src\\音频流程\\LE_Audio\\LE_Audio.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "智能语音",
      "fileName": "src\\音频流程\\智能语音\\智能语音.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     },
     {
      "folder": false,
      "type": 4,
      "showName": "产测模式",
      "fileName": "src\\音频流程\\产测模式\\产测模式.x6flow",
-     "binName": "stream.bin"
+     "binName": "stream.bin",
+     "data": ""
     }
    ]
   }
  ],
- "patch": {
-  "title": "patch_02.14",
-  "sn": 20250913
- },
- "ingoreConfig": false,
- "projectType": "NormalProject",
+ "create_time": "2026-11-23T12:10:19.560Z",
+ "update_time": "2026-11-24T08:48:53.393Z",
+ "standardPatch": "patch_02.14",
+ "lastOpenToolVersion": "4.12.3",
+ "lastStencilFlowTime": "20260831164258",
+ "provider": "杰理",
+ "publishType": 1,
+ "checkPatchTime": 0,
+ "variant": [],
  "defaultVariant": {
   "name": "默认配置"
- },
- "create_time": "2026-11-23T12:10:19.560Z",
- "update_time": "2026-11-23T12:10:19.560Z",
- "variant": [],
- "provider": "杰理",
- "publishType": "beta"
+ }
 }

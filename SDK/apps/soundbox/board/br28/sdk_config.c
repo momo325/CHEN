@@ -8,7 +8,9 @@
 * 5.覆盖式导出方式，sdk_config.h 文件末尾的增加用户自定义块，导出时会保留该块内容，用户可在此块内增加自定义代码
 **/
 
+
 // ------------板级配置------------
+
 #if TCFG_IO_CFG_AT_POWER_ON
 const struct gpio_cfg_item g_io_cfg_at_poweron [] =  {
     
@@ -23,6 +25,7 @@ const struct gpio_cfg_item g_io_cfg_at_poweroff [] =  {
 // ------------板级配置------------
 
 // ------------按键配置------------
+
 #if TCFG_IOKEY_ENABLE
 const struct iokey_info g_iokey_info [] =  {
     {
@@ -75,6 +78,7 @@ const struct adkey_res_value adkey_res_table [] =  {
         .res_value = 180
     }
 };
+
 const struct adkey_info g_adkey_data =  {
     .key_io = IO_PORTB_01,
     .pull_up_type = 1,
@@ -84,7 +88,6 @@ const struct adkey_info g_adkey_data =  {
     .long_press_reset_time = 8,
     .res_table = adkey_res_table
 };
-
 #endif // TCFG_ADKEY_ENABLE
 
 #if TCFG_IRKEY_ENABLE
@@ -174,15 +177,16 @@ const struct ff00_2_keynum g_irkey_table [] =  {
         .source_value = 0x4a
     }
 };
+
 const struct irkey_info g_irkey_data =  {
     .key_io = IO_PORTC_08,
     .irkey_table = g_irkey_table
 };
-
 #endif // TCFG_IRKEY_ENABLE
 // ------------按键配置------------
 
 // ------------电源配置------------
+
 #if TCFG_BATTERY_CURVE_ENABLE
 const struct battery_curve g_battery_curve_table [] =  {
     {

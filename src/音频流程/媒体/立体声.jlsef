@@ -3,7 +3,6 @@
   "id": 1670391532440,
   "title": "立体声",
   "select": true,
-  "curTab": "id_1675673742631_8",
   "tabs": [
    {
     "id": "id_1675673742631_8",
@@ -12,7 +11,9 @@
     "selected": "A",
     "preset": ""
    }
-  ]
+  ],
+  "curTab": "id_1675673742631_8",
+  "disableEdit": false
  },
  "cells": [
   {
@@ -378,49 +379,57 @@
    "ports": {
     "items": [
      {
-      "group": "out",
-      "id": "abe42cff-6cb6-4840-828c-522499261749",
-      "index": 0
-     },
-     {
       "group": "in",
       "id": "68f23822-e867-4587-95f2-ea2fdc782457",
-      "index": 0
+      "index": 0,
+      "hasFindPort": true
      },
      {
       "group": "in",
       "id": "7e415bae-2c74-4fe0-bb46-2d10df959f2d",
-      "index": 1
+      "index": 1,
+      "hasFindPort": true
      },
      {
       "group": "in",
       "id": "27dfbbaa-d621-4f07-87f4-d225345ea5c9",
-      "index": 2
+      "index": 2,
+      "hasFindPort": true
      },
      {
       "group": "in",
       "id": "dc83f2cd-4ca4-4181-a92f-81ca6502eda8",
-      "index": 3
+      "index": 3,
+      "hasFindPort": true
      },
      {
       "group": "in",
       "id": "c6faaf1a-4da6-4274-93ee-4fb07bd8a7a3",
-      "index": 4
+      "index": 4,
+      "hasFindPort": true
      },
      {
       "group": "in",
       "id": "d089f635-dcad-425d-a915-8497629d0051",
-      "index": 5
+      "index": 5,
+      "hasFindPort": true
      },
      {
       "group": "in",
-      "id": "b78e4edd-9af7-46cb-9cd5-ca2b1adeb427",
-      "index": 6
+      "id": "45496374-9afc-48bd-9290-281a7f915239",
+      "index": 6,
+      "hasFindPort": true
      },
      {
       "group": "in",
       "id": "77af414c-be0f-422e-b727-80e4761b8f69",
-      "index": 7
+      "index": 7,
+      "hasFindPort": true
+     },
+     {
+      "group": "out",
+      "id": "abe42cff-6cb6-4840-828c-522499261749",
+      "index": 0
      }
     ]
    }
@@ -437,7 +446,7 @@
    },
    "target": {
     "cell": "70000000-0000-4000-8000-000000000005",
-    "port": "70000000-0000-4000-8000-000000000006"
+    "port": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc"
    }
   },
   {
@@ -467,7 +476,7 @@
     "items": [
      {
       "group": "in",
-      "id": "70000000-0000-4000-8000-000000000006",
+      "id": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc",
       "index": 0
      },
      {
@@ -520,7 +529,7 @@
    },
    "target": {
     "cell": "70000000-0000-4000-8000-000000000003",
-    "port": "70000000-0000-4000-8000-000000000004"
+    "port": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
    }
   },
   {
@@ -535,7 +544,7 @@
    },
    "target": {
     "cell": "70000000-0000-4000-8000-000000000014",
-    "port": "70000000-0000-4000-8000-000000000016"
+    "port": "68f23822-e867-4587-95f2-ea2fdc782457"
    }
   },
   {
@@ -567,7 +576,7 @@
      {
       "group": "in",
       "index": 0,
-      "id": "70000000-0000-4000-8000-000000000004"
+      "id": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
      }
     ]
    }
@@ -677,49 +686,57 @@
    "ports": {
     "items": [
      {
+      "group": "in",
+      "id": "68f23822-e867-4587-95f2-ea2fdc782457",
+      "index": 0,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "7e415bae-2c74-4fe0-bb46-2d10df959f2d",
+      "index": 1,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "27dfbbaa-d621-4f07-87f4-d225345ea5c9",
+      "index": 2,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "dc83f2cd-4ca4-4181-a92f-81ca6502eda8",
+      "index": 3,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "c6faaf1a-4da6-4274-93ee-4fb07bd8a7a3",
+      "index": 4,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "d089f635-dcad-425d-a915-8497629d0051",
+      "index": 5,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "45496374-9afc-48bd-9290-281a7f915239",
+      "index": 6,
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "77af414c-be0f-422e-b727-80e4761b8f69",
+      "index": 7,
+      "hasFindPort": true
+     },
+     {
       "group": "out",
-      "id": "70000000-0000-4000-8000-000000000015",
+      "id": "abe42cff-6cb6-4840-828c-522499261749",
       "index": 0
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000016",
-      "index": 0
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000017",
-      "index": 1
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000018",
-      "index": 2
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000019",
-      "index": 3
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000020",
-      "index": 4
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000021",
-      "index": 5
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000022",
-      "index": 6
-     },
-     {
-      "group": "in",
-      "id": "70000000-0000-4000-8000-000000000023",
-      "index": 7
      }
     ]
    }
@@ -732,7 +749,7 @@
    },
    "source": {
     "cell": "70000000-0000-4000-8000-000000000014",
-    "port": "70000000-0000-4000-8000-000000000015"
+    "port": "abe42cff-6cb6-4840-828c-522499261749"
    },
    "target": {
     "cell": "49da99dd-02c8-4a1f-b43a-3246a2d8701d",
@@ -1868,7 +1885,9 @@
       }
      ]
     },
-    "alias": "AutoDuckLinein"
+    "alias": "AutoDuckLinein",
+    "itemId": 1670391532440,
+    "subId": 1
    }
   },
   {
@@ -2661,7 +2680,9 @@
       }
      ]
     },
-    "alias": "AutoDuckBt"
+    "alias": "AutoDuckBt",
+    "itemId": 1670391532440,
+    "subId": 2
    }
   },
   {
@@ -3784,7 +3805,9 @@
       }
      ]
     },
-    "alias": "AutoDuckPcSpk"
+    "alias": "AutoDuckPcSpk",
+    "itemId": 1670391532440,
+    "subId": 3
    }
   },
   {
@@ -3799,7 +3822,7 @@
    },
    "target": {
     "cell": "70000000-0000-4000-8000-000000000014",
-    "port": "70000000-0000-4000-8000-000000000017"
+    "port": "7e415bae-2c74-4fe0-bb46-2d10df959f2d"
    }
   },
   {
@@ -4250,7 +4273,7 @@
      {
       "group": "out",
       "index": 0,
-      "id": "70000000-0000-4000-8000-000000000002"
+      "id": "e6edd747-b087-48d1-8782-b37da46e47a0"
      }
     ]
    }
@@ -4263,16 +4286,15 @@
    },
    "source": {
     "cell": "70000000-0000-4000-8000-000000000001",
-    "port": "70000000-0000-4000-8000-000000000002"
+    "port": "e6edd747-b087-48d1-8782-b37da46e47a0"
    },
    "target": {
     "cell": "68d7e888-1caf-41c9-9148-ed54f89c44b9",
-    "port": "b78e4edd-9af7-46cb-9cd5-ca2b1adeb427"
+    "port": "45496374-9afc-48bd-9290-281a7f915239"
    }
   }
  ],
- "version": {
-  "code": 16,
-  "tool": "4.10.0"
+ "stencil": {
+  "time": "20260831164258"
  }
 }

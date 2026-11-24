@@ -1,0 +1,433 @@
+[
+ {
+  "node": "fdf399c9-a5b8-4a4f-a2e1-028921efae3b",
+  "parentTab": "id_1694144986737_0",
+  "group": 1694144961188,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1671070268689_0",
+       "list": [
+        {
+         "id": "id_1671070296872_1",
+         "value": [
+          4
+         ]
+        }
+       ]
+      },
+      {
+       "id": "id_1675824280474_161",
+       "list": [
+        {
+         "id": "id_1671073275027_4",
+         "value": 0
+        },
+        {
+         "id": "id_1675824280474_155",
+         "value": 10
+        },
+        {
+         "id": "id_1671073072823_3",
+         "value": 1
+        },
+        {
+         "id": "id_1671073588104_6",
+         "value": 1
+        },
+        {
+         "id": "id_1671073751470_7",
+         "value": 1
+        },
+        {
+         "id": "id_1671074003588_8",
+         "value": 4
+        },
+        {
+         "id": "id_1671083339712_11",
+         "value": 8
+        },
+        {
+         "id": "id_1671169030149_8",
+         "value": ""
+        }
+       ]
+      },
+      {
+       "id": "id_1671176268890_10",
+       "list": [
+        {
+         "id": "id_1671176268890_11",
+         "value": 0
+        },
+        {
+         "id": "id_1671176268890_12",
+         "value": 10
+        },
+        {
+         "id": "id_1671176268890_13",
+         "value": 1
+        },
+        {
+         "id": "id_1671176268890_14",
+         "value": 1
+        },
+        {
+         "id": "id_1671176268890_15",
+         "value": 2
+        },
+        {
+         "id": "id_1671176268890_16",
+         "value": 4
+        },
+        {
+         "id": "id_1671176268890_17",
+         "value": 8
+        },
+        {
+         "id": "id_1671176268890_18",
+         "value": ""
+        }
+       ]
+      },
+      {
+       "id": "id_1673164303524_0",
+       "list": [
+        {
+         "id": "id_1673164303524_1",
+         "value": 0
+        },
+        {
+         "id": "id_1673164303524_2",
+         "value": 10
+        },
+        {
+         "id": "id_1673164303524_3",
+         "value": 1
+        },
+        {
+         "id": "id_1673164303524_4",
+         "value": 1
+        },
+        {
+         "id": "id_1673164303524_5",
+         "value": 4
+        },
+        {
+         "id": "id_1673164303524_6",
+         "value": 4
+        },
+        {
+         "id": "id_1673164303524_7",
+         "value": 8
+        },
+        {
+         "id": "id_1673164303524_8",
+         "value": ""
+        }
+       ]
+      },
+      {
+       "id": "id_1673164306360_9",
+       "list": [
+        {
+         "id": "id_1673164306360_10",
+         "value": 0
+        },
+        {
+         "id": "id_1673164306360_11",
+         "value": 10
+        },
+        {
+         "id": "id_1673164306360_12",
+         "value": 1
+        },
+        {
+         "id": "id_1673164306360_13",
+         "value": 1
+        },
+        {
+         "id": "id_1673164306360_14",
+         "value": 8
+        },
+        {
+         "id": "id_1673164306360_15",
+         "value": 4
+        },
+        {
+         "id": "id_1673164306360_16",
+         "value": 8
+        },
+        {
+         "id": "id_1673164306360_17",
+         "value": ""
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "ADC13"
+  }
+ },
+ {
+  "node": "00139364-68c5-4e9e-aa0c-ebc80616b162",
+  "parentTab": "id_1694144986737_0",
+  "group": 1694144961188,
+  "mode": {
+   "current": "",
+   "bypass": true,
+   "list": [
+    {
+     "name": "arg0",
+     "enable": true,
+     "range": 20,
+     "gain": 0,
+     "bypass": true,
+     "data": [
+      {
+       "name": "1",
+       "CenterFrequency": 25,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "2",
+       "CenterFrequency": 53,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "3",
+       "CenterFrequency": 112,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "4",
+       "CenterFrequency": 238,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "5",
+       "CenterFrequency": 505,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "6",
+       "CenterFrequency": 1070,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "7",
+       "CenterFrequency": 2268,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "8",
+       "CenterFrequency": 4807,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "9",
+       "CenterFrequency": 10190,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "10",
+       "CenterFrequency": 21599,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "name": "Hp",
+       "CenterFrequency": 40,
+       "Gain": 1,
+       "QValue": 0,
+       "type": 7,
+       "fEnable": false
+      },
+      {
+       "name": "Lp",
+       "CenterFrequency": 18000,
+       "Gain": 1,
+       "QValue": 0,
+       "type": 8,
+       "fEnable": false
+      }
+     ]
+    }
+   ],
+   "name": "EQ17"
+  }
+ },
+ {
+  "node": "70000000-0000-4000-8000-000000000032",
+  "parentTab": "id_1694144986737_0",
+  "group": 1694144961188,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 100
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 1
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 1
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_PcMic"
+  }
+ },
+ {
+  "node": "68eeb466-8a98-4f30-9d30-fd086628710c",
+  "parentTab": "id_1694144986737_0",
+  "group": 1694144961188,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_3",
+       "list": [
+        {
+         "id": "id_1677140583268_0",
+         "value": 10
+        },
+        {
+         "id": "id_1677144866465_6",
+         "value": 100
+        },
+        {
+         "id": "id_1719387029771_0",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "config3973918"
+  }
+ },
+ {
+  "node": "cb1b5d37-6123-40eb-821a-a85a2c02e788",
+  "parentTab": "id_1694144986737_0",
+  "group": 1694144961188,
+  "mode": {
+   "current": "",
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246329785_2",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      },
+      {
+       "id": "id_1702378606977_0",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 0
+        }
+       ],
+       "expand": 1
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "PCMIC1"
+  }
+ }
+]
