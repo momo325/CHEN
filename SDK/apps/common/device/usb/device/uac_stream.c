@@ -141,16 +141,11 @@ static void uac_speaker_stream_halt_detect(void *priv)
         return;
     }
     if (uac_speaker->stream_halt_cnt >= UAC_SPEAKER_STREAM_DETECT_COUNT) {
-#if USB_PC_NO_APP_MODE
-        /* 后台 UAC 常驻模式：主机暂停/停止发包时不拆 pc_spk 数据流，
-           主机恢复播放后无需重开即可直接出声 */
-#else
         if (uac_speaker->stream_state) {
             /* g_printf("-APP_MSG_PC_AUDIO_PLAY_CLOSE-"); */
             app_send_message(APP_MSG_PC_AUDIO_PLAY_CLOSE, 0);
             uac_speaker->stream_state = 0;
         }
-#endif
     }
     uac_speaker->stream_halt_cnt++;
 }
@@ -163,6 +158,14 @@ void uac_speaker_stream_get_volume(u16 *l_vol, u16 *r_vol)
 u8 uac_speaker_stream_status(void)
 {
     return speaker_stream_is_open;
+}
+
+/* pc_spk 播放器被真正关闭后清状态，下一次收到主机数据时重新触发 OPEN */
+void uac_speaker_stream_state_reset(void)
+{
+    if (uac_speaker) {
+        uac_speaker->stream_state = 0;
+    }
 }
 
 void uac_speaker_stream_open(u32 samplerate, u32 ch, u32 bitwidth)

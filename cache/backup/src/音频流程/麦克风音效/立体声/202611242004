@@ -1,0 +1,1747 @@
+{
+ "group": {
+  "id": "id_1680241705348_0",
+  "curTab": "id_1678787127126_0",
+  "tabs": [
+   {
+    "id": "id_1678787127126_0",
+    "title": "超级混响",
+    "disable": false,
+    "selected": "A",
+    "preset": ""
+   },
+   {
+    "id": "id_1683720735891_0",
+    "title": "KTV",
+    "disable": false
+   },
+   {
+    "id": "id_1683720737069_1",
+    "title": "原声",
+    "disable": false
+   },
+   {
+    "id": "id_1683720738954_3",
+    "title": "流行",
+    "disable": false
+   },
+   {
+    "id": "id_1683722860304_7",
+    "title": "主持",
+    "disable": false
+   }
+  ],
+  "disableEdit": false
+ },
+ "cells": [
+  {
+   "position": {
+    "x": -1560,
+    "y": -1120
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "784a930d-2b66-44eb-b3f2-a7c366198020",
+   "component": "node-cust",
+   "data": {
+    "name": "ADC",
+    "fun": 1,
+    "subId": 6,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "MicEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "MicEff",
+       "current": 0,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675824280474_161",
+           "list": [
+            {
+             "id": "id_1675824280474_155",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671176268890_10",
+           "list": [
+            {
+             "id": "id_1671176268890_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671176268890_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1673164303524_0",
+           "list": [
+            {
+             "id": "id_1673164303524_2",
+             "value": 10
+            },
+            {
+             "id": "id_1673164303524_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1673164306360_9",
+           "list": [
+            {
+             "id": "id_1673164306360_11",
+             "value": 10
+            },
+            {
+             "id": "id_1673164306360_12",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "id": "5114f0b1-23ea-4659-844f-a8bd9b1e634d",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "824a1788-2610-4aac-9ac7-89f040da372a",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "784a930d-2b66-44eb-b3f2-a7c366198020",
+    "port": "5114f0b1-23ea-4659-844f-a8bd9b1e634d"
+   },
+   "target": {
+    "cell": "4aeac7bc-d616-42a2-9a98-9178828aca0b",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   }
+  },
+  {
+   "position": {
+    "x": -1400,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "4aeac7bc-d616-42a2-9a98-9178828aca0b",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 33,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "ChannelExDA1533",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "ChannelExDA1533",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3d7a2af7-3369-4a23-b655-061ebd0d60f3",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "4aeac7bc-d616-42a2-9a98-9178828aca0b",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "a18842ed-b20d-47f9-91a0-23a21b67f124",
+    "port": "7461f146-0f0f-4133-839b-f6c9ae7a5b15"
+   }
+  },
+  {
+   "position": {
+    "x": -1280,
+    "y": -1080
+   },
+   "size": {
+    "width": 240,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "a18842ed-b20d-47f9-91a0-23a21b67f124",
+   "component": "node-cust",
+   "data": {
+    "name": "Indicator",
+    "fun": 8,
+    "subId": 1,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "7461f146-0f0f-4133-839b-f6c9ae7a5b15"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "1fe67ba2-04c7-45a7-9c61-e727cd2347ed"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "6a1e4177-4938-4e65-9c9e-0be9023843d1",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "a18842ed-b20d-47f9-91a0-23a21b67f124",
+    "port": "1fe67ba2-04c7-45a7-9c61-e727cd2347ed"
+   },
+   "target": {
+    "cell": "427fed21-200b-42da-9f15-b953ef6e1239",
+    "port": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "427fed21-200b-42da-9f15-b953ef6e1239",
+   "component": "node-cust",
+   "data": {
+    "name": "播放同步",
+    "fun": 1,
+    "subId": 4,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "config397394",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "config397394",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 8
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg2",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg3",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg4",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "9146343f-32d3-48b2-9a36-9ec0f5dfbded",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "427fed21-200b-42da-9f15-b953ef6e1239",
+    "port": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+   },
+   "target": {
+    "cell": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   }
+  },
+  {
+   "position": {
+    "x": -880,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": "id_1680241705348_0",
+    "subId": 43,
+    "configs": {
+     "name": "VolEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "VolEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1676447331464_3",
+           "list": [
+            {
+             "id": "id_1681280938229_0",
+             "value": 0
+            },
+            {
+             "id": "id_1676447481291_4",
+             "value": 100
+            },
+            {
+             "id": "id_1676447941026_6",
+             "value": -45
+            },
+            {
+             "id": "id_1678088452701_0",
+             "value": 1
+            },
+            {
+             "id": "id_1677290960342_0",
+             "value": 0
+            },
+            {
+             "id": "id_1690535811640_0",
+             "value": 1
+            },
+            {
+             "id": "id_1676801188975_0",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1677751149521_1",
+           "list": []
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3239cf7d-8a4d-4d92-8162-0212be082eda",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+    "port": "d6a5f213-dbcd-4d59-ba80-c33d351ce465"
+   }
+  },
+  {
+   "position": {
+    "x": -760,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+   "component": "node-cust",
+   "data": {
+    "name": "AutoDuck Trigger",
+    "fun": 1,
+    "configs": {
+     "name": "AutoDuckTrigger",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "AutoDuckTrigger",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "alias": "AutoDuckTrigger",
+    "itemId": "id_1680241705348_0",
+    "subId": 1
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "d6a5f213-dbcd-4d59-ba80-c33d351ce465"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "07729fd9-4417-4666-b4c1-caca0640cbdc"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "0646c090-eda4-46bc-a490-ceb1ae73d714",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+    "port": "07729fd9-4417-4666-b4c1-caca0640cbdc"
+   },
+   "target": {
+    "cell": "70000000-0000-4000-8000-000000000028",
+    "port": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
+   }
+  },
+  {
+   "position": {
+    "x": -440,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "70000000-0000-4000-8000-000000000028",
+   "component": "node-cust",
+   "data": {
+    "name": "Source",
+    "fun": 11,
+    "subId": 44,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "UserMic",
+     "list": []
+    },
+    "edit": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
+     }
+    ]
+   }
+  }
+ ],
+ "stencil": {
+  "time": "20260831164258"
+ }
+}

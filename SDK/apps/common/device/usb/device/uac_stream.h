@@ -26,6 +26,7 @@ void uac_speaker_stream_write(const u8 *obuf, u32 len);
 void uac_speaker_stream_get_volume(u16 *l_vol, u16 *r_vol);
 void set_uac_speaker_rx_handler(void *priv, void (*rx_handler)(int, void *, int));
 u8 uac_speaker_stream_status(void);
+void uac_speaker_stream_state_reset(void);
 u32 uac_mic_stream_open(u32 samplerate, u32 ch, u32 bitwidth);
 void uac_mic_stream_close(int release);
 int uac_mic_stream_read(u8 *buf, u32 len);

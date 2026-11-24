@@ -125,10 +125,12 @@ int pc_spk_player_open(void)
     };
 #endif
 
-    /* 后台 UAC 模式允许蓝牙并行时保持 pc_spk 流常开，由 Vol_PcspkMusic 静音门控 */
-    if (g_pc_spk_player) {
+    if (g_pc_spk_player || user_bt_is_connected()) {
         return 0;
     }
+
+    /* 上一次关流可能把 ISR 关流标志留在 1，重开前复位，避免重新打开后收不到数据 */
+    pc_spk_isr_state_reset();
 
 #if !defined(CONFIG_WIRELESS_MIC_ENABLE) && !USB_PC_NO_APP_MODE
     if (!app_in_mode(APP_MODE_PC)) {
@@ -182,8 +184,6 @@ int pc_spk_player_open(void)
 
     g_pc_spk_state = PC_SPK_STA_OPEN;
     g_pc_spk_player = player;
-    /* 蓝牙已连接（并行态）时立即把下行音量压到 0，避免开流瞬间漏音 */
-    user_pcspk_volume_update();
     return 0;
 
 __exit1:
@@ -225,7 +225,10 @@ void pc_spk_player_close(void)
     jlstream_stop(player->stream, 0);
     jlstream_release(player->stream);
     free(player);
-    g_pc_spk_player = NULL; // [问题] player 被释放后仍被置为 NULL
+    g_pc_spk_player = NULL;
+    /* 播放器已真正关闭，清除 UAC 侧 stream_state，
+       保证主机下一次发数据时能重新触发 APP_MSG_PC_AUDIO_PLAY_OPEN */
+    uac_speaker_stream_state_reset();
 #if TCFG_AUDIO_CVP_OUTPUT_WAY_IIS_ENABLE && (defined TCFG_IIS_NODE_ENABLE)
     if (audio_aec_status()) {
         //忽略参考数据
@@ -289,6 +292,9 @@ int pcspk_open_player_by_taskq(void)
 {
     int msg[2];
     int ret = 0;
+    if (user_bt_is_connected()) {
+        return 0;
+    }
 #if (TCFG_LE_AUDIO_APP_CONFIG & (LE_AUDIO_JL_BIS_TX_EN | LE_AUDIO_JL_BIS_RX_EN)) && !TCFG_KBOX_1T3_MODE_EN
     if ((g_pc_spk_state == PC_SPK_STA_CLOSE ||
          g_pc_spk_state == PC_SPK_STA_WAIT_CLOSE) && !get_broadcast_role()) {

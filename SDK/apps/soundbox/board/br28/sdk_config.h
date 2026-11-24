@@ -1,4 +1,4 @@
-/**
+﻿/**
 * 注意点：
 * 0.此文件变化，在工具端会自动同步修改到工具配置中
 * 1.功能块通过【---------xxx------】和 【#endif // xxx 】，是工具识别的关键位置，请勿随意改动
@@ -471,14 +471,14 @@
 #define TCFG_AUDIO_MIC_LDO_ISEL                   2                // MIC LDO 电流
 #define TCFG_ADC0_ENABLE                          1                // 使能
 #define TCFG_ADC0_MODE                            0                // 模式
-#define TCFG_ADC0_AIN_SEL                         1                // 输入端口
+#define TCFG_ADC0_AIN_SEL                         0                // 输入端口
 #define TCFG_ADC0_BIAS_SEL                        0                // 供电端口
 #define TCFG_ADC0_BIAS_RSEL                       4                // MIC BIAS上拉电阻挡位
 #define TCFG_ADC0_DCC_LEVEL                       14               // DCC 档位
 #define TCFG_ADC0_POWER_IO                        49889            // IO供电选择
 #define TCFG_ADC1_ENABLE                          1                // 使能
 #define TCFG_ADC1_MODE                            0                // 模式
-#define TCFG_ADC1_AIN_SEL                         1                // 输入端口
+#define TCFG_ADC1_AIN_SEL                         0                // 输入端口
 #define TCFG_ADC1_BIAS_SEL                        0                // 供电端口
 #define TCFG_ADC1_BIAS_RSEL                       4                // MIC BIAS上拉电阻挡位
 #define TCFG_ADC1_DCC_LEVEL                       14               // DCC 档位

@@ -664,7 +664,7 @@ static void adc_ioc_get_fmt(struct adc_file_hdl *hdl, struct stream_fmt *fmt)
 #endif/*WIRELESS_MIC_PRODUCT_MODE*/
     case STREAM_SCENE_LOUDSPEAKER_MIC:
     case STREAM_SCENE_MIC_EFFECT:
-        u32 mic_eff_sr = 44100;
+        u32 mic_eff_sr = 48000;   /* 与全局 48k 对齐，避免 play_sync 实时重采样 */
 #if (defined(TCFG_HOWLING_AHS_NODE_ENABLE) && TCFG_HOWLING_AHS_NODE_ENABLE)
         mic_eff_sr = 16000;
 #endif
@@ -676,9 +676,9 @@ static void adc_ioc_get_fmt(struct adc_file_hdl *hdl, struct stream_fmt *fmt)
         break;
     default:
 #if SUPPORT_CHAGE_AUDIO_CLK
-        fmt->sample_rate    = audio_adc_sample_rate_mapping(44100);
+        fmt->sample_rate    = audio_adc_sample_rate_mapping(48000);
 #else
-        fmt->sample_rate    = 44100;
+        fmt->sample_rate    = 48000;
 #endif
         break;
     }

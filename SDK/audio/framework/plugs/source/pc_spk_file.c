@@ -327,6 +327,12 @@ static void pc_spk_release(void *_hdl)
     spin_unlock(&pc_spk_lock);
 }
 
+/* 重新打开播放器前清除中断关流标志，保证 ISR 会重新收包 */
+void pc_spk_isr_state_reset(void)
+{
+    pc_spk_isr.pc_spk_isr_close = 0;
+}
+
 u8 is_pc_spk_file_start(void)
 {
     struct pc_spk_file_hdl *hdl = pc_spk;
