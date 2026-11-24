@@ -25,22 +25,22 @@
  },
  {
   "key": "数据流",
-  "isCollapse": false
+  "isCollapse": true
  },
  {
   "key": "调试",
-  "isCollapse": false
+  "isCollapse": true
  },
  {
   "key": "标签",
-  "isCollapse": false
+  "isCollapse": true
  },
  {
   "key": "编解码",
-  "isCollapse": false
+  "isCollapse": true
  },
  {
   "key": "清晰语音",
-  "isCollapse": false
+  "isCollapse": true
  }
 ]

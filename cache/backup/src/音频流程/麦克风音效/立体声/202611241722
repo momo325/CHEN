@@ -1,0 +1,4549 @@
+{
+ "group": {
+  "id": "id_1680241705348_0",
+  "curTab": "id_1678787127126_0",
+  "tabs": [
+   {
+    "id": "id_1678787127126_0",
+    "title": "超级混响",
+    "disable": false,
+    "selected": "A",
+    "preset": ""
+   },
+   {
+    "id": "id_1683720735891_0",
+    "title": "KTV",
+    "disable": false
+   },
+   {
+    "id": "id_1683720737069_1",
+    "title": "原声",
+    "disable": false
+   },
+   {
+    "id": "id_1683720738954_3",
+    "title": "流行",
+    "disable": false
+   },
+   {
+    "id": "id_1683722860304_7",
+    "title": "主持",
+    "disable": false
+   }
+  ],
+  "disableEdit": false
+ },
+ "cells": [
+  {
+   "position": {
+    "x": -1560,
+    "y": -1120
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "784a930d-2b66-44eb-b3f2-a7c366198020",
+   "component": "node-cust",
+   "data": {
+    "name": "ADC",
+    "fun": 1,
+    "subId": 6,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "MicEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675824280474_161",
+           "list": [
+            {
+             "id": "id_1675824280474_155",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1671176268890_10",
+           "list": [
+            {
+             "id": "id_1671176268890_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671176268890_13",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1673164303524_0",
+           "list": [
+            {
+             "id": "id_1673164303524_2",
+             "value": 10
+            },
+            {
+             "id": "id_1673164303524_3",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1673164306360_9",
+           "list": [
+            {
+             "id": "id_1673164306360_11",
+             "value": 10
+            },
+            {
+             "id": "id_1673164306360_12",
+             "value": 1
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "MicEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1671070268689_0",
+           "list": [
+            {
+             "id": "id_1671070296872_1",
+             "value": [
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "id": "id_1675825867879_36",
+           "list": [
+            {
+             "id": "id_1671073275027_4",
+             "value": 0
+            },
+            {
+             "id": "id_1675825867879_30",
+             "value": 10
+            },
+            {
+             "id": "id_1671073072823_3",
+             "value": 1
+            },
+            {
+             "id": "id_1671073588104_6",
+             "value": 1
+            },
+            {
+             "id": "id_1671073751470_7",
+             "value": 0
+            },
+            {
+             "id": "id_1671074003588_8",
+             "value": 14
+            },
+            {
+             "id": "id_1671083339712_11",
+             "value": 8
+            },
+            {
+             "id": "id_1671169030149_8",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779491663_1",
+           "list": [
+            {
+             "id": "id_1671779491663_2",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_3",
+             "value": 10
+            },
+            {
+             "id": "id_1671779491663_4",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_5",
+             "value": 1
+            },
+            {
+             "id": "id_1671779491663_6",
+             "value": 0
+            },
+            {
+             "id": "id_1671779491663_7",
+             "value": 14
+            },
+            {
+             "id": "id_1671779491663_8",
+             "value": 8
+            },
+            {
+             "id": "id_1671779491663_9",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492199_10",
+           "list": [
+            {
+             "id": "id_1671779492199_11",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492199_12",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492199_13",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_14",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492199_15",
+             "value": 4
+            },
+            {
+             "id": "id_1671779492199_16",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492199_17",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492199_18",
+             "value": ""
+            }
+           ]
+          },
+          {
+           "id": "id_1671779492823_19",
+           "list": [
+            {
+             "id": "id_1671779492823_20",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_21",
+             "value": 10
+            },
+            {
+             "id": "id_1671779492823_22",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_23",
+             "value": 1
+            },
+            {
+             "id": "id_1671779492823_24",
+             "value": 0
+            },
+            {
+             "id": "id_1671779492823_25",
+             "value": 14
+            },
+            {
+             "id": "id_1671779492823_26",
+             "value": 8
+            },
+            {
+             "id": "id_1671779492823_27",
+             "value": ""
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "out",
+      "id": "5114f0b1-23ea-4659-844f-a8bd9b1e634d",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "824a1788-2610-4aac-9ac7-89f040da372a",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "784a930d-2b66-44eb-b3f2-a7c366198020",
+    "port": "5114f0b1-23ea-4659-844f-a8bd9b1e634d"
+   },
+   "target": {
+    "cell": "4aeac7bc-d616-42a2-9a98-9178828aca0b",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   }
+  },
+  {
+   "position": {
+    "x": -1400,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "4aeac7bc-d616-42a2-9a98-9178828aca0b",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 33,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "ChannelExDA1533",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "ChannelExDA1533",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ],
+       "linkGroupName": ""
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3d7a2af7-3369-4a23-b655-061ebd0d60f3",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "4aeac7bc-d616-42a2-9a98-9178828aca0b",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "a18842ed-b20d-47f9-91a0-23a21b67f124",
+    "port": "7461f146-0f0f-4133-839b-f6c9ae7a5b15"
+   }
+  },
+  {
+   "position": {
+    "x": -1280,
+    "y": -1080
+   },
+   "size": {
+    "width": 240,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "a18842ed-b20d-47f9-91a0-23a21b67f124",
+   "component": "node-cust",
+   "data": {
+    "name": "Indicator",
+    "fun": 8,
+    "subId": 1,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "7461f146-0f0f-4133-839b-f6c9ae7a5b15"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "1fe67ba2-04c7-45a7-9c61-e727cd2347ed"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "6a1e4177-4938-4e65-9c9e-0be9023843d1",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "a18842ed-b20d-47f9-91a0-23a21b67f124",
+    "port": "1fe67ba2-04c7-45a7-9c61-e727cd2347ed"
+   },
+   "target": {
+    "cell": "427fed21-200b-42da-9f15-b953ef6e1239",
+    "port": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "427fed21-200b-42da-9f15-b953ef6e1239",
+   "component": "node-cust",
+   "data": {
+    "name": "播放同步",
+    "fun": 1,
+    "subId": 4,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "config397394",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "config397394",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 8
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg2",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg3",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "config397394",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg4",
+         "data": [
+          {
+           "id": "id_1678246329785_3",
+           "list": [
+            {
+             "id": "id_1677140583268_0",
+             "value": 10
+            },
+            {
+             "id": "id_1677144866465_6",
+             "value": 100
+            },
+            {
+             "id": "id_1677144833176_4",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "73b5c5a4-7242-41bf-a678-31d2846ed119"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "9146343f-32d3-48b2-9a36-9ec0f5dfbded",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "427fed21-200b-42da-9f15-b953ef6e1239",
+    "port": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
+   },
+   "target": {
+    "cell": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
+    "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+   }
+  },
+  {
+   "position": {
+    "x": -880,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
+   "component": "node-cust",
+   "data": {
+    "name": "音量控制器",
+    "fun": 1,
+    "itemId": "id_1680241705348_0",
+    "subId": 43,
+    "configs": {
+     "name": "VolEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "VolEff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1676447331464_3",
+           "list": [
+            {
+             "id": "id_1681280938229_0",
+             "value": 0
+            },
+            {
+             "id": "id_1676447481291_4",
+             "value": 100
+            },
+            {
+             "id": "id_1676447941026_6",
+             "value": -45
+            },
+            {
+             "id": "id_1678088452701_0",
+             "value": 1
+            },
+            {
+             "id": "id_1677290960342_0",
+             "value": 0
+            },
+            {
+             "id": "id_1690535811640_0",
+             "value": 1
+            },
+            {
+             "id": "id_1676801188975_0",
+             "value": 1
+            }
+           ]
+          },
+          {
+           "id": "id_1677751149521_1",
+           "list": []
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "VolEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1681280938229_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676447481291_4",
+           "value": 100
+          },
+          {
+           "id": "id_1676447941026_6",
+           "value": -45
+          },
+          {
+           "id": "id_1678088452701_0",
+           "value": 1
+          },
+          {
+           "id": "id_1677290960342_0",
+           "value": 0
+          },
+          {
+           "id": "id_1676801188975_0",
+           "value": 100
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ],
+       "bypass": false
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+     },
+     {
+      "group": "out",
+      "index": 0,
+      "id": "4decb197-2782-4173-a600-958942b8109d"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3239cf7d-8a4d-4d92-8162-0212be082eda",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
+    "port": "4decb197-2782-4173-a600-958942b8109d"
+   },
+   "target": {
+    "cell": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+    "port": "d6a5f213-dbcd-4d59-ba80-c33d351ce465"
+   }
+  },
+  {
+   "position": {
+    "x": -760,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+   "component": "node-cust",
+   "data": {
+    "name": "AutoDuck Trigger",
+    "fun": 1,
+    "configs": {
+     "name": "AutoDuckTrigger",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "AutoDuckTrigger",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "alias": "AutoDuckTrigger",
+    "itemId": "id_1680241705348_0",
+    "subId": 1
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "d6a5f213-dbcd-4d59-ba80-c33d351ce465"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "07729fd9-4417-4666-b4c1-caca0640cbdc"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "0646c090-eda4-46bc-a490-ceb1ae73d714",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+    "port": "07729fd9-4417-4666-b4c1-caca0640cbdc"
+   },
+   "target": {
+    "cell": "70000000-0000-4000-8000-000000000028",
+    "port": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
+   }
+  },
+  {
+   "position": {
+    "x": -440,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "70000000-0000-4000-8000-000000000028",
+   "component": "node-cust",
+   "data": {
+    "name": "Source",
+    "fun": 11,
+    "subId": 44,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "UserMic",
+     "list": []
+    },
+    "edit": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "c0bd348a-1729-48ca-a4fa-2aed81c2aa51"
+     }
+    ]
+   }
+  },
+  {
+   "position": {
+    "x": -1520,
+    "y": -600
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "322319d4-7bb2-4782-9b79-d525852f26e4",
+   "component": "node-cust",
+   "data": {
+    "name": "Voice Changer",
+    "fun": 1,
+    "subId": 1,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "VchangerEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_74",
+           "list": [
+            {
+             "id": "id_1675825867879_54",
+             "value": 1
+            },
+            {
+             "id": "id_1675825867879_59",
+             "value": "0x00"
+            },
+            {
+             "id": "id_1675825867883_197",
+             "value": 56
+            },
+            {
+             "id": "id_1675825867883_201",
+             "value": 70
+            }
+           ]
+          }
+         ],
+         "enable": true,
+         "bypass": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true,
+         "bypass": true
+        }
+       ],
+       "bypass": true
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "VchangerEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        },
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1675825867879_54",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_59",
+           "value": "0x00"
+          },
+          {
+           "id": "id_1675825867883_197",
+           "value": 56
+          },
+          {
+           "id": "id_1675825867883_201",
+           "value": 70
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "24ed9340-ce58-4611-b829-243ef4322ee4"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "1dc33057-4625-49d9-a053-d849f929661c"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "ad139d34-4b9f-45bc-bb3e-560e114f38dc",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "322319d4-7bb2-4782-9b79-d525852f26e4",
+    "port": "1dc33057-4625-49d9-a053-d849f929661c"
+   },
+   "target": {
+    "cell": "cf4bfa3c-d124-4e35-aa97-20cbbf706436",
+    "port": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc"
+   }
+  },
+  {
+   "position": {
+    "x": -1400,
+    "y": -720
+   },
+   "size": {
+    "width": 80,
+    "height": 320
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "cf4bfa3c-d124-4e35-aa97-20cbbf706436",
+   "component": "node-cust",
+   "data": {
+    "name": "音频分流器",
+    "fun": 0,
+    "itemId": "id_1680241705348_0",
+    "subId": 2,
+    "configs": {
+     "name": "config555692",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "config555692",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "config555692",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "config555692",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "config555692",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "config555692",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "e076d5db-0ed2-44fa-8eb8-be42fd2861dc",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "af3393dd-5ebd-4e08-a871-cb1718108b2c",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "1da03bf5-cc30-45ad-8571-9587fca83c8a",
+      "index": 1
+     },
+     {
+      "group": "out",
+      "id": "901209be-3cd3-4c2b-af00-14868b1a3a11",
+      "index": 2
+     },
+     {
+      "group": "out",
+      "id": "4d9807a5-8ce1-4180-beb9-7ebbc1ba43d2",
+      "index": 3
+     },
+     {
+      "group": "out",
+      "id": "a4348fa1-6adf-44c8-8d17-fc2e48a3e026",
+      "index": 4
+     },
+     {
+      "group": "out",
+      "id": "e11098bd-db68-466d-ba9b-5ea1cc62bc07",
+      "index": 5
+     },
+     {
+      "group": "out",
+      "id": "214e8963-aba3-420a-8a9d-250a52fd056c",
+      "index": 6
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "3eef8208-9817-4a83-bbbe-28cf7bab9dbd",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "cf4bfa3c-d124-4e35-aa97-20cbbf706436",
+    "port": "af3393dd-5ebd-4e08-a871-cb1718108b2c"
+   },
+   "target": {
+    "cell": "45da34e2-9dc3-4775-8bc5-ad28144436cc",
+    "port": "a0d39deb-f060-4791-94d1-247a9f54e197"
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "80b819b4-8c61-47b6-b833-24b6865e9a92",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "cf4bfa3c-d124-4e35-aa97-20cbbf706436",
+    "port": "214e8963-aba3-420a-8a9d-250a52fd056c"
+   },
+   "target": {
+    "cell": "cb4e0573-1354-4a04-ba53-9c2c2a6fbf99",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "f51d5fb0-27dd-46a0-8c5b-49cab99a5d68",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "cf4bfa3c-d124-4e35-aa97-20cbbf706436",
+    "port": "4d9807a5-8ce1-4180-beb9-7ebbc1ba43d2"
+   },
+   "target": {
+    "cell": "0ac939f2-9c04-4c83-b72e-73b97aa696ba",
+    "port": "b4f4a157-2139-40ad-a24c-3d0c09762304"
+   }
+  },
+  {
+   "position": {
+    "x": -1240,
+    "y": -600
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "0ac939f2-9c04-4c83-b72e-73b97aa696ba",
+   "component": "node-cust",
+   "data": {
+    "name": "Echo",
+    "fun": 1,
+    "subId": 1,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "EchoEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "EchoEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 100
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 60
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 5000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 50
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "EchoEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 400
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 60
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 5000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 50
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 60
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "EchoEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 200
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 40
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 6000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 100
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "EchoEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 200
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 50
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 6000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 45
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "EchoEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_2",
+           "value": 1
+          },
+          {
+           "id": "id_1675825867879_9",
+           "value": 400
+          },
+          {
+           "id": "id_1675825867879_16",
+           "value": 60
+          },
+          {
+           "id": "id_1675825867879_19",
+           "value": 1
+          },
+          {
+           "id": "id_1667187238914_4",
+           "value": 5000
+          },
+          {
+           "id": "id_1667187269746_6",
+           "value": 50
+          },
+          {
+           "id": "id_1667187306002_8",
+           "value": 60
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "b4f4a157-2139-40ad-a24c-3d0c09762304"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "f4e6ce1d-5eed-4e38-8ddd-7d7139ce5232"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "ce040fd0-7ba5-4995-96b0-eb19689cf909",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "0ac939f2-9c04-4c83-b72e-73b97aa696ba",
+    "port": "f4e6ce1d-5eed-4e38-8ddd-7d7139ce5232"
+   },
+   "target": {
+    "cell": "247015b4-5d39-44a9-a838-735a644a2e85",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -600
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "247015b4-5d39-44a9-a838-735a644a2e85",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 7,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "ChannelExpande9",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "ChannelExpande9",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "752b8409-450a-46c1-9d7a-25d6c40c5ce6",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "247015b4-5d39-44a9-a838-735a644a2e85",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
+    "port": "4ff0567b-ec0d-49d6-904b-980306bd0f80"
+   }
+  },
+  {
+   "position": {
+    "x": -880,
+    "y": -720
+   },
+   "size": {
+    "width": 80,
+    "height": 320
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
+   "component": "node-cust",
+   "data": {
+    "name": "3Band Merge",
+    "fun": 1,
+    "subId": 4,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "BMerge1Eff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "BMerge1Eff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "BMerge1Eff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "BMerge1Eff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "BMerge1Eff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867878_1",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_8",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_15",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867879_18",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "BMerge1Eff",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 16,
+    "inBitWidth": 16
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "05a7e82d-cc8a-46d7-ab1c-90e8e6c34a8b",
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "index": 1,
+      "id": "4ff0567b-ec0d-49d6-904b-980306bd0f80",
+      "hasFindPort": true
+     },
+     {
+      "group": "in",
+      "id": "ba22cc41-5778-4c15-a204-cc1581ab8ed3",
+      "index": 2,
+      "hasFindPort": true
+     },
+     {
+      "group": "out",
+      "id": "eecbe6e4-bec4-4f0b-bb26-8b6e08c3dc62",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "1dec3a1c-0cbe-4c31-a075-a79d523fdaf0",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
+    "port": "eecbe6e4-bec4-4f0b-bb26-8b6e08c3dc62"
+   },
+   "target": {
+    "cell": "36b98f2d-188b-431a-9179-001b8f42ea5c",
+    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+   }
+  },
+  {
+   "position": {
+    "x": -760,
+    "y": -600
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "36b98f2d-188b-431a-9179-001b8f42ea5c",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1680241705348_0",
+    "subId": 25,
+    "configs": {
+     "name": "Eq5Eff",
+     "list": [
+      {
+       "name": "Eq5Eff",
+       "modeId": "id_1683720735891_0",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq5Eff",
+       "modeId": "id_1683722860304_7",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq5Eff",
+       "modeId": "id_1683720738954_3",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq5Eff",
+       "modeId": "id_1678787127126_0",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1684982631141,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631142,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631143,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631144,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631145,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631146,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631147,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631148,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631149,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1684982631150,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq5Eff",
+       "modeId": "id_1683720737069_1",
+       "current": "arg0",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "inBitWidth": 16,
+    "outBitWidth": 16
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "9c5dfd22-8257-4b69-98b7-5dbff446e50b",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "36b98f2d-188b-431a-9179-001b8f42ea5c",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "d9b6cb41-b2b4-4b51-a523-b9e223061a16",
+    "port": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+   }
+  },
+  {
+   "position": {
+    "x": -640,
+    "y": -600
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "d9b6cb41-b2b4-4b51-a523-b9e223061a16",
+   "component": "node-cust",
+   "data": {
+    "name": "BitWidth Convert",
+    "fun": 0,
+    "subId": 18,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "",
+     "list": []
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "347eecd8-ba96-490c-a8fd-818333ef4bb6"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "d28d4082-a2bd-4cc0-a704-f23994e8baf8"
+     }
+    ]
+   }
+  },
+  {
+   "position": {
+    "x": -1240,
+    "y": -480
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "cb4e0573-1354-4a04-ba53-9c2c2a6fbf99",
+   "component": "node-cust",
+   "data": {
+    "name": "EQ",
+    "fun": 4,
+    "itemId": "id_1680241705348_0",
+    "subId": 24,
+    "configs": {
+     "name": "Eq4Eff",
+     "list": [
+      {
+       "name": "Eq4Eff",
+       "modeId": "id_1683720735891_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq4Eff",
+       "modeId": "id_1683722860304_7",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1683723070599,
+           "name": "1",
+           "CenterFrequency": 31,
+           "Gain": -2,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070600,
+           "name": "2",
+           "CenterFrequency": 62,
+           "Gain": -1,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070601,
+           "name": "3",
+           "CenterFrequency": 125,
+           "Gain": -1,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070602,
+           "name": "4",
+           "CenterFrequency": 250,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070603,
+           "name": "5",
+           "CenterFrequency": 500,
+           "Gain": 3,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070604,
+           "name": "6",
+           "CenterFrequency": 1000,
+           "Gain": 4,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070605,
+           "name": "7",
+           "CenterFrequency": 2000,
+           "Gain": 3,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070606,
+           "name": "8",
+           "CenterFrequency": 4000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070607,
+           "name": "9",
+           "CenterFrequency": 8000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1683723070608,
+           "name": "10",
+           "CenterFrequency": 16000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq4Eff",
+       "modeId": "id_1683720738954_3",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq4Eff",
+       "modeId": "id_1678787127126_0",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "name": "Eq4Eff",
+       "modeId": "id_1683720737069_1",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "enable": true,
+         "data": [
+          {
+           "id": 1681441902897,
+           "name": "1",
+           "CenterFrequency": 25,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902898,
+           "name": "2",
+           "CenterFrequency": 53,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902899,
+           "name": "3",
+           "CenterFrequency": 113,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902900,
+           "name": "4",
+           "CenterFrequency": 240,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902901,
+           "name": "5",
+           "CenterFrequency": 509,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902902,
+           "name": "6",
+           "CenterFrequency": 1081,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902903,
+           "name": "7",
+           "CenterFrequency": 2296,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902904,
+           "name": "8",
+           "CenterFrequency": 4876,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902905,
+           "name": "9",
+           "CenterFrequency": 10358,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          },
+          {
+           "id": 1681441902906,
+           "name": "10",
+           "CenterFrequency": 22000,
+           "Gain": 0,
+           "QValue": 0.7,
+           "type": 2,
+           "fEnable": true
+          }
+         ],
+         "size": 10,
+         "gain": 0,
+         "range": 20,
+         "bypass": false
+        }
+       ]
+      }
+     ]
+    },
+    "outBitWidth": 16
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "id": "2cd250bb-4d53-4d7c-9907-33f84277abc7",
+      "index": 0
+     },
+     {
+      "group": "out",
+      "id": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3",
+      "index": 0
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "c952fa39-8659-442d-98ec-6d96b77bf1b5",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "cb4e0573-1354-4a04-ba53-9c2c2a6fbf99",
+    "port": "34328acc-9cb1-48be-b0ba-d408f1f6f4b3"
+   },
+   "target": {
+    "cell": "000a0f7d-5fd7-4292-b4ed-61449e2984ae",
+    "port": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -480
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "000a0f7d-5fd7-4292-b4ed-61449e2984ae",
+   "component": "node-cust",
+   "data": {
+    "name": "Channel Expander",
+    "fun": 1,
+    "subId": 15,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "ChannelExpand10",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "ChannelExpand10",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "ChannelExpand10",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "ChannelExpand10",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "ChannelExpand10",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1666765139448_1",
+           "list": [
+            {
+             "id": "id_1675923289365_0",
+             "value": 0
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "ChannelExpand10",
+       "current": "",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          0
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "33b19f43-b00e-4fe0-ac29-8da7c779b47c"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "26a73669-18e9-4f00-8182-803e041a07e5"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "548b7664-022a-4832-a303-846ba5ce3ac8",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "000a0f7d-5fd7-4292-b4ed-61449e2984ae",
+    "port": "26a73669-18e9-4f00-8182-803e041a07e5"
+   },
+   "target": {
+    "cell": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
+    "port": "ba22cc41-5778-4c15-a204-cc1581ab8ed3"
+   }
+  },
+  {
+   "position": {
+    "x": -1240,
+    "y": -720
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "45da34e2-9dc3-4775-8bc5-ad28144436cc",
+   "component": "node-cust",
+   "data": {
+    "name": "Plate Reverb",
+    "fun": 1,
+    "subId": 1,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "PReverbEff",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "PReverbEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1676857589685_27",
+           "value": 0
+          },
+          {
+           "id": "id_1676857589685_29",
+           "value": 100
+          },
+          {
+           "id": "id_1676857589685_31",
+           "value": 70
+          },
+          {
+           "id": "id_1676857589685_33",
+           "value": 50
+          },
+          {
+           "id": "id_1676857589685_35",
+           "value": 12200
+          },
+          {
+           "id": "id_1676857589685_37",
+           "value": 33
+          },
+          {
+           "id": "id_1676857589685_39",
+           "value": 60
+          },
+          {
+           "id": "id_1676857589685_41",
+           "value": 26
+          },
+          {
+           "id": "id_1676857589685_43",
+           "value": 1
+          },
+          {
+           "id": "id_1676857589685_45",
+           "value": 100
+          },
+          {
+           "id": "id_1690529956454_10",
+           "value": 0
+          }
+         ],
+         "enable": true,
+         "bypass": false
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "PReverbEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg1",
+         "data": [
+          {
+           "id": "id_1676857589685_27",
+           "value": 0
+          },
+          {
+           "id": "id_1676857589685_29",
+           "value": 100
+          },
+          {
+           "id": "id_1676857589685_31",
+           "value": 70
+          },
+          {
+           "id": "id_1676857589685_33",
+           "value": 50
+          },
+          {
+           "id": "id_1676857589685_35",
+           "value": 12200
+          },
+          {
+           "id": "id_1676857589685_37",
+           "value": 33
+          },
+          {
+           "id": "id_1676857589685_39",
+           "value": 60
+          },
+          {
+           "id": "id_1676857589685_41",
+           "value": 26
+          },
+          {
+           "id": "id_1676857589685_43",
+           "value": 1
+          },
+          {
+           "id": "id_1676857589685_45",
+           "value": 100
+          },
+          {
+           "id": "id_1690529956454_10",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "PReverbEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg2",
+         "data": [
+          {
+           "id": "id_1676857589685_27",
+           "value": 0
+          },
+          {
+           "id": "id_1676857589685_29",
+           "value": 100
+          },
+          {
+           "id": "id_1676857589685_31",
+           "value": 70
+          },
+          {
+           "id": "id_1676857589685_33",
+           "value": 50
+          },
+          {
+           "id": "id_1676857589685_35",
+           "value": 12200
+          },
+          {
+           "id": "id_1676857589685_37",
+           "value": 33
+          },
+          {
+           "id": "id_1676857589685_39",
+           "value": 60
+          },
+          {
+           "id": "id_1676857589685_41",
+           "value": 26
+          },
+          {
+           "id": "id_1676857589685_43",
+           "value": 1
+          },
+          {
+           "id": "id_1676857589685_45",
+           "value": 100
+          },
+          {
+           "id": "id_1690529956454_10",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "PReverbEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg3",
+         "data": [
+          {
+           "id": "id_1676857589685_27",
+           "value": 0
+          },
+          {
+           "id": "id_1676857589685_29",
+           "value": 100
+          },
+          {
+           "id": "id_1676857589685_31",
+           "value": 70
+          },
+          {
+           "id": "id_1676857589685_33",
+           "value": 50
+          },
+          {
+           "id": "id_1676857589685_35",
+           "value": 12200
+          },
+          {
+           "id": "id_1676857589685_37",
+           "value": 33
+          },
+          {
+           "id": "id_1676857589685_39",
+           "value": 60
+          },
+          {
+           "id": "id_1676857589685_41",
+           "value": 26
+          },
+          {
+           "id": "id_1676857589685_43",
+           "value": 1
+          },
+          {
+           "id": "id_1676857589685_45",
+           "value": 100
+          },
+          {
+           "id": "id_1690529956454_10",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "PReverbEff",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "name": "arg4",
+         "data": [
+          {
+           "id": "id_1676857589685_27",
+           "value": 0
+          },
+          {
+           "id": "id_1676857589685_29",
+           "value": 100
+          },
+          {
+           "id": "id_1676857589685_31",
+           "value": 70
+          },
+          {
+           "id": "id_1676857589685_33",
+           "value": 50
+          },
+          {
+           "id": "id_1676857589685_35",
+           "value": 12200
+          },
+          {
+           "id": "id_1676857589685_37",
+           "value": 33
+          },
+          {
+           "id": "id_1676857589685_39",
+           "value": 60
+          },
+          {
+           "id": "id_1676857589685_41",
+           "value": 26
+          },
+          {
+           "id": "id_1676857589685_43",
+           "value": 1
+          },
+          {
+           "id": "id_1676857589685_45",
+           "value": 100
+          },
+          {
+           "id": "id_1690529956454_10",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "a0d39deb-f060-4791-94d1-247a9f54e197"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "2a3d83e1-f24a-42ab-9bec-81e9cc0687a9"
+     }
+    ]
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "d90822b1-2025-4d45-b946-6e3a26cae4be",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "45da34e2-9dc3-4775-8bc5-ad28144436cc",
+    "port": "2a3d83e1-f24a-42ab-9bec-81e9cc0687a9"
+   },
+   "target": {
+    "cell": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
+    "port": "05a7e82d-cc8a-46d7-ab1c-90e8e6c34a8b"
+   }
+  }
+ ],
+ "stencil": {
+  "time": "20260831164258"
+ }
+}

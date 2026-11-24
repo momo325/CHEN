@@ -29,7 +29,7 @@
 // ------------流程图宏定义------------
 #define TCFG_AUDIO_BIT_WIDTH                      0                // 位宽
 #define TCFG_2BAND_MERGE_ENABLE                   0                // 2Band Merge
-#define TCFG_3BAND_MERGE_ENABLE                   1                // 3Band Merge
+#define TCFG_3BAND_MERGE_ENABLE                   0                // 3Band Merge
 #define TCFG_3D_PLUS_MODULE_NODE_ENABLE           0                // 3D Plus
 #define TCFG_ADC_NODE_ENABLE                      1                // ADC
 #define TCFG_AGC_NODE_ENABLE                      0                // AGC
@@ -63,7 +63,7 @@
 #define TCFG_DYNAMIC_EQ_NODE_ENABLE               0                // Dynamic EQ
 #define TCFG_DYNAMIC_EQ_PRO_EXT_DETECTOR_NODE_ENABLE 0                // Dynamic EQ  Pro Ext Detector
 #define TCFG_DYNAMIC_EQ_PRO_NODE_ENABLE           0                // Dynamic EQ Pro
-#define TCFG_ECHO_NODE_ENABLE                     1                // Echo
+#define TCFG_ECHO_NODE_ENABLE                     0                // Echo
 #define TCFG_EFFECT_DEV0_NODE_ENABLE              0                // EffectDev0
 #define TCFG_EFFECT_DEV1_NODE_ENABLE              0                // EffectDev1
 #define TCFG_EFFECT_DEV2_NODE_ENABLE              0                // EffectDev2
@@ -77,7 +77,7 @@
 #define TCFG_FILE_PACKAGE_NODE_ENABLE             1                // 封装
 #define TCFG_FLANGER_NODE_ENABLE                  0                // Flanger
 #define TCFG_FREQUENCY_COMPRESSOR_NODE_ENABLE     0                // Frequency Compressor
-#define TCFG_FREQUENCY_SHIFT_HOWLING_NODE_ENABLE  1                // Frequency Shift
+#define TCFG_FREQUENCY_SHIFT_HOWLING_NODE_ENABLE  0                // Frequency Shift
 #define TCFG_GAIN_NODE_ENABLE                     0                // Gain
 #define TCFG_HARMONIC_EXCITER_NODE_ENABLE         0                // Harmonic Exciter
 #define TCFG_HARMONY_NODE_ENABLE                  0                // Harmony
@@ -96,7 +96,7 @@
 #define TCFG_MUTE_NODE_ENABLE                     0                // mute
 #define TCFG_NOISEGATE_NODE_ENABLE                0                // NoiseGate
 #define TCFG_NOISEGATE_PRO_NODE_ENABLE            0                // NoiseGate Pro
-#define TCFG_NOTCH_HOWLING_NODE_ENABLE            1                // Howling Suppress
+#define TCFG_NOTCH_HOWLING_NODE_ENABLE            0                // Howling Suppress
 #define TCFG_NS_NODE_ENABLE                       0                // Noise Suppressor
 #define TCFG_PCM_DELAY_NODE_ENABLE                0                // PCM Delay
 #define TCFG_PHASER_NODE_ENABLE                   0                // Phaser
@@ -104,7 +104,7 @@
 #define TCFG_PINGPONG_ECHO_NODE_ENABLE            0                // Pingpong Echo
 #define TCFG_PITCH_SPEED_NODE_ENABLE              0                // Pitch Speed
 #define TCFG_PLATE_REVERB_ADVANCE_NODE_ENABLE     0                // Plate Reverb Advance
-#define TCFG_PLATE_REVERB_NODE_ENABLE             1                // Plate Reverb
+#define TCFG_PLATE_REVERB_NODE_ENABLE             0                // Plate Reverb
 #define TCFG_PLC_NODE_ENABLE                      1                // 丢包修复PLC
 #define TCFG_REPLACE_NODE_ENABLE                  0                // Replace
 #define TCFG_REVERB_NODE_ENABLE                   0                // Reverb
@@ -137,7 +137,7 @@
 #define TCFG_VOCAL_TRACK_SEPARATION_NODE_ENBALE   0                // 声道拆分（8To2）、声道拆分（6To2）、声道拆分
 #define TCFG_VOCAL_TRACK_SYNTHESIS_NODE_ENABLE    0                // 声道组合
 #define TCFG_VOICE_CHANGER_ADV_NODE_ENABLE        0                // Voice Changer Adv
-#define TCFG_VOICE_CHANGER_NODE_ENABLE            1                // Voice Changer
+#define TCFG_VOICE_CHANGER_NODE_ENABLE            0                // Voice Changer
 #define TCFG_WDRC_ADVANCE_NODE_ENABLE             0                // DRC Advance
 #define TCFG_WDRC_DETECTOR_NODE_ENABLE            0                // DRC Detector
 #define TCFG_WDRC_NODE_ENABLE                     1                // DRC
@@ -153,7 +153,7 @@
 
 // ------------流程图节点位宽定义------------
 #define TCFG_AUDIO_EFX_665C_RUN_MODE              EFx_BW_UNUSED    // 2Band Merge
-#define TCFG_AUDIO_EFX_1B9D_RUN_MODE              EFx_BW_16t16     // 3Band Merge
+#define TCFG_AUDIO_EFX_1B9D_RUN_MODE              EFx_BW_UNUSED    // 3Band Merge
 #define TCFG_AUDIO_EFX_4C00_RUN_MODE              EFx_BW_UNUSED    // 3D Plus
 #define TCFG_AUDIO_EFX_F975_RUN_MODE              EFx_BW_16t16     // A2DP_RX
 #define TCFG_AUDIO_EFX_D1B7_RUN_MODE              EFx_BW_UNUSED    // ANC
@@ -194,20 +194,20 @@
 #define TCFG_AUDIO_EFX_849A_RUN_MODE              EFx_BW_16t16     // ESCO_TX
 #define TCFG_AUDIO_EFX_E2BB_RUN_MODE              EFx_BW_UNUSED    // ENC
 #define TCFG_AUDIO_EFX_737B_RUN_MODE              EFx_BW_16t16 | EFx_BW_16t32 // EQ
-#define TCFG_AUDIO_EFX_98A4_RUN_MODE              EFx_BW_16t16     // Echo
+#define TCFG_AUDIO_EFX_98A4_RUN_MODE              EFx_BW_UNUSED    // Echo
 #define TCFG_AUDIO_EFX_A248_RUN_MODE              EFx_BW_UNUSED    // Energy Detect
 #define TCFG_AUDIO_EFX_A4E1_RUN_MODE              EFx_BW_UNUSED    // EffectDev0
 #define TCFG_AUDIO_EFX_A4E2_RUN_MODE              EFx_BW_UNUSED    // EffectDev1
 #define TCFG_AUDIO_EFX_A4E3_RUN_MODE              EFx_BW_UNUSED    // EffectDev2
 #define TCFG_AUDIO_EFX_A4E4_RUN_MODE              EFx_BW_UNUSED    // EffectDev3
 #define TCFG_AUDIO_EFX_A4E5_RUN_MODE              EFx_BW_UNUSED    // EffectDev4
-#define TCFG_AUDIO_EFX_6195_RUN_MODE              EFx_BW_16t16     // Frequency Shift
+#define TCFG_AUDIO_EFX_6195_RUN_MODE              EFx_BW_UNUSED    // Frequency Shift
 #define TCFG_AUDIO_EFX_7398_RUN_MODE              EFx_BW_16t16     // FM
 #define TCFG_AUDIO_EFX_1BF5_RUN_MODE              EFx_BW_UNUSED    // Fade
 #define TCFG_AUDIO_EFX_BC44_RUN_MODE              EFx_BW_UNUSED    // Flanger
 #define TCFG_AUDIO_EFX_BFE4_RUN_MODE              EFx_BW_UNUSED    // Frequency Compressor
 #define TCFG_AUDIO_EFX_A904_RUN_MODE              EFx_BW_UNUSED    // Gain
-#define TCFG_AUDIO_EFX_C482_RUN_MODE              EFx_BW_16t16     // Howling Suppress
+#define TCFG_AUDIO_EFX_C482_RUN_MODE              EFx_BW_UNUSED    // Howling Suppress
 #define TCFG_AUDIO_EFX_1B2A_RUN_MODE              EFx_BW_UNUSED    // Harmonic Exciter
 #define TCFG_AUDIO_EFX_30BE_RUN_MODE              EFx_BW_UNUSED    // Howling Gate
 #define TCFG_AUDIO_EFX_AE43_RUN_MODE              EFx_BW_UNUSED    // Harmony
@@ -229,11 +229,11 @@
 #define TCFG_AUDIO_EFX_F7BA_RUN_MODE              EFx_BW_UNUSED    // MULTI CH IIS0 RX
 #define TCFG_AUDIO_EFX_F7FC_RUN_MODE              EFx_BW_UNUSED    // MULTI CH IIS0 TX
 #define TCFG_AUDIO_EFX_55C9_RUN_MODE              EFx_BW_UNUSED    // Multi Frequency Generator
-#define TCFG_AUDIO_EFX_B7C4_RUN_MODE              EFx_BW_16t16     // NoiseGate
+#define TCFG_AUDIO_EFX_B7C4_RUN_MODE              EFx_BW_UNUSED    // NoiseGate
 #define TCFG_AUDIO_EFX_3BC9_RUN_MODE              EFx_BW_UNUSED    // Noise Suppressor
 #define TCFG_AUDIO_EFX_E955_RUN_MODE              EFx_BW_UNUSED    // NoiseGate Pro
 #define TCFG_AUDIO_EFX_B711_RUN_MODE              EFx_BW_16t16     // PCMIC
-#define TCFG_AUDIO_EFX_5101_RUN_MODE              EFx_BW_16t16     // Plate Reverb
+#define TCFG_AUDIO_EFX_5101_RUN_MODE              EFx_BW_UNUSED    // Plate Reverb
 #define TCFG_AUDIO_EFX_540E_RUN_MODE              EFx_BW_UNUSED    // Pitch Speed
 #define TCFG_AUDIO_EFX_0753_RUN_MODE              EFx_BW_UNUSED    // Plate Reverb Advance
 #define TCFG_AUDIO_EFX_A8F4_RUN_MODE              EFx_BW_UNUSED    // PCM Delay
@@ -266,7 +266,7 @@
 #define TCFG_AUDIO_EFX_FB27_RUN_MODE              EFx_BW_UNUSED    // Tremolo
 #define TCFG_AUDIO_EFX_B542_RUN_MODE              EFx_BW_UNUSED    // upmix 2to5
 #define TCFG_AUDIO_EFX_B0D5_RUN_MODE              EFx_BW_UNUSED    // Virtual Bass
-#define TCFG_AUDIO_EFX_7293_RUN_MODE              EFx_BW_16t16     // Voice Changer
+#define TCFG_AUDIO_EFX_7293_RUN_MODE              EFx_BW_UNUSED    // Voice Changer
 #define TCFG_AUDIO_EFX_2F7A_RUN_MODE              EFx_BW_16t16     // Vocal Remover
 #define TCFG_AUDIO_EFX_320E_RUN_MODE              EFx_BW_UNUSED    // Voice Changer Adv
 #define TCFG_AUDIO_EFX_191F_RUN_MODE              EFx_BW_UNUSED    // Virtual Surround Pro
