@@ -44,7 +44,7 @@ static const u8 sDeviceDescriptor[] = { //<Device Descriptor
     0x00,       // bDeviceProtocol: none
     EP0_SETUP_LEN,//EP0_LEN,      // bMaxPacketSize0: 8/64 bytes
     0x54, 0x36,     // idVendor: 0x3654 - Zhuhai Jieli Technology
-    'U', 'A',     // idProduct: chip id
+    'U', 'B',     // idProduct: 0x4255, 双声道UAC上行版本, 避开Windows旧设备缓存
     0x00, 0x01,     // bcdDevice: version 1.0
     0x01,       // iManufacturer: Index to string descriptor that contains the string <Your Name> in Unicode
     0x02,       // iProduct: Index to string descriptor that contains the string <Your Product Name> in Unicode
