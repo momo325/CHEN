@@ -14,6 +14,7 @@
 #include "iokey_config.h"
 #include "adkey_config.h"
 #include "key/key_driver.h"
+#include "user_audio_ctrl.h"
 
 
 
@@ -137,5 +138,6 @@ void board_init()
     fm_dev_init((void *)(&fm_dev_data));
 #endif
 
+    user_audio_ctrl_init();
 }
 

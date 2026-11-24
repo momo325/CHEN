@@ -10,6 +10,7 @@
 #include "system/event.h"
 #include "os/os_api.h"
 #include "app_main.h"
+#include "user_audio_ctrl.h"
 
 #if  USB_PC_NO_APP_MODE == 0
 #include "app_task.h"
@@ -134,6 +135,7 @@ static void usb_task(void *p)
                     } else if (event == DEVICE_EVENT_OUT) {
 #if   USB_PC_NO_APP_MODE
                         usb_stop(usb_id);
+                        user_usb_slave_online(0);
 #else
                         usb_driver_event_to_user(from, event, usb_msg);
 #endif

@@ -1195,21 +1195,6 @@
    }
   },
   {
-   "shape": "edge",
-   "id": "3f75b074-c3b5-484b-96a8-90bbeb097063",
-   "data": {
-    "itemId": "id_1680241705348_0"
-   },
-   "source": {
-    "cell": "427fed21-200b-42da-9f15-b953ef6e1239",
-    "port": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
-   },
-   "target": {
-    "cell": "bb3c21fd-bcd1-4c59-ab94-f6079a289a26",
-    "port": "37de61f6-bdc1-4fe1-9089-27160ed8330a"
-   }
-  },
-  {
    "position": {
     "x": -1000,
     "y": -880
@@ -1420,8 +1405,8 @@
     "itemId": "id_1680241705348_0"
    },
    "source": {
-    "cell": "bb3c21fd-bcd1-4c59-ab94-f6079a289a26",
-    "port": "66e0b840-9019-4aba-aa7d-a2eaa1aaa109"
+    "cell": "427fed21-200b-42da-9f15-b953ef6e1239",
+    "port": "bef032bd-c6f1-4712-bf94-2814b1cf25a7"
    },
    "target": {
     "cell": "fa6b76ed-7930-48f9-8a25-d8bdeb297608",
@@ -1673,8 +1658,8 @@
     "port": "4decb197-2782-4173-a600-958942b8109d"
    },
    "target": {
-    "cell": "e50cd7de-92cf-4810-ab19-5ab79178c07f",
-    "port": "2cd250bb-4d53-4d7c-9907-33f84277abc7"
+    "cell": "70000000-0000-4000-8000-000000000028",
+    "port": "70000000-0000-4000-8000-000000000029"
    }
   },
   {
@@ -5939,6 +5924,40 @@
    "target": {
     "cell": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
     "port": "05a7e82d-cc8a-46d7-ab1c-90e8e6c34a8b"
+   }
+  },
+  {
+   "position": {
+    "x": -700,
+    "y": -400
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "70000000-0000-4000-8000-000000000028",
+   "component": "node-cust",
+   "data": {
+    "name": "Source",
+    "fun": 11,
+    "subId": 44,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "UserMic",
+     "list": []
+    },
+    "edit": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "70000000-0000-4000-8000-000000000029"
+     }
+    ]
    }
   }
  ],

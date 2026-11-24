@@ -292,11 +292,9 @@
 // #define USB_DEVICE_CLASS_CONFIG 									(AUDIO_CLASS)
 /////要确保 上面 undef 后在include usb
 
-#if TCFG_AS_WIRELESS_MIC_DSP_ENABLE
+// UAC始终在后台运行，蓝牙连接/断开不得触发PC模式切换
 #define USB_PC_NO_APP_MODE                        1
-#else
-#define USB_PC_NO_APP_MODE                        0
-#endif
+#define TCFG_USB_PORT_CHARGE                      0
 
 #if TCFG_CHARGE_ENABLE
 #define TCFG_USB_PORT_CHARGE                1

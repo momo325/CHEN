@@ -538,7 +538,7 @@ static int tws_get_output_channel()
     return channel;
 }
 
-#if TCFG_AS_WIRELESS_MIC_DSP_ENABLE
+#if TCFG_USB_SLAVE_AUDIO_MIC_ENABLE
 #include "uac_stream.h"
 static int get_pc_mic_status()
 {
@@ -561,7 +561,7 @@ static int get_switch_node_callback(const char *arg)
 #endif
 #endif
 
-#if TCFG_AS_WIRELESS_MIC_DSP_ENABLE
+#if TCFG_USB_SLAVE_AUDIO_MIC_ENABLE
     if (!strcmp(arg, "SW_PCMIC")) {
         return (int)get_pc_mic_status;
     }

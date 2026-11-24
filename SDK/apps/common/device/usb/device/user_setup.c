@@ -17,6 +17,7 @@
 #include "init.h"
 #include "gpio.h"
 #include "app_config.h"
+#include "user_audio_ctrl.h"
 
 #if TCFG_USB_APPLE_DOCK_EN
 #include "apple_dock/iAP.h"
@@ -203,6 +204,7 @@ static u32 setup_device(struct usb_device_t *usb_device, struct usb_ctrlrequest 
         }
         break;
     case USB_REQ_SET_CONFIGURATION:
+        user_usb_slave_online(req->wValue != 0);
         switch (cfg_desc_len[usb_id]) {
         case 255:
             host_type[usb_id] = HOST_TYPE_WINDOWS;

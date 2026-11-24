@@ -46,12 +46,12 @@ copy /b text.bin + data.bin + mov_slot.bin + data_code.bin + aec.bin + aac.bin +
 del !bankfiles! common.bin text.bin data.bin bank.bin
 
 
-set TONE_EN_ENABLE=1
 
 
+set TONE_EN_ENABLE=0
 
 
 
 set TONE_ZH_ENABLE=1
-set UI_RESOURCE_EN=1
+set UI_RESOURCE_EN=0
 call download/soundbox/download.bat

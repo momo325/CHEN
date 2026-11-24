@@ -20,7 +20,7 @@
 // ------------板级配置------------
 #define TCFG_DEBUG_UART_ENABLE                    1                // 调试串口
 #if TCFG_DEBUG_UART_ENABLE
-#define TCFG_DEBUG_UART_TX_PIN                    IO_PORTA_05      // 输出IO
+#define TCFG_DEBUG_UART_TX_PIN                    IO_PORT_LDOIN    // VPWR单线半双工调试串口
 #define TCFG_DEBUG_UART_BAUDRATE                  2000000          // 波特率
 #define TCFG_EXCEPTION_LOG_ENABLE                 1                // 打印异常信息
 #define TCFG_EXCEPTION_RESET_ENABLE               1                // 异常自动复位
@@ -46,7 +46,7 @@
 #define TCFG_FLASH_DEV_SPI_CS_PORT                IO_PORTA_07      // CS片选IO
 #endif // TCFG_NORFLASH_DEV_ENABLE
 
-#define TCFG_PWMLED_ENABLE                        1                // LED配置
+#define TCFG_PWMLED_ENABLE                        0                // 使用用户GPIO指示灯
 #if TCFG_PWMLED_ENABLE
 #define TCFG_LED_LAYOUT                           ONE_IO_TWO_LED   // 连接方式
 #define TCFG_LED_RED_ENABLE                       1                // 红灯(Red)
@@ -66,7 +66,7 @@
 #define TCFG_PSRAM_PORT_SEL                       0                // IO引脚组
 #endif // TCFG_PSRAM_DEV_ENABLE
 
-#define TCFG_SD0_ENABLE                           1                // SD配置
+#define TCFG_SD0_ENABLE                           0                // 释放PG1给OTG音量ADC13
 #if TCFG_SD0_ENABLE
 #define TCFG_SD0_DAT_MODE                         1                // 线数设置
 #define TCFG_SD0_DET_MODE                         SD_CMD_DECT      // 检测方式
@@ -85,15 +85,15 @@
 #endif // TCFG_SD0_ENABLE
 
 #define FUSB_MODE                                 1                // USB工作模式
-#define TCFG_USB_HOST_ENABLE                      1                // USB主机总开关
+#define TCFG_USB_HOST_ENABLE                      0                // 仅使用USB从机UAC
 #define USB_H_MALLOC_ENABLE                       1                // 主机使用malloc
 #define TCFG_USB_HOST_MOUNT_RESET                 40               // usb reset时间
 #define TCFG_USB_HOST_MOUNT_TIMEOUT               50               // 握手超时时间
 #define TCFG_USB_HOST_MOUNT_RETRY                 3                // 枚举失败重试次数
-#define TCFG_UDISK_ENABLE                         1                // U盘使能
+#define TCFG_UDISK_ENABLE                         0                // U盘使能
 #define USB_MALLOC_ENABLE                         1                // 从机使用malloc
-#define TCFG_USB_SLAVE_MSD_ENABLE                 1                // 读卡器使能
-#define TCFG_USB_SLAVE_HID_ENABLE                 1                // HID使能
+#define TCFG_USB_SLAVE_MSD_ENABLE                 0                // 读卡器使能
+#define TCFG_USB_SLAVE_HID_ENABLE                 0                // HID使能
 #define MSD_BLOCK_NUM                             1                // MSD缓存块数
 #define USB_AUDIO_VERSION                         USB_AUDIO_VERSION_1_0 // UAC协议版本
 #define TCFG_USB_APPLE_DOCK_EN                    0                // 苹果IAP使能
@@ -140,7 +140,7 @@
 #define TCFG_FM_QN8035_ENABLE                     0                // FM_QN8035
 #endif // TCFG_FM_OUTSIDE_ENABLE
 
-#define TCFG_LINEIN_DETECT_ENABLE                 1                // LINEIN检测配置
+#define TCFG_LINEIN_DETECT_ENABLE                 0                // LINEIN无检测脚，常驻输入
 #if TCFG_LINEIN_DETECT_ENABLE
 #define TCFG_LINEIN_DETECT_IO                     IO_PORTB_03      // 检测IO选择
 #define TCFG_LINEIN_DETECT_PULL_UP_ENABLE         1                // 检测IO上拉使能
@@ -163,7 +163,7 @@
 
 // ------------功能配置------------
 #define TCFG_APP_BT_EN                            1                // 蓝牙模式
-#define TCFG_APP_MUSIC_EN                         1                // 音乐模式
+#define TCFG_APP_MUSIC_EN                         0                // 无SD/U盘本地解码
 #define TCFG_APP_LINEIN_EN                        1                // LINEIN模式
 #define TCFG_APP_FM_EN                            0                // FM模式
 #define TCFG_APP_PC_EN                            1                // PC模式
@@ -205,7 +205,7 @@
 #if TCFG_IOKEY_ENABLE
 #endif // TCFG_IOKEY_ENABLE
 
-#define TCFG_ADKEY_ENABLE                         1                // AD按键配置
+#define TCFG_ADKEY_ENABLE                         0                // 使用PC1自定义GPIO按键扫描
 #if TCFG_ADKEY_ENABLE
 #endif // TCFG_ADKEY_ENABLE
 
@@ -232,7 +232,7 @@
 #define TCFG_POWER_WARN_VOLTAGE                   3700             // 低电电压(mV)
 #endif // TCFG_SYS_LVD_EN
 
-#define TCFG_CHARGE_ENABLE                        1                // 充电配置
+#define TCFG_CHARGE_ENABLE                        0                // VPWR仅作单线调试串口
 #if TCFG_CHARGE_ENABLE
 #define TCFG_CHARGE_TRICKLE_MA                    1                // 涓流电流
 #define TCFG_CHARGE_MA                            13               // 恒流电流
@@ -254,11 +254,11 @@
 // ------------电源配置------------
 
 // ------------UI配置------------
-#define TCFG_UI_ENABLE                            1                // UI配置
+#define TCFG_UI_ENABLE                            0                // 释放PA4/PA6，使用独立GPIO指示灯
 #if TCFG_UI_ENABLE
 #define CONFIG_UI_STYLE                           STYLE_JL_LED7    // UI类型
 #define TCFG_LED7_RUN_RAM                         1                // LED屏驱动跑RAM
-#define TCFG_UI_LED7_ENABLE                       1                // LED7脚数码管屏
+#define TCFG_UI_LED7_ENABLE                       0                // LED7脚数码管屏
 #define TCFG_TFT_LCD_DEV_SPI_HW_NUM               1                // LCD SPI口选择
 #define TCFG_LRC_LYRICS_ENABLE                    0                // 歌词显示
 #define LRC_ENABLE_SAVE_LABEL_TO_FLASH            0                // 保存歌词时间标签到flash
@@ -496,18 +496,18 @@
 #define TCFG_ADC0_ENABLE                          1                // 使能
 #define TCFG_ADC0_MODE                            0                // 模式
 #define TCFG_ADC0_AIN_SEL                         1                // 输入端口
-#define TCFG_ADC0_BIAS_SEL                        1                // 供电端口
+#define TCFG_ADC0_BIAS_SEL                        0                // LINEIN无MIC偏置，释放PA2/VBUS_DET
 #define TCFG_ADC0_BIAS_RSEL                       4                // MIC BIAS上拉电阻挡位
 #define TCFG_ADC0_DCC_LEVEL                       14               // DCC 档位
 #define TCFG_ADC0_POWER_IO                        49889            // IO供电选择
 #define TCFG_ADC1_ENABLE                          1                // 使能
 #define TCFG_ADC1_MODE                            0                // 模式
 #define TCFG_ADC1_AIN_SEL                         1                // 输入端口
-#define TCFG_ADC1_BIAS_SEL                        2                // 供电端口
+#define TCFG_ADC1_BIAS_SEL                        0                // LINEIN无MIC偏置，释放PA4/OTG_LED
 #define TCFG_ADC1_BIAS_RSEL                       4                // MIC BIAS上拉电阻挡位
 #define TCFG_ADC1_DCC_LEVEL                       14               // DCC 档位
 #define TCFG_ADC1_POWER_IO                        49889            // IO供电选择
-#define TCFG_ADC2_ENABLE                          1                // 使能
+#define TCFG_ADC2_ENABLE                          0                // 未使用ADC2
 #define TCFG_ADC2_MODE                            0                // 模式
 #define TCFG_ADC2_AIN_SEL                         1                // 输入端口
 #define TCFG_ADC2_BIAS_SEL                        4                // 供电端口
@@ -517,13 +517,13 @@
 #define TCFG_ADC3_ENABLE                          1                // 使能
 #define TCFG_ADC3_MODE                            0                // 模式
 #define TCFG_ADC3_AIN_SEL                         1                // 输入端口
-#define TCFG_ADC3_BIAS_SEL                        8                // 供电端口
+#define TCFG_ADC3_BIAS_SEL                        16               // PA0/MICLDO(AUDIO_MIC_LDO_PWR)
 #define TCFG_ADC3_BIAS_RSEL                       4                // MIC BIAS上拉电阻挡位
 #define TCFG_ADC3_DCC_LEVEL                       14               // DCC 档位
 #define TCFG_ADC3_POWER_IO                        49889            // IO供电选择
 #endif // TCFG_AUDIO_ADC_ENABLE
 
-#define TCFG_AUDIO_GLOBAL_SAMPLE_RATE             44100            // 全局采样率
+#define TCFG_AUDIO_GLOBAL_SAMPLE_RATE             48000            // 与UAC 48kHz对齐
 
 #define TCFG_AEC_TOOL_ONLINE_ENABLE               0                // 手机APP在线调试
 #define TCFG_AUDIO_CVP_SYNC                       0                // 通话上行同步

@@ -68,17 +68,21 @@ static void pc_mic_recoder_callback(void *private_data, int event)
 {
     struct pc_mic_recoder *recoder = g_pc_mic_recoder;
     struct jlstream *stream = (struct jlstream *)private_data;
+#if !USB_PC_NO_APP_MODE
     u16 volume;
     struct volume_cfg cfg;
     int err;
+#endif
 
     switch (event) {
     case STREAM_EVENT_START:
+#if !USB_PC_NO_APP_MODE
         uac_mic_stream_get_volume(&volume);
         cfg.bypass = VOLUME_NODE_CMD_SET_VOL;
         cfg.cur_vol = volume;
         err = jlstream_set_node_param(NODE_UUID_VOLUME_CTRLER, "Vol_PcMic", (void *)&cfg, sizeof(struct volume_cfg));
         log_info(">>> pc mic vol: %d, ret:%d", volume, err);
+#endif
 #if TCFG_AUDIO_CVP_OUTPUT_WAY_IIS_ENABLE && (defined TCFG_IIS_NODE_ENABLE)
         /*打开pc mic，没有开skp，忽略外部参考数据*/
         printf("STREAM_EVENT_START");
@@ -99,7 +103,8 @@ int pc_mic_recoder_open(void)
 #endif
     os_mutex_pend(&mic_rec_mutex, 0);
     struct pc_mic_recoder *recoder = NULL;
-    u16 source_uuid;
+    u16 source_uuid = 0;
+    u8 named_source = 0;
     if (g_pc_mic_recoder) {
         log_error("## %s, pc mic recoder is busy!\n", __func__);
         os_mutex_post(&mic_rec_mutex);
@@ -115,33 +120,41 @@ int pc_mic_recoder_open(void)
         os_mutex_post(&mic_rec_mutex);
         return -ENOMEM;
     }
-    recoder->stream = jlstream_pipeline_parse(uuid, NODE_UUID_ADC);
-    source_uuid = NODE_UUID_ADC;
+    recoder->stream = jlstream_pipeline_parse_by_node_name(uuid, "UserCoreMix");
+    if (recoder->stream) {
+        named_source = 1;
+    } else {
+        recoder->stream = jlstream_pipeline_parse(uuid, NODE_UUID_ADC);
+        source_uuid = NODE_UUID_ADC;
 
-    if (!recoder->stream) {
-        recoder->stream = jlstream_pipeline_parse(uuid, NODE_UUID_IIS0_RX);
-        source_uuid = NODE_UUID_IIS0_RX;
+        if (!recoder->stream) {
+            recoder->stream = jlstream_pipeline_parse(uuid, NODE_UUID_IIS0_RX);
+            source_uuid = NODE_UUID_IIS0_RX;
+        }
     }
     if (!recoder->stream) {
         goto __exit0;
     }
 
-    //设置ADC的中断点数,通话算法节点要求输入点数是256
-    int err = jlstream_node_ioctl(recoder->stream, NODE_UUID_SOURCE, NODE_IOC_SET_PRIV_FMT, 256);
-    if (err) {
-        goto __exit1;
-    }
-
-    u16 node_uuid = get_cvp_node_uuid();
-    //根据回音消除的类型，将配置传递到对应的节点
-    if (node_uuid) {
-#if !(TCFG_AUDIO_CVP_OUTPUT_WAY_IIS_ENABLE && (defined TCFG_IIS_NODE_ENABLE))
-        u32 ref_sr = audio_dac_get_sample_rate(&dac_hdl);
-        jlstream_node_ioctl(recoder->stream, node_uuid, NODE_IOC_SET_FMT, (int)ref_sr);
-#endif
-        err = jlstream_node_ioctl(recoder->stream, node_uuid, NODE_IOC_SET_PRIV_FMT, source_uuid);
-        if (err && (err != -ENOENT)) {	//兼容没有cvp节点的情况
+    int err = 0;
+    if (!named_source) {
+        //仅 ADC/IIS 输入需要设置中断点数和 CVP 参考格式
+        err = jlstream_node_ioctl(recoder->stream, NODE_UUID_SOURCE, NODE_IOC_SET_PRIV_FMT, 256);
+        if (err) {
             goto __exit1;
+        }
+
+        u16 node_uuid = get_cvp_node_uuid();
+        //根据回音消除的类型，将配置传递到对应的节点
+        if (node_uuid) {
+#if !(TCFG_AUDIO_CVP_OUTPUT_WAY_IIS_ENABLE && (defined TCFG_IIS_NODE_ENABLE))
+            u32 ref_sr = audio_dac_get_sample_rate(&dac_hdl);
+            jlstream_node_ioctl(recoder->stream, node_uuid, NODE_IOC_SET_FMT, (int)ref_sr);
+#endif
+            err = jlstream_node_ioctl(recoder->stream, node_uuid, NODE_IOC_SET_PRIV_FMT, source_uuid);
+            if (err && (err != -ENOENT)) {	//兼容没有cvp节点的情况
+                goto __exit1;
+            }
         }
     }
 

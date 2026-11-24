@@ -35,7 +35,7 @@ void debug_uart_init()
     const struct uart_config debug_uart_config = {
         .baud_rate = TCFG_DEBUG_UART_BAUDRATE,
         .tx_pin = TCFG_DEBUG_UART_TX_PIN,
-        .rx_pin = -1,
+        .rx_pin = TCFG_DEBUG_UART_TX_PIN, // TX==RX：VPWR单线半双工
         .tx_wait_mutex = 0,//1:不支持中断调用,互斥,0:支持中断,不互斥
     };
 

@@ -965,6 +965,7 @@
 <Unit filename="apps/soundbox/audio/mix_record_api.c"><Option compilerVer="CC"/></Unit>
 <Unit filename="apps/soundbox/audio/scene_switch.c"><Option compilerVer="CC"/></Unit>
 <Unit filename="apps/soundbox/audio/tone_table.c"><Option compilerVer="CC"/></Unit>
+<Unit filename="apps/soundbox/audio/user_audio_ctrl.c"><Option compilerVer="CC"/></Unit>
 <Unit filename="apps/soundbox/audio/vol_sync.c"><Option compilerVer="CC"/></Unit>
 <Unit filename="apps/soundbox/battery/battery_level.c"><Option compilerVer="CC"/></Unit>
 <Unit filename="apps/soundbox/battery/charge.c"><Option compilerVer="CC"/></Unit>

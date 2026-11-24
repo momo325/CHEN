@@ -43,7 +43,7 @@
 #define TCFG_AUDIO_CVP_SMS_ANS_MODE               1                // 单MIC通话
 #define TCFG_AUDIO_CVP_SMS_DNS_MODE               0                // 单MIC+DNS
 #define TCFG_AUTO_WAH_NODE_ENABLE                 0                // Auto Wah
-#define TCFG_AUTODUCK_NODE_ENABLE                 0                // AutoDuck、AutoDuck Trigger
+#define TCFG_AUTODUCK_NODE_ENABLE                 1                // AutoDuck、AutoDuck Trigger
 #define TCFG_AUTOTUNE_NODE_ENABLE                 0                // Autotune
 #define TCFG_BASS_TREBLE_NODE_ENABLE              0                // Bass Treble
 #define TCFG_CHANNEL_EXPANDER_NODE_ENABLE         1                // Channel Expander
@@ -122,7 +122,7 @@
 #define TCFG_STEREO_WIDENER_NODE_ENABLE           0                // Stereo Widener
 #define TCFG_STEROMIX_NODE_ENABLE                 0                // SteroMix
 #define TCFG_SURROUND_NODE_ENABLE                 0                // Surround Effect
-#define TCFG_SWITCH_NODE_ENABLE                   0                // Switch
+#define TCFG_SWITCH_NODE_ENABLE                   1                // Switch
 #define TCFG_THREE_D_EFFECT_NODE_ENABLE           0                // ThreeD
 #define TCFG_TONE_NODE_ENABLE                     1                // 提示音
 #define TCFG_TREMOLO_NODE_ENABLE                  0                // Tremolo
@@ -212,8 +212,8 @@
 #define TCFG_AUDIO_EFX_D0BC_RUN_MODE              EFx_BW_16t16     // 单MIC通话
 #define TCFG_AUDIO_EFX_DBF5_RUN_MODE              EFx_BW_UNUSED    // 单MIC+DNS
 #define TCFG_AUDIO_EFX_2F5E_RUN_MODE              EFx_BW_UNUSED    // Auto Wah
-#define TCFG_AUDIO_EFX_7099_RUN_MODE              EFx_BW_UNUSED    // AutoDuck Trigger
-#define TCFG_AUDIO_EFX_6CE5_RUN_MODE              EFx_BW_UNUSED    // AutoDuck
+#define TCFG_AUDIO_EFX_7099_RUN_MODE              EFx_BW_16t16     // AutoDuck Trigger
+#define TCFG_AUDIO_EFX_6CE5_RUN_MODE              EFx_BW_16t16     // AutoDuck
 #define TCFG_AUDIO_EFX_C07A_RUN_MODE              EFx_BW_UNUSED    // Autotune
 #define TCFG_AUDIO_EFX_CC8C_RUN_MODE              EFx_BW_UNUSED    // Bass Treble
 #define TCFG_AUDIO_EFX_DA15_RUN_MODE              EFx_BW_16t16     // Channel Expander
@@ -294,7 +294,7 @@
 #define TCFG_AUDIO_EFX_88E5_RUN_MODE              EFx_BW_UNUSED    // Stereo Widener
 #define TCFG_AUDIO_EFX_FB00_RUN_MODE              EFx_BW_UNUSED    // SteroMix
 #define TCFG_AUDIO_EFX_8934_RUN_MODE              EFx_BW_UNUSED    // Surround Effect
-#define TCFG_AUDIO_EFX_2357_RUN_MODE              EFx_BW_UNUSED    // Switch
+#define TCFG_AUDIO_EFX_2357_RUN_MODE              EFx_BW_16t16     // Switch
 #define TCFG_AUDIO_EFX_8C21_RUN_MODE              EFx_BW_UNUSED    // ThreeD
 #define TCFG_AUDIO_EFX_768A_RUN_MODE              EFx_BW_16t16     // 提示音
 #define TCFG_AUDIO_EFX_FB27_RUN_MODE              EFx_BW_UNUSED    // Tremolo

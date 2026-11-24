@@ -21,6 +21,7 @@
 #include "pc_spk_file.h"
 #include "pc_mic_recoder.h"
 #include "app_msg.h"
+#include "user_audio_ctrl.h"
 
 
 #define LOG_TAG_CONST       USB
@@ -421,7 +422,11 @@ int uac_mic_stream_read(u8 *buf, u32 len)
     return len;
 #else
     if (mic_tx_handler) {
-        return mic_tx_handler(mic_tx_handler_priv, buf, len);
+        int ret = mic_tx_handler(mic_tx_handler_priv, buf, len);
+        if (ret > 0) {
+            user_uac_tx_activity();
+        }
+        return ret;
     } else {
         //putchar('N');
         memset(buf, 0, len);

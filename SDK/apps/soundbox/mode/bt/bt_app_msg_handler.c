@@ -167,13 +167,9 @@ int bt_app_msg_handler(int *msg)
 #endif
 
     case APP_MSG_ADD_LINEIN_STREAM:
-        //工具的蓝牙流程图需要添加对应的linein数据流!!
+        //LINEIN 无插入检测，保持常驻，原切换消息只负责补开
         puts("app msg add linein stream\n");
-        if (linein_player_runing()) {
-            linein_player_close();
-        } else {
-            linein_player_open();
-        }
+        linein_player_open();
         break;
     case APP_MSG_BT_A2DP_START:
 #if TCFG_BT_BACKGROUND_ENABLE || TCFG_A2DP_PREEMPTED_ENABLE

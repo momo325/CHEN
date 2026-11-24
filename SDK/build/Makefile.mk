@@ -61,6 +61,7 @@ c_SRC_FILES := \
 	apps/soundbox/audio/mix_record_api.c \
 	apps/soundbox/audio/scene_switch.c \
 	apps/soundbox/audio/tone_table.c \
+	apps/soundbox/audio/user_audio_ctrl.c \
 	apps/soundbox/audio/vol_sync.c \
 	apps/soundbox/board/br28/board_config.c \
 	apps/soundbox/board/rdeckey_config.c \

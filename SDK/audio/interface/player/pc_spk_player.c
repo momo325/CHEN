@@ -21,6 +21,7 @@
 #include "volume_node.h"
 #include "tone_player.h"
 #include "app_tone.h"
+#include "user_audio_ctrl.h"
 
 #if (TCFG_LE_AUDIO_APP_CONFIG & (LE_AUDIO_JL_BIS_TX_EN | LE_AUDIO_JL_BIS_RX_EN))
 #include "le_broadcast.h"
@@ -124,11 +125,11 @@ int pc_spk_player_open(void)
     };
 #endif
 
-    if (g_pc_spk_player) {
+    if (g_pc_spk_player || user_bt_is_connected()) {
         return 0;
     }
 
-#ifndef CONFIG_WIRELESS_MIC_ENABLE
+#if !defined(CONFIG_WIRELESS_MIC_ENABLE) && !USB_PC_NO_APP_MODE
     if (!app_in_mode(APP_MODE_PC)) {
         return 0;
     }
@@ -285,6 +286,9 @@ int pcspk_open_player_by_taskq(void)
 {
     int msg[2];
     int ret = 0;
+    if (user_bt_is_connected()) {
+        return 0;
+    }
 #if (TCFG_LE_AUDIO_APP_CONFIG & (LE_AUDIO_JL_BIS_TX_EN | LE_AUDIO_JL_BIS_RX_EN)) && !TCFG_KBOX_1T3_MODE_EN
     if ((g_pc_spk_state == PC_SPK_STA_CLOSE ||
          g_pc_spk_state == PC_SPK_STA_WAIT_CLOSE) && !get_broadcast_role()) {

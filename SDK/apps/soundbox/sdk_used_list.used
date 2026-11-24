@@ -52,14 +52,6 @@ sine_dec_plug
 cvsd_decoder_plug
 pcm_dec_plug
 msbc_encoder_hw_plug
-
-
-
-
-sbc_encoder_soft_plug
-
-
-
 cvsd_encoder_plug
 linein_file_plug
 
@@ -86,16 +78,7 @@ convert_data_round_node_adapter
 
 
 three_band_merge_node_adapter
-
-
-
-two_band_merge_node_adapter
 sound_splitter_node_adapter
-crossover_node_adapter
-crossover_2band_node_adapter
-
-
-
 wdrc_node_adapter
 voice_changer_node_adapter
 
@@ -135,15 +118,7 @@ vocal_remover_node_adapter
 
 
 eq_node_adapter
-
-
-
-
-
-
-
-vbass_node_adapter
-wav_dec_plug
+g729_dec_plug
 mp3_dec_plug
 mp3_stream_dec_plug
 
@@ -159,6 +134,14 @@ wma_dec_plug
 
 flac_dec_plug
 ape_dec_plug
+jla_v2_enc_plug
+
+
+
+jla_v2_dec_plug
+
+
+
 fat_vfs_ops
 indicator_node_adapter
 
@@ -173,6 +156,8 @@ channel_expander_node_adapter
 
 
 channel_merge_node_adapter
+autoduck_trigger_node_adapter
+autoduck_node_adapter
 packager_adapter
 
 
@@ -183,5 +168,3 @@ a2dp_1sbc_codec_private
 
 
 a2dp_2aac_sink_codec
-sdfile_resfile_ops
-sdfile_vfs_ops

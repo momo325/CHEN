@@ -34,6 +34,9 @@
 #include "spp_online_db.h"
 
 #include "bt_event_func.h"
+#include "user_audio_ctrl.h"
+#include "mic_effect.h"
+#include "linein_player.h"
 
 #include "dtemp_pll_trim.h"
 #if TCFG_AUDIO_ANC_ENABLE
@@ -373,6 +376,7 @@ static int bt_connction_status_event_handler(struct bt_event *bt)
         log_info("BT_STATUS_INIT_OK\n");
 
         bt_status_init_ok();
+        user_bt_connection_update(0);
 
 #if TCFG_USER_BLE_ENABLE
 #if RCSP_MODE
@@ -392,6 +396,7 @@ static int bt_connction_status_event_handler(struct bt_event *bt)
         bt_clear_current_poweron_memory_search_index(0);
     case BT_STATUS_FIRST_CONNECTED:
         log_info("BT_STATUS_CONNECTED\n");
+        user_bt_connection_update(1);
 
 #if((RCSP_MODE == RCSP_MODE_EARPHONE) && RCSP_UPDATE_EN)
         if (rcsp_update_get_role_switch()) {
@@ -416,6 +421,7 @@ static int bt_connction_status_event_handler(struct bt_event *bt)
     case BT_STATUS_FIRST_DISCONNECT:
     case BT_STATUS_SECOND_DISCONNECT:
         log_info("BT_STATUS_DISCONNECT\n");
+        user_bt_connection_update(bt_get_total_connect_dev() != 0);
         if (app_var.goto_poweroff_flag) {
             break;
         }
@@ -671,6 +677,13 @@ struct app_mode *app_enter_bt_mode(int arg)
     bt_rf_PA_control_io_remap(IO_PORTC_00, IO_PORTC_01);
 #endif
     app_bt_init();
+
+#if TCFG_MIC_EFFECT_ENABLE
+    mic_effect_player_open();
+#endif
+#if TCFG_APP_LINEIN_EN
+    linein_player_open();
+#endif
 
     while (1) {
 

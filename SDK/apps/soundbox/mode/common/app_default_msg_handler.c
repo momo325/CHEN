@@ -279,11 +279,8 @@ void app_common_key_msg_handler(int *msg)
         }
 #endif
 
-        if (mic_effect_player_runing()) {
-            mic_effect_player_close();
-        } else {
-            mic_effect_player_open();
-        }
+        //话筒通路保持常驻，原混响开关消息只负责补开
+        mic_effect_player_open();
         break;
 
     case APP_MSG_SWITCH_MIC_EFFECT://混响音效场景切换
