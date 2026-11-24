@@ -71,14 +71,18 @@ static void user_state_refresh(void)
 static int user_volume_set(const char *name, u32 raw)
 {
     struct volume_cfg cfg = {0};
+    u16 max_level = volume_ioc_get_max_level(name);
     u32 level;
 
+    if (max_level == 0) {
+        max_level = 100;
+    }
     if (raw <= 25) {
         level = 0;
     } else if (raw >= 995) {
-        level = 100;
+        level = max_level;
     } else {
-        level = (raw - 25) * 100 / (995 - 25);
+        level = (raw - 25) * max_level / (995 - 25);
     }
     cfg.bypass = VOLUME_NODE_CMD_SET_VOL;
     cfg.cur_vol = level;
@@ -271,6 +275,12 @@ void user_audio_ctrl_start(void)
         return;
     }
 
+    printf("user: vol max eff=%d bt=%d lin=%d pc=%d mic=%d\n",
+           volume_ioc_get_max_level("VolEff"),
+           volume_ioc_get_max_level("Vol_BtmMusic"),
+           volume_ioc_get_max_level("Vol_LinMusic"),
+           volume_ioc_get_max_level("Vol_PcspkMusic"),
+           volume_ioc_get_max_level("Vol_PcMic"));
     user_volume_update_all();
     user_duck_update();
     g_user_ctrl.scan_timer = sys_timer_add(NULL, user_scan_timer, USER_SCAN_PERIOD_MS);
