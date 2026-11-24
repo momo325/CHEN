@@ -550,9 +550,6 @@ static int get_pc_mic_status()
 #if TCFG_SWITCH_NODE_ENABLE
 static int get_switch_node_callback(const char *arg)
 {
-    printf("get_switch_node_callback, node name:%s, need add yourself switch_node's callback!\n", arg);
-
-
 #if TCFG_MIC_EFFECT_ENABLE
 #if LE_AUDIO_MIX_MIC_EFFECT_EN
     if (!strncmp(arg, "Sw_MicEff2LeAud", strlen("Sw_MicEff2LeAud"))) {
@@ -598,6 +595,7 @@ static int get_switch_node_callback(const char *arg)
         return (int)media_trans_switch_get_status;
     }
 #endif
+    printf("get_switch_node_callback, node name:%s, need add yourself switch_node's callback!\n", arg);
     return 0;
 }
 #endif

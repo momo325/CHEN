@@ -89,12 +89,19 @@ static int user_volume_set(const char *name, u32 raw)
     return jlstream_set_node_param(NODE_UUID_VOLUME_CTRLER, name, &cfg, sizeof(cfg));
 }
 
+/* 并行态（蓝牙已连）只静音电脑下行，不拆 pc_spk 数据流 */
+void user_pcspk_volume_update(void)
+{
+    user_volume_set("Vol_PcspkMusic",
+                    g_user_ctrl.bt_connected ? 0 : g_user_ctrl.music.filtered);
+}
+
 static void user_volume_update_all(void)
 {
     user_volume_set("VolEff", g_user_ctrl.mic.filtered);
     user_volume_set("Vol_BtmMusic", g_user_ctrl.music.filtered);
     user_volume_set("Vol_LinMusic", g_user_ctrl.music.filtered);
-    user_volume_set("Vol_PcspkMusic", g_user_ctrl.music.filtered);
+    user_pcspk_volume_update();
     user_volume_set("Vol_PcMic", g_user_ctrl.otg.filtered);
 }
 
@@ -304,13 +311,12 @@ void user_bt_connection_update(u8 connected)
             sys_timeout_del(g_user_ctrl.bt_timeout_timer);
             g_user_ctrl.bt_timeout_timer = 0;
         }
-        pcspk_close_player_by_taskq();
     } else {
         user_bt_idle_timer_start();
-        if (g_user_ctrl.usb_host_online && uac_speaker_stream_status()) {
-            pcspk_open_player_by_taskq();
-        }
     }
+    /* 蓝牙为主：并行/回 OTG 只切换电脑下行音量，不拆 pc_spk 流，
+       避免重开无声与切流爆音 */
+    user_pcspk_volume_update();
 }
 
 void user_usb_slave_online(u8 online)

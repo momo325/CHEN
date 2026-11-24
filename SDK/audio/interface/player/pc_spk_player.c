@@ -125,7 +125,8 @@ int pc_spk_player_open(void)
     };
 #endif
 
-    if (g_pc_spk_player || user_bt_is_connected()) {
+    /* 后台 UAC 模式允许蓝牙并行时保持 pc_spk 流常开，由 Vol_PcspkMusic 静音门控 */
+    if (g_pc_spk_player) {
         return 0;
     }
 
@@ -181,6 +182,8 @@ int pc_spk_player_open(void)
 
     g_pc_spk_state = PC_SPK_STA_OPEN;
     g_pc_spk_player = player;
+    /* 蓝牙已连接（并行态）时立即把下行音量压到 0，避免开流瞬间漏音 */
+    user_pcspk_volume_update();
     return 0;
 
 __exit1:
@@ -286,9 +289,6 @@ int pcspk_open_player_by_taskq(void)
 {
     int msg[2];
     int ret = 0;
-    if (user_bt_is_connected()) {
-        return 0;
-    }
 #if (TCFG_LE_AUDIO_APP_CONFIG & (LE_AUDIO_JL_BIS_TX_EN | LE_AUDIO_JL_BIS_RX_EN)) && !TCFG_KBOX_1T3_MODE_EN
     if ((g_pc_spk_state == PC_SPK_STA_CLOSE ||
          g_pc_spk_state == PC_SPK_STA_WAIT_CLOSE) && !get_broadcast_role()) {

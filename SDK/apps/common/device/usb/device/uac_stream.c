@@ -141,11 +141,16 @@ static void uac_speaker_stream_halt_detect(void *priv)
         return;
     }
     if (uac_speaker->stream_halt_cnt >= UAC_SPEAKER_STREAM_DETECT_COUNT) {
+#if USB_PC_NO_APP_MODE
+        /* 后台 UAC 常驻模式：主机暂停/停止发包时不拆 pc_spk 数据流，
+           主机恢复播放后无需重开即可直接出声 */
+#else
         if (uac_speaker->stream_state) {
             /* g_printf("-APP_MSG_PC_AUDIO_PLAY_CLOSE-"); */
             app_send_message(APP_MSG_PC_AUDIO_PLAY_CLOSE, 0);
             uac_speaker->stream_state = 0;
         }
+#endif
     }
     uac_speaker->stream_halt_cnt++;
 }
