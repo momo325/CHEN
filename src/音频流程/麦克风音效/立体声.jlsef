@@ -1195,210 +1195,6 @@
    }
   },
   {
-   "position": {
-    "x": -1000,
-    "y": -880
-   },
-   "size": {
-    "width": 80,
-    "height": 80
-   },
-   "view": "vue-shape-view",
-   "shape": "vue-shape",
-   "id": "bb3c21fd-bcd1-4c59-ab94-f6079a289a26",
-   "component": "node-cust",
-   "data": {
-    "name": "NoiseGate",
-    "fun": 1,
-    "subId": 2,
-    "itemId": "id_1680241705348_0",
-    "configs": {
-     "name": "NoiseGateEff",
-     "list": [
-      {
-       "modeId": "id_1683720735891_0",
-       "name": "NoiseGateEff",
-       "current": "arg0",
-       "list": [
-        {
-         "name": "arg0",
-         "data": [
-          {
-           "id": "id_1675825867879_48",
-           "value": 0
-          },
-          {
-           "id": "id_1675825867883_188",
-           "value": 300
-          },
-          {
-           "id": "id_1675825867883_195",
-           "value": 5
-          },
-          {
-           "id": "id_1675825867883_198",
-           "value": -50
-          },
-          {
-           "id": "id_1675825867883_202",
-           "value": 0
-          }
-         ],
-         "enable": true
-        }
-       ]
-      },
-      {
-       "modeId": "id_1683722860304_7",
-       "name": "NoiseGateEff",
-       "current": "arg0",
-       "list": [
-        {
-         "name": "arg0",
-         "data": [
-          {
-           "id": "id_1675825867879_48",
-           "value": 0
-          },
-          {
-           "id": "id_1675825867883_188",
-           "value": 300
-          },
-          {
-           "id": "id_1675825867883_195",
-           "value": 5
-          },
-          {
-           "id": "id_1675825867883_198",
-           "value": -50
-          },
-          {
-           "id": "id_1675825867883_202",
-           "value": 0
-          }
-         ],
-         "enable": true
-        }
-       ]
-      },
-      {
-       "modeId": "id_1683720738954_3",
-       "name": "NoiseGateEff",
-       "current": "arg0",
-       "list": [
-        {
-         "name": "arg0",
-         "data": [
-          {
-           "id": "id_1675825867879_48",
-           "value": 0
-          },
-          {
-           "id": "id_1675825867883_188",
-           "value": 300
-          },
-          {
-           "id": "id_1675825867883_195",
-           "value": 5
-          },
-          {
-           "id": "id_1675825867883_198",
-           "value": -50
-          },
-          {
-           "id": "id_1675825867883_202",
-           "value": 0
-          }
-         ],
-         "enable": true
-        }
-       ]
-      },
-      {
-       "modeId": "id_1678787127126_0",
-       "name": "NoiseGateEff",
-       "current": "arg0",
-       "list": [
-        {
-         "name": "arg0",
-         "data": [
-          {
-           "id": "id_1675825867879_48",
-           "value": 0
-          },
-          {
-           "id": "id_1675825867883_188",
-           "value": 300
-          },
-          {
-           "id": "id_1675825867883_195",
-           "value": 5
-          },
-          {
-           "id": "id_1675825867883_198",
-           "value": -50
-          },
-          {
-           "id": "id_1675825867883_202",
-           "value": 0
-          }
-         ],
-         "enable": true
-        }
-       ]
-      },
-      {
-       "modeId": "id_1683720737069_1",
-       "name": "NoiseGateEff",
-       "current": "arg0",
-       "list": [
-        {
-         "name": "arg0",
-         "data": [
-          {
-           "id": "id_1675825867879_48",
-           "value": 0
-          },
-          {
-           "id": "id_1675825867883_188",
-           "value": 300
-          },
-          {
-           "id": "id_1675825867883_195",
-           "value": 5
-          },
-          {
-           "id": "id_1675825867883_198",
-           "value": -50
-          },
-          {
-           "id": "id_1675825867883_202",
-           "value": 0
-          }
-         ],
-         "enable": true
-        }
-       ]
-      }
-     ]
-    }
-   },
-   "ports": {
-    "items": [
-     {
-      "group": "in",
-      "index": 0,
-      "id": "37de61f6-bdc1-4fe1-9089-27160ed8330a"
-     },
-     {
-      "group": "out",
-      "index": 1,
-      "id": "66e0b840-9019-4aba-aa7d-a2eaa1aaa109"
-     }
-    ]
-   }
-  },
-  {
    "shape": "edge",
    "id": "9146343f-32d3-48b2-9a36-9ec0f5dfbded",
    "data": {
@@ -1416,7 +1212,7 @@
   {
    "position": {
     "x": -880,
-    "y": -880
+    "y": -1080
    },
    "size": {
     "width": 80,
@@ -1649,7 +1445,7 @@
   },
   {
    "shape": "edge",
-   "id": "94774ed5-242c-4243-b7a4-cf952436cfc1",
+   "id": "3239cf7d-8a4d-4d92-8162-0212be082eda",
    "data": {
     "itemId": "id_1680241705348_0"
    },
@@ -1658,8 +1454,439 @@
     "port": "4decb197-2782-4173-a600-958942b8109d"
    },
    "target": {
+    "cell": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+    "port": "d6a5f213-dbcd-4d59-ba80-c33d351ce465"
+   }
+  },
+  {
+   "position": {
+    "x": -653.9573974609375,
+    "y": -1097.087158203125
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 1,
+      "id": "d6a5f213-dbcd-4d59-ba80-c33d351ce465"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "07729fd9-4417-4666-b4c1-caca0640cbdc"
+     }
+    ]
+   },
+   "id": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+   "component": "node-cust",
+   "data": {
+    "name": "AutoDuck Trigger",
+    "fun": 1,
+    "configs": {
+     "name": "AutoDuckTrigger",
+     "list": [
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "AutoDu709956588",
+       "current": "",
+       "bypass": false,
+       "list": [
+        {
+         "bypass": false,
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1679401397784_1",
+           "list": [
+            {
+             "id": "id_1679555977650_17",
+             "value": 0
+            },
+            {
+             "id": "id_1679555983236_21",
+             "value": -45
+            }
+           ]
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    },
+    "alias": "AutoDuckTrigger"
+   }
+  },
+  {
+   "shape": "edge",
+   "id": "c965ad90-93c0-4be4-8f90-6ae6712529a8",
+   "data": {
+    "itemId": "id_1680241705348_0"
+   },
+   "source": {
+    "cell": "6c6330c6-28c4-49f2-9083-3d093045fe07",
+    "port": "07729fd9-4417-4666-b4c1-caca0640cbdc"
+   },
+   "target": {
     "cell": "70000000-0000-4000-8000-000000000028",
     "port": "70000000-0000-4000-8000-000000000029"
+   }
+  },
+  {
+   "position": {
+    "x": -440,
+    "y": -1080
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "70000000-0000-4000-8000-000000000028",
+   "component": "node-cust",
+   "data": {
+    "name": "Source",
+    "fun": 11,
+    "subId": 44,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "UserMic",
+     "list": []
+    },
+    "edit": false
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "70000000-0000-4000-8000-000000000029"
+     }
+    ]
+   }
+  },
+  {
+   "position": {
+    "x": -1000,
+    "y": -880
+   },
+   "size": {
+    "width": 80,
+    "height": 80
+   },
+   "view": "vue-shape-view",
+   "shape": "vue-shape",
+   "id": "bb3c21fd-bcd1-4c59-ab94-f6079a289a26",
+   "component": "node-cust",
+   "data": {
+    "name": "NoiseGate",
+    "fun": 1,
+    "subId": 2,
+    "itemId": "id_1680241705348_0",
+    "configs": {
+     "name": "NoiseGateEff",
+     "list": [
+      {
+       "modeId": "id_1683720735891_0",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683722860304_7",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720738954_3",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1678787127126_0",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      },
+      {
+       "modeId": "id_1683720737069_1",
+       "name": "NoiseGateEff",
+       "current": "arg0",
+       "list": [
+        {
+         "name": "arg0",
+         "data": [
+          {
+           "id": "id_1675825867879_48",
+           "value": 0
+          },
+          {
+           "id": "id_1675825867883_188",
+           "value": 300
+          },
+          {
+           "id": "id_1675825867883_195",
+           "value": 5
+          },
+          {
+           "id": "id_1675825867883_198",
+           "value": -50
+          },
+          {
+           "id": "id_1675825867883_202",
+           "value": 0
+          }
+         ],
+         "enable": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "ports": {
+    "items": [
+     {
+      "group": "in",
+      "index": 0,
+      "id": "37de61f6-bdc1-4fe1-9089-27160ed8330a"
+     },
+     {
+      "group": "out",
+      "index": 1,
+      "id": "66e0b840-9019-4aba-aa7d-a2eaa1aaa109"
+     }
+    ]
    }
   },
   {
@@ -2456,7 +2683,8 @@
       }
      ]
     },
-    "inBitWidth": 32
+    "inBitWidth": 32,
+    "inputGainType": 0
    },
    "ports": {
     "items": [
@@ -5924,40 +6152,6 @@
    "target": {
     "cell": "c07ea966-ae2c-470f-962c-f31d9b21f1c1",
     "port": "05a7e82d-cc8a-46d7-ab1c-90e8e6c34a8b"
-   }
-  },
-  {
-   "position": {
-    "x": -700,
-    "y": -400
-   },
-   "size": {
-    "width": 80,
-    "height": 80
-   },
-   "view": "vue-shape-view",
-   "shape": "vue-shape",
-   "id": "70000000-0000-4000-8000-000000000028",
-   "component": "node-cust",
-   "data": {
-    "name": "Source",
-    "fun": 11,
-    "subId": 44,
-    "itemId": "id_1680241705348_0",
-    "configs": {
-     "name": "UserMic",
-     "list": []
-    },
-    "edit": false
-   },
-   "ports": {
-    "items": [
-     {
-      "group": "in",
-      "index": 0,
-      "id": "70000000-0000-4000-8000-000000000029"
-     }
-    ]
    }
   }
  ],

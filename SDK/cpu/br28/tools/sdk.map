@@ -7565,13 +7565,13 @@ OUTPUT(cpu/br28/tools/sdk.elf elf32-pi32v2)
 .debug_frame    0x00000000    0x1f2a0
  .debug_frame   0x00000000    0x1f2a0 cpu/br28/tools/sdk.elf.o
 
-.debug_line     0x00000000    0xd26fc
- .debug_line    0x00000000    0xd2308 cpu/br28/tools/sdk.elf.o
- .debug_line    0x000d2308       0x30 objs/apps/soundbox/sdk_version.z.S.o
- .debug_line    0x000d2338      0x117 cpu/br28/liba/cpu.a(startup.S.o)
- .debug_line    0x000d244f       0xb1 cpu/br28/liba/system.a(movable.S.o)
- .debug_line    0x000d2500       0xb6 cpu/br28/liba/msbc_codec_lib.a(msbc_fun.o)
- .debug_line    0x000d25b6      0x146 cpu/br28/liba/lib_ape_dec.a(ape_dec_asm.o)
+.debug_line     0x00000000    0xd26ca
+ .debug_line    0x00000000    0xd22d6 cpu/br28/tools/sdk.elf.o
+ .debug_line    0x000d22d6       0x30 objs/apps/soundbox/sdk_version.z.S.o
+ .debug_line    0x000d2306      0x117 cpu/br28/liba/cpu.a(startup.S.o)
+ .debug_line    0x000d241d       0xb1 cpu/br28/liba/system.a(movable.S.o)
+ .debug_line    0x000d24ce       0xb6 cpu/br28/liba/msbc_codec_lib.a(msbc_fun.o)
+ .debug_line    0x000d2584      0x146 cpu/br28/liba/lib_ape_dec.a(ape_dec_asm.o)
 
 .debug_aranges  0x00000000       0x88
  .debug_aranges
